@@ -1,0 +1,183 @@
+2019-05-28 11:09:34-SELECT * FROM `t_config`
+2019-05-28 11:09:34-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 11:09:35-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:09:35-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-28 11:10:11-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 11:10:12-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:10:12-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-28 11:10:30-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 11:10:31-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:10:31-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-28 11:10:33-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:11:10-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:11:10-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "223.104.64.196" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558972800 and addtime<=1559059199 LIMIT 1
+2019-05-28 11:11:10-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "307896029@qq.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558972800 and addtime<=1559059199 LIMIT 1
+2019-05-28 11:11:10-SELECT * FROM `t_user` WHERE `email` = "307896029@qq.com" LIMIT 1
+2019-05-28 11:11:10-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('zlkb2019052811111010951','0','307896029@qq.com','307896029','5','商品测试','0.01','1','0.01','1234','223.104.64.196','0','','1559013070')
+2019-05-28 11:11:10-SELECT * FROM `t_order` WHERE addtime>1558926670 AND `orderid` = "zlkb2019052811111010951" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:11:10-SELECT * FROM `t_payment` WHERE `active` = "1"
+2019-05-28 11:11:11-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 11:11:15-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 11:11:16-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:11:16-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-28 11:11:30-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:11:33-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:11:47-SELECT `id`, `email`, `secret`, `password` FROM `t_admin_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-05-28 11:11:47-INSERT INTO t_admin_login_log (`adminid`,`ip`,`addtime`) VALUES ('1','221.15.104.183','1559013107')
+2019-05-28 11:11:47-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-28 11:11:50-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-28 11:11:50-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-28 11:11:52-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 11:11:53-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-28 11:11:53-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-28 11:12:01-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 11:12:03-SELECT `id`, `name` FROM `t_products` WHERE `typeid` = "1" AND `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 11:12:07-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 11:12:08-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:12:08-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-28 11:12:09-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:12:19-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:12:19-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "223.104.64.196" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558972800 and addtime<=1559059199 LIMIT 1
+2019-05-28 11:12:19-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "307896029@qq.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558972800 and addtime<=1559059199 LIMIT 1
+2019-05-28 11:12:19-SELECT * FROM `t_user` WHERE `email` = "307896029@qq.com" LIMIT 1
+2019-05-28 11:12:19-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('zlkb2019052811121988347','0','307896029@qq.com','307896029','5','商品测试','0.01','1','0.01','1234','223.104.64.196','0','','1559013139')
+2019-05-28 11:12:20-SELECT * FROM `t_order` WHERE addtime>1558926740 AND `orderid` = "zlkb2019052811121988347" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:12:21-SELECT * FROM `t_order` WHERE addtime>1558926741 AND `orderid` = "zlkb2019052811121988347" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:12:22-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811121988347" AND `isdelete` = "0" AND addtime>=1558926742 LIMIT 1
+2019-05-28 11:12:25-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811121988347" AND `isdelete` = "0" AND addtime>=1558926745 LIMIT 1
+2019-05-28 11:12:28-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811121988347" AND `isdelete` = "0" AND addtime>=1558926748 LIMIT 1
+2019-05-28 11:12:29-INSERT INTO t_products_card(`pid`,`card`,`addtime`) VALUES ('1','V1-1111111','1559013149'),('1','V2-222222','1559013149'),('1','V3-333333','1559013149'),('1','V4-444444','1559013149'),('1','V5-555555','1559013149'),('1','V6-666666','1559013149')
+2019-05-28 11:12:29-UPDATE `t_products` SET `qty` = `qty` + '6'  WHERE `id` = "1" AND `stockcontrol` = "1"
+2019-05-28 11:12:30-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 11:12:32-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811121988347" AND `isdelete` = "0" AND addtime>=1558926752 LIMIT 1
+2019-05-28 11:12:35-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811121988347" AND `isdelete` = "0" AND addtime>=1558926755 LIMIT 1
+2019-05-28 11:12:38-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811121988347" AND `isdelete` = "0" AND addtime>=1558926758 LIMIT 1
+2019-05-28 11:12:41-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811121988347" AND `isdelete` = "0" AND addtime>=1558926761 LIMIT 1
+2019-05-28 11:12:44-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811121988347" AND `isdelete` = "0" AND addtime>=1558926764 LIMIT 1
+2019-05-28 11:12:47-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811121988347" AND `isdelete` = "0" AND addtime>=1558926767 LIMIT 1
+2019-05-28 11:12:51-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811121988347" AND `isdelete` = "0" AND addtime>=1558926771 LIMIT 1
+2019-05-28 11:12:54-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811121988347" AND `isdelete` = "0" AND addtime>=1558926774 LIMIT 1
+2019-05-28 11:12:57-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811121988347" AND `isdelete` = "0" AND addtime>=1558926777 LIMIT 1
+2019-05-28 11:13:00-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811121988347" AND `isdelete` = "0" AND addtime>=1558926780 LIMIT 1
+2019-05-28 11:13:03-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811121988347" AND `isdelete` = "0" AND addtime>=1558926783 LIMIT 1
+2019-05-28 11:13:06-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811121988347" AND `isdelete` = "0" AND addtime>=1558926786 LIMIT 1
+2019-05-28 11:13:34-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 11:13:35-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:13:35-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-28 11:13:48-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 11:13:49-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:13:49-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-28 11:13:54-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:15:01-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 11:15:02-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:15:02-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-28 11:15:10-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:15:17-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:15:17-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "221.15.104.183" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558972800 and addtime<=1559059199 LIMIT 1
+2019-05-28 11:15:17-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "123456@qq.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558972800 and addtime<=1559059199 LIMIT 1
+2019-05-28 11:15:17-SELECT * FROM `t_user` WHERE `email` = "123456@qq.com" LIMIT 1
+2019-05-28 11:15:17-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('zlkb2019052811151756517','0','123456@qq.com','123456','5','商品测试','0.01','1','0.01','123456','221.15.104.183','0','','1559013317')
+2019-05-28 11:15:17-SELECT * FROM `t_order` WHERE addtime>1558926917 AND `orderid` = "zlkb2019052811151756517" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:15:18-SELECT * FROM `t_order` WHERE addtime>1558926918 AND `orderid` = "zlkb2019052811151756517" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:15:19-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811151756517" AND `isdelete` = "0" AND addtime>=1558926919 LIMIT 1
+2019-05-28 11:15:22-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811151756517" AND `isdelete` = "0" AND addtime>=1558926922 LIMIT 1
+2019-05-28 11:15:25-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811151756517" AND `isdelete` = "0" AND addtime>=1558926925 LIMIT 1
+2019-05-28 11:15:28-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811151756517" AND `isdelete` = "0" AND addtime>=1558926928 LIMIT 1
+2019-05-28 11:15:31-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811151756517" AND `isdelete` = "0" AND addtime>=1558926931 LIMIT 1
+2019-05-28 11:15:33-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811151756517" LIMIT 1
+2019-05-28 11:15:33-UPDATE `t_order` SET `status` = '1',`paytime` = '1559013333',`tradeid` = '2019052811151900969074279',`paymethod` = 'payjs',`paymoney` = '0.01'  WHERE `orderid` = "zlkb2019052811151756517" AND `status` = "0"
+2019-05-28 11:15:33-SELECT auto,stockcontrol,qty FROM `t_products` WHERE `id` = "5" LIMIT 1
+2019-05-28 11:15:33-SELECT * FROM `t_products_card` WHERE `pid` = "5" AND `active` = "0" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:15:33-UPDATE `t_products_card` SET `active` = '1'  WHERE id in (14) AND `active` = "0"
+2019-05-28 11:15:33-UPDATE `t_products` SET `qty` = `qty` - '1',`qty_virtual` = `qty_virtual` - '1',`qty_sell` = `qty_sell` + '1'  WHERE `id` = "5" AND `stockcontrol` = "1"
+2019-05-28 11:15:33-UPDATE `t_order` SET `status` = '2',`kami` = '商品测试6'  WHERE `orderid` = "zlkb2019052811151756517" AND `status` = "1"
+2019-05-28 11:15:33-INSERT INTO t_email_queue(`email`,`subject`,`content`,`addtime`,`status`) VALUES ('123456@qq.com','商品购买成功','用户:123456@qq.com,购买的商品[商品测试],密码是:商品测试6','1559013333','0'),('demo@demo.com','用户购买商品','用户:123456@qq.com,购买的商品[商品测试],密码发送成功;当前商品库存剩余:14','1559013333','0')
+2019-05-28 11:15:33-SELECT * FROM `t_email` WHERE `isdelete` = "0"
+2019-05-28 11:15:35-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811151756517" AND `isdelete` = "0" AND addtime>=1558926935 LIMIT 1
+2019-05-28 11:15:35-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811151756517" AND `email` = "123456@qq.com" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:15:41-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811151756517" AND `status` = "2" AND addtime>=1556421341 LIMIT 1
+2019-05-28 11:15:46-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 11:15:46-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 11:15:46-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-28 11:15:48-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052811151756517" LIMIT 1
+2019-05-28 11:15:58-SELECT `id`, `name` FROM `t_products` WHERE `typeid` = "2" AND `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 11:16:01-SELECT `id`, `name` FROM `t_products` WHERE `typeid` = "4" AND `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 11:15:33-UPDATE `t_email_queue` SET `status` = '2',`sendresult` = '失败hello:lang:email_smtp_errorlang:email_send_failure_smtpUser-Agent:CodeIgniterDate:Tue,28May201911:15:33+0800From:=?utf-8?Q?=E5=8F=91=E5=8D=A1?=&lt;i@boupay.com&gt;Return-Path:&lt;i@boupay.com&gt;To:123456@qq.comSubject:=?utf-8?Q?=E5=95=86=E5=93=81=E8=B4=AD=E4=B9=B0=E6=88=90=E5=8A=9F?=Reply-To:&lt;i@boupay.com&gt;X-Sender:i@boupay.comX-Mailer:CodeIgniterX-Priority:3(Normal)Message-ID:&lt;5ceca7d5242e8@boupay.com&gt;Mime-Version:1.0Content-Type:multipart/alternative;boundary=&quot;B_ALT_5ceca7d5242f4&quot;Thisisamulti-partmessageinMIMEformat.Youremailapplicationmaynotsupportthisformat.--B_ALT_5ceca7d5242f4Content-Type:text/plain;charset=utf-8Content-Transfer-Encoding:8bit用户:123456@qq.com,购买的商品[商品测试],密码是:商品测试6--B_ALT_5ceca7d5242f4Content-Type:text/html;charset=utf-8Content-Transfer-Encoding:quoted-printable=E7=94=A8=E6=88=B7:123456@qq.com,=E8=B4=AD=E4=B9=B0=E7=9A=84=E5=95=86==E5=93=81[=E5=95=86=E5=93=81=E6=B5=8B=E8=AF=95],=E5=AF=86=E7=A0=81=E6=98==AF:=E5=95=86=E5=93=81=E6=B5=8B=E8=AF=956--B_ALT_5ceca7d5242f4--'  WHERE `email` = "123456@qq.com" AND `subject` = "商品购买成功" AND `content` = "用户:123456@qq.com,购买的商品[商品测试],密码是:商品测试6" AND `addtime` = "1559013333" AND `status` = "0"
+2019-05-28 11:17:03-INSERT INTO t_products_card(`pid`,`card`,`addtime`) VALUES ('5','商品测试-001','1559013423'),('5','商品测试-002','1559013423'),('5','商品测试-003','1559013423'),('5','商品测试-004','1559013423'),('5','商品测试-005','1559013423'),('5','商品测试-006','1559013423'),('5','商品测试-007','1559013423'),('5','商品测试-008','1559013423'),('5','商品测试-009','1559013423'),('5','商品测试-010','1559013423'),('5','商品测试-011','1559013423'),('5','商品测试-012','1559013423'),('5','商品测试-013','1559013423'),('5','商品测试-014','1559013423'),('5','商品测试-015','1559013423'),('5','商品测试-016','1559013423'),('5','商品测试-017','1559013423'),('5','商品测试-018','1559013423'),('5','商品测试-019','1559013423'),('5','商品测试-020','1559013423'),('5','商品测试-021','1559013423'),('5','商品测试-022','1559013423'),('5','商品测试-023','1559013423'),('5','商品测试-024','1559013423'),('5','商品测试-025','1559013423'),('5','商品测试-026','1559013423'),('5','商品测试-027','1559013423'),('5','商品测试-028','1559013423'),('5','商品测试-029','1559013423'),('5','商品测试-030','1559013423'),('5','商品测试-031','1559013423'),('5','商品测试-032','1559013423'),('5','商品测试-033','1559013423'),('5','商品测试-034','1559013423'),('5','商品测试-035','1559013423'),('5','商品测试-036','1559013423'),('5','商品测试-037','1559013423'),('5','商品测试-038','1559013423'),('5','商品测试-039','1559013423'),('5','商品测试-040','1559013423'),('5','商品测试-041','1559013423'),('5','商品测试-042','1559013423'),('5','商品测试-043','1559013423'),('5','商品测试-044','1559013423'),('5','商品测试-045','1559013423'),('5','商品测试-046','1559013423'),('5','商品测试-047','1559013423'),('5','商品测试-048','1559013423'),('5','商品测试-049','1559013423'),('5','商品测试-050','1559013423'),('5','商品测试-051','1559013423'),('5','商品测试-052','1559013423'),('5','商品测试-053','1559013423'),('5','商品测试-054','1559013423'),('5','商品测试-055','1559013423'),('5','商品测试-056','1559013423'),('5','商品测试-057','1559013423'),('5','商品测试-058','1559013423'),('5','商品测试-059','1559013423'),('5','商品测试-060','1559013423'),('5','商品测试-061','1559013423'),('5','商品测试-062','1559013423'),('5','商品测试-063','1559013423'),('5','商品测试-064','1559013423'),('5','商品测试-065','1559013423'),('5','商品测试-066','1559013423'),('5','商品测试-067','1559013423'),('5','商品测试-068','1559013423'),('5','商品测试-069','1559013423'),('5','商品测试-070','1559013423'),('5','商品测试-071','1559013423'),('5','商品测试-072','1559013423'),('5','商品测试-073','1559013423'),('5','商品测试-074','1559013423'),('5','商品测试-075','1559013423'),('5','商品测试-076','1559013423'),('5','商品测试-077','1559013423'),('5','商品测试-078','1559013423'),('5','商品测试-079','1559013423'),('5','商品测试-080','1559013423'),('5','商品测试-081','1559013423'),('5','商品测试-082','1559013423'),('5','商品测试-083','1559013423'),('5','商品测试-084','1559013423'),('5','商品测试-085','1559013423'),('5','商品测试-086','1559013423'),('5','商品测试-087','1559013423'),('5','商品测试-088','1559013423'),('5','商品测试-089','1559013423'),('5','商品测试-090','1559013423'),('5','商品测试-091','1559013423'),('5','商品测试-092','1559013423'),('5','商品测试-093','1559013423'),('5','商品测试-094','1559013423'),('5','商品测试-095','1559013423'),('5','商品测试-096','1559013423'),('5','商品测试-097','1559013423'),('5','商品测试-098','1559013423'),('5','商品测试-099','1559013423'),('5','商品测试-100','1559013423'),('5','商品测试-101','1559013423'),('5','商品测试-102','1559013423'),('5','商品测试-103','1559013423'),('5','商品测试-104','1559013423'),('5','商品测试-105','1559013423'),('5','商品测试-106','1559013423'),('5','商品测试-107','1559013423'),('5','商品测试-108','1559013423'),('5','商品测试-109','1559013423'),('5','商品测试-110','1559013423'),('5','商品测试-111','1559013423'),('5','商品测试-112','1559013423'),('5','商品测试-113','1559013423'),('5','商品测试-114','1559013423'),('5','商品测试-115','1559013423'),('5','商品测试-116','1559013423'),('5','商品测试-117','1559013423'),('5','商品测试-118','1559013423'),('5','商品测试-119','1559013423'),('5','商品测试-120','1559013423'),('5','商品测试-121','1559013423'),('5','商品测试-122','1559013423'),('5','商品测试-123','1559013423'),('5','商品测试-124','1559013423'),('5','商品测试-125','1559013423'),('5','商品测试-126','1559013423'),('5','商品测试-127','1559013423'),('5','商品测试-128','1559013423'),('5','商品测试-129','1559013423'),('5','商品测试-130','1559013423'),('5','商品测试-131','1559013423'),('5','商品测试-132','1559013423'),('5','商品测试-133','1559013423'),('5','商品测试-134','1559013423'),('5','商品测试-135','1559013423'),('5','商品测试-136','1559013423'),('5','商品测试-137','1559013423'),('5','商品测试-138','1559013423'),('5','商品测试-139','1559013423'),('5','商品测试-140','1559013423'),('5','商品测试-141','1559013423'),('5','商品测试-142','1559013423'),('5','商品测试-143','1559013423'),('5','商品测试-144','1559013423'),('5','商品测试-145','1559013423'),('5','商品测试-146','1559013423'),('5','商品测试-147','1559013423'),('5','商品测试-148','1559013423'),('5','商品测试-149','1559013423'),('5','商品测试-150','1559013423'),('5','商品测试-151','1559013423'),('5','商品测试-152','1559013423'),('5','商品测试-153','1559013423'),('5','商品测试-154','1559013423'),('5','商品测试-155','1559013423'),('5','商品测试-156','1559013423'),('5','商品测试-157','1559013423'),('5','商品测试-158','1559013423'),('5','商品测试-159','1559013423'),('5','商品测试-160','1559013423'),('5','商品测试-161','1559013423'),('5','商品测试-162','1559013423'),('5','商品测试-163','1559013423'),('5','商品测试-164','1559013423'),('5','商品测试-165','1559013423'),('5','商品测试-166','1559013423'),('5','商品测试-167','1559013423'),('5','商品测试-168','1559013423'),('5','商品测试-169','1559013423'),('5','商品测试-170','1559013423'),('5','商品测试-171','1559013423'),('5','商品测试-172','1559013423'),('5','商品测试-173','1559013423'),('5','商品测试-174','1559013423'),('5','商品测试-175','1559013423'),('5','商品测试-176','1559013423'),('5','商品测试-177','1559013423'),('5','商品测试-178','1559013423'),('5','商品测试-179','1559013423'),('5','商品测试-180','1559013423'),('5','商品测试-181','1559013423'),('5','商品测试-182','1559013423'),('5','商品测试-183','1559013423'),('5','商品测试-184','1559013423'),('5','商品测试-185','1559013423'),('5','商品测试-186','1559013423'),('5','商品测试-187','1559013423'),('5','商品测试-188','1559013423'),('5','商品测试-189','1559013423'),('5','商品测试-190','1559013423'),('5','商品测试-191','1559013423'),('5','商品测试-192','1559013423'),('5','商品测试-193','1559013423'),('5','商品测试-194','1559013423'),('5','商品测试-195','1559013423'),('5','商品测试-196','1559013423'),('5','商品测试-197','1559013423'),('5','商品测试-198','1559013423'),('5','商品测试-199','1559013423'),('5','商品测试-200','1559013423')
+2019-05-28 11:17:03-UPDATE `t_products` SET `qty` = `qty` + '200'  WHERE `id` = "5" AND `stockcontrol` = "1"
+2019-05-28 11:17:04-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 11:15:33-UPDATE `t_email_queue` SET `status` = '2',`sendresult` = '失败hello:lang:email_smtp_errorlang:email_send_failure_smtpUser-Agent:CodeIgniterDate:Tue,28May201911:16:35+0800From:=?utf-8?Q?=E5=8F=91=E5=8D=A1?=&lt;i@boupay.com&gt;Return-Path:&lt;i@boupay.com&gt;To:demo@demo.comSubject:=?utf-8?Q?=E7=94=A8=E6=88=B7=E8=B4=AD=E4=B9=B0=E5=95=86=E5=93=81?=Reply-To:&lt;i@boupay.com&gt;X-Sender:i@boupay.comX-Mailer:CodeIgniterX-Priority:3(Normal)Message-ID:&lt;5ceca8130d265@boupay.com&gt;Mime-Version:1.0Content-Type:multipart/alternative;boundary=&quot;B_ALT_5ceca8130d27b&quot;Thisisamulti-partmessageinMIMEformat.Youremailapplicationmaynotsupportthisformat.--B_ALT_5ceca8130d27bContent-Type:text/plain;charset=utf-8Content-Transfer-Encoding:8bit用户:123456@qq.com,购买的商品[商品测试],密码发送成功;当前商品库存剩余:14--B_ALT_5ceca8130d27bContent-Type:text/html;charset=utf-8Content-Transfer-Encoding:quoted-printable=E7=94=A8=E6=88=B7:123456@qq.com,=E8=B4=AD=E4=B9=B0=E7=9A=84=E5=95=86==E5=93=81[=E5=95=86=E5=93=81=E6=B5=8B=E8=AF=95],=E5=AF=86=E7=A0=81=E5=8F==91=E9=80=81=E6=88=90=E5=8A=9F;=E5=BD=93=E5=89=8D=E5=95=86=E5=93=81==E5=BA=93=E5=AD=98=E5=89=A9=E4=BD=99:14--B_ALT_5ceca8130d27b--'  WHERE `email` = "demo@demo.com" AND `subject` = "用户购买商品" AND `content` = "用户:123456@qq.com,购买的商品[商品测试],密码发送成功;当前商品库存剩余:14" AND `addtime` = "1559013333" AND `status` = "0"
+2019-05-28 15:40:26-SELECT * FROM `t_config`
+2019-05-28 15:40:26-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 15:40:27-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 15:40:27-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-28 15:40:30-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 15:40:41-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 15:40:41-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "223.104.64.196" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558972800 and addtime<=1559059199 LIMIT 1
+2019-05-28 15:40:41-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "307896029@qq.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558972800 and addtime<=1559059199 LIMIT 1
+2019-05-28 15:40:41-SELECT * FROM `t_user` WHERE `email` = "307896029@qq.com" LIMIT 1
+2019-05-28 15:40:41-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('zlkb2019052815404156989','0','307896029@qq.com','307896029','5','商品测试','0.01','1','0.01','1234','223.104.64.196','0','','1559029241')
+2019-05-28 15:40:41-SELECT * FROM `t_order` WHERE addtime>1558942841 AND `orderid` = "zlkb2019052815404156989" AND `isdelete` = "0" LIMIT 1
+2019-05-28 15:40:41-SELECT * FROM `t_payment` WHERE `active` = "1"
+2019-05-28 15:40:45-SELECT * FROM `t_order` WHERE addtime>1558942845 AND `orderid` = "zlkb2019052815404156989" AND `isdelete` = "0" LIMIT 1
+2019-05-28 15:40:46-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815404156989" AND `isdelete` = "0" AND addtime>=1558942846 LIMIT 1
+2019-05-28 15:40:49-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815404156989" AND `isdelete` = "0" AND addtime>=1558942849 LIMIT 1
+2019-05-28 15:40:52-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815404156989" AND `isdelete` = "0" AND addtime>=1558942852 LIMIT 1
+2019-05-28 15:40:56-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815404156989" AND `isdelete` = "0" AND addtime>=1558942856 LIMIT 1
+2019-05-28 15:40:59-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815404156989" AND `isdelete` = "0" AND addtime>=1558942859 LIMIT 1
+2019-05-28 15:41:02-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815404156989" AND `isdelete` = "0" AND addtime>=1558942862 LIMIT 1
+2019-05-28 15:41:05-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815404156989" AND `isdelete` = "0" AND addtime>=1558942865 LIMIT 1
+2019-05-28 15:41:08-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815404156989" AND `isdelete` = "0" AND addtime>=1558942868 LIMIT 1
+2019-05-28 15:41:11-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815404156989" AND `isdelete` = "0" AND addtime>=1558942871 LIMIT 1
+2019-05-28 15:41:14-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815404156989" AND `isdelete` = "0" AND addtime>=1558942874 LIMIT 1
+2019-05-28 15:41:18-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815404156989" AND `isdelete` = "0" AND addtime>=1558942878 LIMIT 1
+2019-05-28 15:41:21-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815404156989" AND `isdelete` = "0" AND addtime>=1558942881 LIMIT 1
+2019-05-28 15:41:24-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815404156989" AND `isdelete` = "0" AND addtime>=1558942884 LIMIT 1
+2019-05-28 15:41:27-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815404156989" AND `isdelete` = "0" AND addtime>=1558942887 LIMIT 1
+2019-05-28 15:41:30-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815404156989" AND `isdelete` = "0" AND addtime>=1558942890 LIMIT 1
+2019-05-28 15:41:33-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815404156989" AND `isdelete` = "0" AND addtime>=1558942893 LIMIT 1
+2019-05-28 15:41:37-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815404156989" AND `isdelete` = "0" AND addtime>=1558942897 LIMIT 1
+2019-05-28 15:41:37-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 15:41:37-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 15:41:38-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 15:41:38-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-28 15:47:58-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 15:47:59-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 15:47:59-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-28 15:48:01-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 15:48:10-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 15:48:10-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "223.104.64.196" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558972800 and addtime<=1559059199 LIMIT 1
+2019-05-28 15:48:10-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "307896029@qq.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558972800 and addtime<=1559059199 LIMIT 1
+2019-05-28 15:48:10-SELECT * FROM `t_user` WHERE `email` = "307896029@qq.com" LIMIT 1
+2019-05-28 15:48:10-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('zlkb2019052815481027505','0','307896029@qq.com','307896029','5','商品测试','0.01','1','0.01','1234','223.104.64.196','0','','1559029690')
+2019-05-28 15:48:11-SELECT * FROM `t_order` WHERE addtime>1558943291 AND `orderid` = "zlkb2019052815481027505" AND `isdelete` = "0" LIMIT 1
+2019-05-28 15:48:13-SELECT * FROM `t_order` WHERE addtime>1558943293 AND `orderid` = "zlkb2019052815481027505" AND `isdelete` = "0" LIMIT 1
+2019-05-28 15:48:14-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815481027505" AND `isdelete` = "0" AND addtime>=1558943294 LIMIT 1
+2019-05-28 15:48:17-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815481027505" AND `isdelete` = "0" AND addtime>=1558943297 LIMIT 1
+2019-05-28 15:48:21-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815481027505" AND `isdelete` = "0" AND addtime>=1558943301 LIMIT 1
+2019-05-28 15:48:24-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815481027505" AND `isdelete` = "0" AND addtime>=1558943304 LIMIT 1
+2019-05-28 15:48:28-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815481027505" AND `isdelete` = "0" AND addtime>=1558943308 LIMIT 1
+2019-05-28 15:48:31-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815481027505" AND `isdelete` = "0" AND addtime>=1558943311 LIMIT 1
+2019-05-28 15:48:34-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815481027505" AND `isdelete` = "0" AND addtime>=1558943314 LIMIT 1
+2019-05-28 15:48:37-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815481027505" AND `isdelete` = "0" AND addtime>=1558943317 LIMIT 1
+2019-05-28 15:48:40-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815481027505" AND `isdelete` = "0" AND addtime>=1558943320 LIMIT 1
+2019-05-28 15:48:43-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815481027505" AND `isdelete` = "0" AND addtime>=1558943323 LIMIT 1
+2019-05-28 15:48:45-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 15:48:45-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 15:48:46-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 15:48:46-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-28 15:58:38-SELECT * FROM `t_config`
+2019-05-28 15:58:38-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-28 15:58:38-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 15:58:38-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-28 15:58:40-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 15:58:49-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-28 15:58:49-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "221.15.104.183" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558972800 and addtime<=1559059199 LIMIT 1
+2019-05-28 15:58:49-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "123456@qq.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558972800 and addtime<=1559059199 LIMIT 1
+2019-05-28 15:58:49-SELECT * FROM `t_user` WHERE `email` = "123456@qq.com" LIMIT 1
+2019-05-28 15:58:49-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('zlkb2019052815584943496','0','123456@qq.com','123456','5','商品测试','0.01','1','0.01','123456','221.15.104.183','0','','1559030329')
+2019-05-28 15:58:49-SELECT * FROM `t_order` WHERE addtime>1558943929 AND `orderid` = "zlkb2019052815584943496" AND `isdelete` = "0" LIMIT 1
+2019-05-28 15:58:49-SELECT * FROM `t_payment` WHERE `active` = "1"
+2019-05-28 15:58:51-SELECT * FROM `t_order` WHERE addtime>1558943931 AND `orderid` = "zlkb2019052815584943496" AND `isdelete` = "0" LIMIT 1
+2019-05-28 15:58:52-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815584943496" AND `isdelete` = "0" AND addtime>=1558943932 LIMIT 1
+2019-05-28 15:58:55-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052815584943496" AND `isdelete` = "0" AND addtime>=1558943935 LIMIT 1

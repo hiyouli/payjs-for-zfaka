@@ -1,0 +1,1288 @@
+2019-05-26 16:40:08-SELECT * FROM `t_config`
+2019-05-26 16:50:54-SELECT * FROM `t_config`
+2019-05-26 16:51:00-SELECT `id`, `email`, `secret`, `password` FROM `t_admin_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-05-26 16:51:00-INSERT INTO t_admin_login_log (`adminid`,`ip`,`addtime`) VALUES ('1','42.239.24.166','1558860660')
+2019-05-26 16:51:00-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-26 16:51:05-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-26 16:51:05-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 16:51:07-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-26 16:51:07-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 16:51:11-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 16:51:32-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-26 16:51:32-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 16:51:34-SELECT * FROM `t_payment` WHERE `id` = "10" LIMIT 1
+2019-05-26 16:51:35-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-26 16:51:35-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 16:51:37-SELECT * FROM `t_payment` WHERE `id` = "11" LIMIT 1
+2019-05-26 16:58:08-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-26 16:58:08-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 16:58:10-SELECT * FROM `t_payment` WHERE `id` = "7" LIMIT 1
+2019-05-26 17:35:00-SELECT * FROM `t_config`
+2019-05-26 17:35:05-SELECT `id`, `email`, `secret`, `password` FROM `t_admin_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-05-26 17:35:05-INSERT INTO t_admin_login_log (`adminid`,`ip`,`addtime`) VALUES ('1','42.239.24.166','1558863305')
+2019-05-26 17:35:05-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-26 17:35:07-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-26 17:35:07-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 17:35:08-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-26 17:35:08-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 19:01:25-SELECT * FROM `t_config`
+2019-05-26 19:01:31-SELECT `id`, `email`, `secret`, `password` FROM `t_admin_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-05-26 19:01:31-INSERT INTO t_admin_login_log (`adminid`,`ip`,`addtime`) VALUES ('1','42.239.24.166','1558868491')
+2019-05-26 19:01:31-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-26 19:01:33-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-26 19:01:33-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 19:01:34-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-26 19:01:34-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 19:01:36-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 19:02:24-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 19:02:31-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 19:03:39-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 19:03:56-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 19:03:57-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 19:03:58-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 19:03:58-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 19:03:58-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 19:03:58-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 19:04:04-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-26 19:04:05-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-26 19:04:05-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 19:04:09-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-05-26 19:04:09-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 19:04:10-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 19:04:10-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-26 19:04:11-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 19:04:12-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 19:04:12-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 19:04:12-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558800000 AND addtime<=1558886399
+2019-05-26 19:04:12-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558713600 AND addtime<=1558799999
+2019-05-26 19:04:12-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558886400 AND addtime<=1558886399
+2019-05-26 19:04:12-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1556640000 AND addtime<=1559318399
+2019-05-26 19:04:12-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0
+2019-05-26 19:04:13-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-26 19:04:13-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 19:04:14-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-26 19:04:18-SELECT COUNT(*) AS `total` FROM `t_admin_login_log` WHERE `adminid` = "1" LIMIT 1
+2019-05-26 19:04:18-SELECT * FROM `t_admin_login_log` WHERE `adminid` = "1" ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 19:04:19-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-26 19:04:20-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-26 19:04:20-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 19:04:23-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-05-26 19:04:23-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 19:04:24-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-26 19:04:24-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 19:04:25-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-26 19:04:25-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 19:04:26-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-26 19:04:26-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 19:04:33-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 19:04:36-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-26 19:04:36-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 19:04:39-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 19:04:45-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 19:04:47-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 19:04:53-UPDATE `t_payment` SET `payname` = 'PAYJS',`app_id` = '1231232',`active` = '1',`payimage` = '/res/images/pay/weixin.jpg',`app_secret` = '23141243214'  WHERE `id` = "12" LIMIT 1
+2019-05-26 19:04:53-SELECT * FROM `t_payment` WHERE `active` = "1"
+2019-05-26 19:04:54-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 19:04:56-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 19:11:12-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 19:11:12-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-26 19:11:12-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-05-26 19:11:12-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 19:11:13-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 19:11:13-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 19:11:13-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 19:11:16-SELECT * FROM `t_order` WHERE `id` = "1" LIMIT 1
+2019-05-26 19:11:18-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 19:11:18-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 19:11:18-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 19:11:20-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-26 19:11:20-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-26 19:11:22-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 19:11:22-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:11:22-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 19:11:25-SELECT * FROM `t_config`
+2019-05-26 19:11:25-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:11:33-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:11:33-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "42.239.24.166" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 19:11:33-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "23141234@qq.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 19:11:33-SELECT * FROM `t_user` WHERE `email` = "23141234@qq.com" LIMIT 1
+2019-05-26 19:11:33-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('zlkb2019052619113396024','0','23141234@qq.com','23141234','1','测试商品','0.10','1','0.1','12342134','42.239.24.166','0','','1558869093')
+2019-05-26 19:11:33-SELECT * FROM `t_order` WHERE addtime>1558782693 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:11:35-SELECT * FROM `t_order` WHERE addtime>1558782695 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:11:43-SELECT * FROM `t_order` WHERE addtime>1558782703 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:15:01-SELECT * FROM `t_payment` WHERE `active` = "1"
+2019-05-26 19:15:01-SELECT * FROM `t_order` WHERE addtime>1558782901 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:15:07-SELECT * FROM `t_order` WHERE addtime>1558782907 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:15:12-SELECT * FROM `t_order` WHERE addtime>1558782912 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:15:15-SELECT * FROM `t_order` WHERE addtime>1558782915 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:16:16-SELECT * FROM `t_order` WHERE addtime>1558782976 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:16:17-SELECT * FROM `t_order` WHERE addtime>1558782977 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:16:20-SELECT * FROM `t_order` WHERE addtime>1558782980 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:16:48-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-26 19:16:48-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 19:16:49-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 19:16:57-UPDATE `t_payment` SET `payname` = 'PAYJS',`app_id` = '1508289451',`active` = '1',`payimage` = '/res/images/pay/weixin.jpg',`app_secret` = 'yOCCIeuEdxfeEsgD'  WHERE `id` = "12" LIMIT 1
+2019-05-26 19:16:57-SELECT * FROM `t_payment` WHERE `active` = "1"
+2019-05-26 19:16:58-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 19:17:00-SELECT * FROM `t_order` WHERE addtime>1558783020 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:17:03-SELECT * FROM `t_order` WHERE addtime>1558783023 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:17:39-SELECT * FROM `t_order` WHERE addtime>1558783059 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:17:41-SELECT * FROM `t_order` WHERE addtime>1558783061 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:17:41-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783061 LIMIT 1
+2019-05-26 19:17:45-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783065 LIMIT 1
+2019-05-26 19:17:48-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783068 LIMIT 1
+2019-05-26 19:17:52-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783072 LIMIT 1
+2019-05-26 19:17:55-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783075 LIMIT 1
+2019-05-26 19:17:58-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783078 LIMIT 1
+2019-05-26 19:18:01-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783081 LIMIT 1
+2019-05-26 19:18:04-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783084 LIMIT 1
+2019-05-26 19:18:07-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783087 LIMIT 1
+2019-05-26 19:18:10-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783090 LIMIT 1
+2019-05-26 19:18:13-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783093 LIMIT 1
+2019-05-26 19:18:16-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783096 LIMIT 1
+2019-05-26 19:18:19-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783099 LIMIT 1
+2019-05-26 19:18:22-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783102 LIMIT 1
+2019-05-26 19:18:25-SELECT * FROM `t_order` WHERE addtime>1558783105 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:18:26-SELECT * FROM `t_order` WHERE addtime>1558783106 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:18:27-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783107 LIMIT 1
+2019-05-26 19:18:30-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783110 LIMIT 1
+2019-05-26 19:18:33-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783113 LIMIT 1
+2019-05-26 19:18:36-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783116 LIMIT 1
+2019-05-26 19:18:39-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783119 LIMIT 1
+2019-05-26 19:18:41-SELECT * FROM `t_order` WHERE addtime>1558783121 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:18:42-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783122 LIMIT 1
+2019-05-26 19:18:45-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783125 LIMIT 1
+2019-05-26 19:18:48-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783128 LIMIT 1
+2019-05-26 19:18:51-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783131 LIMIT 1
+2019-05-26 19:18:54-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783134 LIMIT 1
+2019-05-26 19:18:57-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783137 LIMIT 1
+2019-05-26 19:19:00-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783140 LIMIT 1
+2019-05-26 19:19:03-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783143 LIMIT 1
+2019-05-26 19:19:06-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783146 LIMIT 1
+2019-05-26 19:19:09-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783149 LIMIT 1
+2019-05-26 19:19:12-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783152 LIMIT 1
+2019-05-26 19:19:15-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783155 LIMIT 1
+2019-05-26 19:19:19-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783159 LIMIT 1
+2019-05-26 19:19:22-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783162 LIMIT 1
+2019-05-26 19:19:22-SELECT * FROM `t_order` WHERE addtime>1558783162 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:19:22-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783162 LIMIT 1
+2019-05-26 19:19:25-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783165 LIMIT 1
+2019-05-26 19:19:28-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783168 LIMIT 1
+2019-05-26 19:19:31-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783171 LIMIT 1
+2019-05-26 19:19:35-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783175 LIMIT 1
+2019-05-26 19:19:38-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783178 LIMIT 1
+2019-05-26 19:19:38-SELECT * FROM `t_order` WHERE addtime>1558783178 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:19:39-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783179 LIMIT 1
+2019-05-26 19:19:41-SELECT * FROM `t_order` WHERE addtime>1558783181 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:19:44-SELECT * FROM `t_order` WHERE addtime>1558783184 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:19:45-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783185 LIMIT 1
+2019-05-26 19:19:48-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783188 LIMIT 1
+2019-05-26 19:19:51-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783191 LIMIT 1
+2019-05-26 19:19:54-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783194 LIMIT 1
+2019-05-26 19:19:57-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783197 LIMIT 1
+2019-05-26 19:20:00-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783200 LIMIT 1
+2019-05-26 19:20:03-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783203 LIMIT 1
+2019-05-26 19:20:06-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783206 LIMIT 1
+2019-05-26 19:20:09-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783209 LIMIT 1
+2019-05-26 19:20:12-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783212 LIMIT 1
+2019-05-26 19:20:15-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783215 LIMIT 1
+2019-05-26 19:20:18-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783218 LIMIT 1
+2019-05-26 19:20:21-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783221 LIMIT 1
+2019-05-26 19:20:25-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783225 LIMIT 1
+2019-05-26 19:20:28-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783228 LIMIT 1
+2019-05-26 19:20:31-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783231 LIMIT 1
+2019-05-26 19:20:34-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783234 LIMIT 1
+2019-05-26 19:20:37-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783237 LIMIT 1
+2019-05-26 19:20:40-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783240 LIMIT 1
+2019-05-26 19:20:43-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783243 LIMIT 1
+2019-05-26 19:20:46-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783246 LIMIT 1
+2019-05-26 19:20:49-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783249 LIMIT 1
+2019-05-26 19:20:52-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783252 LIMIT 1
+2019-05-26 19:20:55-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783255 LIMIT 1
+2019-05-26 19:20:58-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783258 LIMIT 1
+2019-05-26 19:21:01-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783261 LIMIT 1
+2019-05-26 19:21:04-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783264 LIMIT 1
+2019-05-26 19:21:07-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783267 LIMIT 1
+2019-05-26 19:21:10-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783270 LIMIT 1
+2019-05-26 19:21:13-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783273 LIMIT 1
+2019-05-26 19:21:16-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783276 LIMIT 1
+2019-05-26 19:21:19-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" AND addtime>=1558783279 LIMIT 1
+2019-05-26 19:21:26-SELECT * FROM `t_config`
+2019-05-26 19:22:22-SELECT * FROM `t_order` WHERE addtime>1558783342 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 19:31:26-SELECT * FROM `t_config`
+2019-05-26 19:41:27-SELECT * FROM `t_config`
+2019-05-26 19:51:28-SELECT * FROM `t_config`
+2019-05-26 20:27:38-SELECT * FROM `t_config`
+2019-05-26 20:35:01-SELECT * FROM `t_order` WHERE addtime>1558787701 AND `orderid` = "zlkb2019052619113396024" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:35:01-SELECT * FROM `t_payment` WHERE `active` = "1"
+2019-05-26 20:40:40-SELECT * FROM `t_config`
+2019-05-26 20:40:47-SELECT `id`, `email`, `secret`, `password` FROM `t_admin_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-05-26 20:40:47-INSERT INTO t_admin_login_log (`adminid`,`ip`,`addtime`) VALUES ('1','42.239.24.166','1558874447')
+2019-05-26 20:40:47-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-26 20:40:49-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-26 20:40:49-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 20:40:51-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-26 20:40:51-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 20:40:56-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 20:40:59-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-26 20:40:59-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 20:41:05-SELECT * FROM `t_payment` WHERE `id` = "11" LIMIT 1
+2019-05-26 20:41:12-UPDATE `t_payment` SET `payname` = '微信',`app_id` = 'fsad',`active` = '0',`sign_type` = 'MD5',`app_secret` = '12341234',`configure3` = '2134',`overtime` = '0'  WHERE `id` = "11" LIMIT 1
+2019-05-26 20:41:12-SELECT * FROM `t_payment` WHERE `active` = "1"
+2019-05-26 20:41:13-SELECT * FROM `t_payment` WHERE `id` = "11" LIMIT 1
+2019-05-26 20:41:15-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-26 20:41:15-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 20:44:23-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 20:44:24-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:44:24-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 20:45:38-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:45:48-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 20:45:48-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:45:48-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 20:45:48-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:45:54-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:45:54-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "42.239.24.166" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 20:45:54-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "2134@qq.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 20:45:54-SELECT * FROM `t_user` WHERE `email` = "2134@qq.com" LIMIT 1
+2019-05-26 20:45:54-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('zlkb2019052620455452393','0','2134@qq.com','2134','1','测试商品','0.10','1','0.1','2134','42.239.24.166','0','','1558874754')
+2019-05-26 20:45:55-SELECT * FROM `t_order` WHERE addtime>1558788355 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:45:59-SELECT * FROM `t_order` WHERE addtime>1558788359 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:45:59-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788359 LIMIT 1
+2019-05-26 20:46:02-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788362 LIMIT 1
+2019-05-26 20:46:05-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788365 LIMIT 1
+2019-05-26 20:46:08-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788368 LIMIT 1
+2019-05-26 20:46:11-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788371 LIMIT 1
+2019-05-26 20:46:14-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788375 LIMIT 1
+2019-05-26 20:46:18-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788378 LIMIT 1
+2019-05-26 20:46:21-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788381 LIMIT 1
+2019-05-26 20:46:24-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788384 LIMIT 1
+2019-05-26 20:46:27-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788387 LIMIT 1
+2019-05-26 20:46:30-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788390 LIMIT 1
+2019-05-26 20:46:33-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788393 LIMIT 1
+2019-05-26 20:46:36-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788396 LIMIT 1
+2019-05-26 20:46:40-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788400 LIMIT 1
+2019-05-26 20:46:44-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788404 LIMIT 1
+2019-05-26 20:46:49-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788409 LIMIT 1
+2019-05-26 20:46:52-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788412 LIMIT 1
+2019-05-26 20:46:56-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788416 LIMIT 1
+2019-05-26 20:47:00-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788420 LIMIT 1
+2019-05-26 20:47:05-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788425 LIMIT 1
+2019-05-26 20:47:09-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788429 LIMIT 1
+2019-05-26 20:47:12-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788432 LIMIT 1
+2019-05-26 20:47:16-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788436 LIMIT 1
+2019-05-26 20:47:20-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788440 LIMIT 1
+2019-05-26 20:47:24-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788444 LIMIT 1
+2019-05-26 20:47:28-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788448 LIMIT 1
+2019-05-26 20:47:32-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788452 LIMIT 1
+2019-05-26 20:47:36-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788456 LIMIT 1
+2019-05-26 20:47:40-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788460 LIMIT 1
+2019-05-26 20:47:44-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788464 LIMIT 1
+2019-05-26 20:47:48-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788468 LIMIT 1
+2019-05-26 20:47:53-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788473 LIMIT 1
+2019-05-26 20:47:57-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788477 LIMIT 1
+2019-05-26 20:48:01-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788481 LIMIT 1
+2019-05-26 20:48:04-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788484 LIMIT 1
+2019-05-26 20:48:08-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788488 LIMIT 1
+2019-05-26 20:48:12-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788492 LIMIT 1
+2019-05-26 20:48:16-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788496 LIMIT 1
+2019-05-26 20:48:20-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788500 LIMIT 1
+2019-05-26 20:48:25-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788505 LIMIT 1
+2019-05-26 20:48:28-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788508 LIMIT 1
+2019-05-26 20:48:31-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788511 LIMIT 1
+2019-05-26 20:48:34-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788514 LIMIT 1
+2019-05-26 20:48:37-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788517 LIMIT 1
+2019-05-26 20:49:04-SELECT * FROM `t_order` WHERE addtime>1558788544 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:49:07-SELECT * FROM `t_order` WHERE addtime>1558788547 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:49:08-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788548 LIMIT 1
+2019-05-26 20:49:11-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788551 LIMIT 1
+2019-05-26 20:49:14-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788554 LIMIT 1
+2019-05-26 20:49:17-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788557 LIMIT 1
+2019-05-26 20:49:20-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788560 LIMIT 1
+2019-05-26 20:49:23-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788563 LIMIT 1
+2019-05-26 20:49:26-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788566 LIMIT 1
+2019-05-26 20:49:29-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788569 LIMIT 1
+2019-05-26 20:49:32-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788572 LIMIT 1
+2019-05-26 20:49:35-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788575 LIMIT 1
+2019-05-26 20:49:38-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788578 LIMIT 1
+2019-05-26 20:49:41-SELECT * FROM `t_order` WHERE addtime>1558788581 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:49:41-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788581 LIMIT 1
+2019-05-26 20:49:43-SELECT * FROM `t_order` WHERE addtime>1558788583 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:49:43-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788583 LIMIT 1
+2019-05-26 20:49:46-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788586 LIMIT 1
+2019-05-26 20:49:49-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788589 LIMIT 1
+2019-05-26 20:49:52-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788592 LIMIT 1
+2019-05-26 20:49:55-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788595 LIMIT 1
+2019-05-26 20:49:59-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788599 LIMIT 1
+2019-05-26 20:50:02-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788602 LIMIT 1
+2019-05-26 20:50:05-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788605 LIMIT 1
+2019-05-26 20:50:08-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788608 LIMIT 1
+2019-05-26 20:50:11-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788611 LIMIT 1
+2019-05-26 20:50:14-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788614 LIMIT 1
+2019-05-26 20:50:17-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788617 LIMIT 1
+2019-05-26 20:50:20-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788620 LIMIT 1
+2019-05-26 20:50:23-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788623 LIMIT 1
+2019-05-26 20:50:26-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788626 LIMIT 1
+2019-05-26 20:50:29-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788629 LIMIT 1
+2019-05-26 20:50:32-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788632 LIMIT 1
+2019-05-26 20:50:35-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788635 LIMIT 1
+2019-05-26 20:50:38-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788638 LIMIT 1
+2019-05-26 20:50:41-SELECT * FROM `t_config`
+2019-05-26 20:50:41-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788642 LIMIT 1
+2019-05-26 20:50:44-SELECT * FROM `t_order` WHERE addtime>1558788644 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:50:45-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788645 LIMIT 1
+2019-05-26 20:50:49-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788649 LIMIT 1
+2019-05-26 20:50:54-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788654 LIMIT 1
+2019-05-26 20:50:58-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788658 LIMIT 1
+2019-05-26 20:51:01-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788661 LIMIT 1
+2019-05-26 20:51:05-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788665 LIMIT 1
+2019-05-26 20:51:10-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788670 LIMIT 1
+2019-05-26 20:51:14-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788674 LIMIT 1
+2019-05-26 20:51:17-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788677 LIMIT 1
+2019-05-26 20:51:21-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788681 LIMIT 1
+2019-05-26 20:51:25-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788685 LIMIT 1
+2019-05-26 20:51:29-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788689 LIMIT 1
+2019-05-26 20:51:34-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788694 LIMIT 1
+2019-05-26 20:51:38-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788698 LIMIT 1
+2019-05-26 20:51:41-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788701 LIMIT 1
+2019-05-26 20:51:46-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788706 LIMIT 1
+2019-05-26 20:51:49-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788709 LIMIT 1
+2019-05-26 20:51:54-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788714 LIMIT 1
+2019-05-26 20:51:57-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788717 LIMIT 1
+2019-05-26 20:52:02-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788722 LIMIT 1
+2019-05-26 20:52:06-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788726 LIMIT 1
+2019-05-26 20:52:10-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788730 LIMIT 1
+2019-05-26 20:52:14-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788734 LIMIT 1
+2019-05-26 20:52:18-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788738 LIMIT 1
+2019-05-26 20:52:21-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788741 LIMIT 1
+2019-05-26 20:52:26-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788746 LIMIT 1
+2019-05-26 20:52:30-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788750 LIMIT 1
+2019-05-26 20:52:33-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788753 LIMIT 1
+2019-05-26 20:52:37-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788757 LIMIT 1
+2019-05-26 20:52:42-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788762 LIMIT 1
+2019-05-26 20:52:46-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788766 LIMIT 1
+2019-05-26 20:52:50-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788770 LIMIT 1
+2019-05-26 20:52:53-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788773 LIMIT 1
+2019-05-26 20:52:57-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788777 LIMIT 1
+2019-05-26 20:53:01-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788781 LIMIT 1
+2019-05-26 20:53:04-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788784 LIMIT 1
+2019-05-26 20:53:07-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788787 LIMIT 1
+2019-05-26 20:53:08-SELECT * FROM `t_order` WHERE addtime>1558788788 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:53:08-SELECT * FROM `t_payment` WHERE `active` = "1"
+2019-05-26 20:53:11-SELECT * FROM `t_order` WHERE addtime>1558788791 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:53:11-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788791 LIMIT 1
+2019-05-26 20:53:14-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788794 LIMIT 1
+2019-05-26 20:53:17-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788797 LIMIT 1
+2019-05-26 20:53:20-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788800 LIMIT 1
+2019-05-26 20:53:23-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788803 LIMIT 1
+2019-05-26 20:53:26-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788806 LIMIT 1
+2019-05-26 20:53:29-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788809 LIMIT 1
+2019-05-26 20:53:33-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788813 LIMIT 1
+2019-05-26 20:53:36-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788816 LIMIT 1
+2019-05-26 20:53:37-SELECT * FROM `t_order` WHERE addtime>1558788817 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:53:40-SELECT * FROM `t_order` WHERE addtime>1558788820 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:53:41-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788821 LIMIT 1
+2019-05-26 20:53:44-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788824 LIMIT 1
+2019-05-26 20:53:47-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788827 LIMIT 1
+2019-05-26 20:53:50-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788830 LIMIT 1
+2019-05-26 20:53:53-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788833 LIMIT 1
+2019-05-26 20:53:56-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788836 LIMIT 1
+2019-05-26 20:53:59-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788839 LIMIT 1
+2019-05-26 20:54:02-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788842 LIMIT 1
+2019-05-26 20:54:05-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788845 LIMIT 1
+2019-05-26 20:54:09-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788849 LIMIT 1
+2019-05-26 20:54:13-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788853 LIMIT 1
+2019-05-26 20:54:17-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788857 LIMIT 1
+2019-05-26 20:54:21-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788861 LIMIT 1
+2019-05-26 20:54:25-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788865 LIMIT 1
+2019-05-26 20:54:30-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788870 LIMIT 1
+2019-05-26 20:54:33-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788873 LIMIT 1
+2019-05-26 20:54:37-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788877 LIMIT 1
+2019-05-26 20:54:42-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788882 LIMIT 1
+2019-05-26 20:54:45-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788885 LIMIT 1
+2019-05-26 20:54:50-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788890 LIMIT 1
+2019-05-26 20:54:54-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788894 LIMIT 1
+2019-05-26 20:54:58-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788898 LIMIT 1
+2019-05-26 20:55:02-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788902 LIMIT 1
+2019-05-26 20:55:06-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788906 LIMIT 1
+2019-05-26 20:55:09-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788909 LIMIT 1
+2019-05-26 20:55:13-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788913 LIMIT 1
+2019-05-26 20:55:18-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788918 LIMIT 1
+2019-05-26 20:55:22-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788922 LIMIT 1
+2019-05-26 20:55:25-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788925 LIMIT 1
+2019-05-26 20:55:29-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788929 LIMIT 1
+2019-05-26 20:55:34-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788934 LIMIT 1
+2019-05-26 20:55:37-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558788937 LIMIT 1
+2019-05-26 20:57:07-SELECT * FROM `t_order` WHERE addtime>1558789027 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:57:10-SELECT * FROM `t_order` WHERE addtime>1558789030 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:57:10-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789030 LIMIT 1
+2019-05-26 20:57:13-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789033 LIMIT 1
+2019-05-26 20:57:16-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789036 LIMIT 1
+2019-05-26 20:57:20-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789040 LIMIT 1
+2019-05-26 20:57:24-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789044 LIMIT 1
+2019-05-26 20:57:29-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789049 LIMIT 1
+2019-05-26 20:57:33-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789053 LIMIT 1
+2019-05-26 20:57:37-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789057 LIMIT 1
+2019-05-26 20:57:41-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789061 LIMIT 1
+2019-05-26 20:57:44-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789064 LIMIT 1
+2019-05-26 20:57:49-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789069 LIMIT 1
+2019-05-26 20:57:53-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789073 LIMIT 1
+2019-05-26 20:57:56-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789076 LIMIT 1
+2019-05-26 20:57:56-SELECT * FROM `t_order` WHERE addtime>1558789076 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:57:59-SELECT * FROM `t_order` WHERE addtime>1558789079 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:57:59-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789079 LIMIT 1
+2019-05-26 20:58:02-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789082 LIMIT 1
+2019-05-26 20:58:05-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789085 LIMIT 1
+2019-05-26 20:58:08-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789088 LIMIT 1
+2019-05-26 20:58:11-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789091 LIMIT 1
+2019-05-26 20:58:14-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789094 LIMIT 1
+2019-05-26 20:58:18-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789098 LIMIT 1
+2019-05-26 20:58:21-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" AND addtime>=1558789101 LIMIT 1
+2019-05-26 20:58:21-SELECT * FROM `t_order` WHERE addtime>1558789101 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:58:23-SELECT * FROM `t_order` WHERE addtime>1558789103 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:58:24-SELECT * FROM `t_order` WHERE addtime>1558789104 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:58:29-SELECT * FROM `t_order` WHERE addtime>1558789109 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:59:05-SELECT * FROM `t_order` WHERE addtime>1558789145 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 20:59:08-SELECT * FROM `t_order` WHERE addtime>1558789148 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:00:05-SELECT * FROM `t_order` WHERE addtime>1558789205 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:00:14-SELECT * FROM `t_order` WHERE addtime>1558789214 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:00:17-SELECT * FROM `t_order` WHERE addtime>1558789217 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:00:19-SELECT * FROM `t_order` WHERE addtime>1558789219 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:00:22-SELECT * FROM `t_order` WHERE addtime>1558789222 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:01:01-SELECT * FROM `t_config`
+2019-05-26 21:01:01-SELECT * FROM `t_order` WHERE addtime>1558789261 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:01:03-SELECT * FROM `t_order` WHERE addtime>1558789263 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:01:13-SELECT * FROM `t_order` WHERE addtime>1558789273 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:01:25-SELECT * FROM `t_order` WHERE addtime>1558789285 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:01:33-SELECT * FROM `t_order` WHERE addtime>1558789293 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:01:45-SELECT * FROM `t_order` WHERE addtime>1558789305 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:01:48-SELECT * FROM `t_order` WHERE addtime>1558789308 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:01:51-SELECT * FROM `t_order` WHERE addtime>1558789311 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:02:02-SELECT * FROM `t_order` WHERE addtime>1558789322 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:02:04-SELECT * FROM `t_order` WHERE addtime>1558789324 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:02:07-SELECT * FROM `t_order` WHERE addtime>1558789327 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:02:47-SELECT * FROM `t_order` WHERE addtime>1558789367 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:02:50-SELECT * FROM `t_order` WHERE addtime>1558789370 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:03:09-SELECT * FROM `t_order` WHERE addtime>1558789389 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:03:09-SELECT * FROM `t_payment` WHERE `active` = "1"
+2019-05-26 21:03:12-SELECT * FROM `t_order` WHERE addtime>1558789392 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:07:37-SELECT * FROM `t_order` WHERE addtime>1558789657 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:07:41-SELECT * FROM `t_order` WHERE addtime>1558789661 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:08:04-SELECT * FROM `t_order` WHERE addtime>1558789684 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:08:06-SELECT * FROM `t_order` WHERE addtime>1558789686 AND `orderid` = "zlkb2019052620455452393" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:08:09-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:08:14-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:08:14-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "42.239.24.166" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 21:08:14-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "2134@qq.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 21:08:14-SELECT * FROM `t_user` WHERE `email` = "2134@qq.com" LIMIT 1
+2019-05-26 21:08:14-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('zlkb2019052621081489412','0','2134@qq.com','2134','1','测试商品','0.10','1','0.1','21342','42.239.24.166','0','','1558876094')
+2019-05-26 21:08:14-SELECT * FROM `t_order` WHERE addtime>1558789694 AND `orderid` = "zlkb2019052621081489412" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:08:18-SELECT * FROM `t_order` WHERE addtime>1558789698 AND `orderid` = "zlkb2019052621081489412" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:08:20-SELECT * FROM `t_order` WHERE addtime>1558789700 AND `orderid` = "zlkb2019052621081489412" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:08:22-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:08:22-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:08:23-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:08:30-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:08:30-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "42.239.24.166" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 21:08:30-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "2341@qq.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 21:08:30-SELECT * FROM `t_user` WHERE `email` = "2341@qq.com" LIMIT 1
+2019-05-26 21:08:30-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('zlkb2019052621083072620','0','2341@qq.com','2341','1','测试商品','0.10','2','0.2','sadf','42.239.24.166','0','','1558876110')
+2019-05-26 21:08:30-SELECT * FROM `t_order` WHERE addtime>1558789710 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:08:33-SELECT * FROM `t_order` WHERE addtime>1558789713 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:10:34-SELECT * FROM `t_order` WHERE addtime>1558789834 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:11:33-SELECT * FROM `t_config`
+2019-05-26 21:11:33-SELECT * FROM `t_order` WHERE addtime>1558789893 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:11:36-SELECT * FROM `t_order` WHERE addtime>1558789896 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:11:53-SELECT * FROM `t_order` WHERE addtime>1558789913 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:11:56-SELECT * FROM `t_order` WHERE addtime>1558789916 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:12:02-SELECT * FROM `t_order` WHERE addtime>1558789922 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:12:04-SELECT * FROM `t_order` WHERE addtime>1558789924 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:13:00-SELECT * FROM `t_order` WHERE addtime>1558789980 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:13:03-SELECT * FROM `t_order` WHERE addtime>1558789983 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:13:03-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558789983 LIMIT 1
+2019-05-26 21:13:06-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558789986 LIMIT 1
+2019-05-26 21:13:09-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558789989 LIMIT 1
+2019-05-26 21:13:13-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558789993 LIMIT 1
+2019-05-26 21:13:16-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558789996 LIMIT 1
+2019-05-26 21:13:18-SELECT * FROM `t_order` WHERE addtime>1558789998 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:13:18-SELECT * FROM `t_payment` WHERE `active` = "1"
+2019-05-26 21:13:20-SELECT * FROM `t_order` WHERE addtime>1558790000 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:13:21-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790001 LIMIT 1
+2019-05-26 21:13:24-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790004 LIMIT 1
+2019-05-26 21:13:27-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790007 LIMIT 1
+2019-05-26 21:13:30-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790010 LIMIT 1
+2019-05-26 21:13:33-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790013 LIMIT 1
+2019-05-26 21:13:36-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790016 LIMIT 1
+2019-05-26 21:13:39-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790019 LIMIT 1
+2019-05-26 21:13:42-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790022 LIMIT 1
+2019-05-26 21:13:45-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790025 LIMIT 1
+2019-05-26 21:13:48-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790028 LIMIT 1
+2019-05-26 21:13:51-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790031 LIMIT 1
+2019-05-26 21:13:54-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790034 LIMIT 1
+2019-05-26 21:13:57-SELECT * FROM `t_order` WHERE addtime>1558790037 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:14:00-SELECT * FROM `t_order` WHERE addtime>1558790040 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:14:01-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790041 LIMIT 1
+2019-05-26 21:14:04-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790044 LIMIT 1
+2019-05-26 21:14:07-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790047 LIMIT 1
+2019-05-26 21:14:10-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790050 LIMIT 1
+2019-05-26 21:14:13-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790053 LIMIT 1
+2019-05-26 21:14:16-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790056 LIMIT 1
+2019-05-26 21:14:20-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790060 LIMIT 1
+2019-05-26 21:14:23-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790063 LIMIT 1
+2019-05-26 21:14:23-SELECT * FROM `t_order` WHERE addtime>1558790063 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:14:25-SELECT * FROM `t_order` WHERE addtime>1558790065 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:14:44-SELECT * FROM `t_order` WHERE addtime>1558790084 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:14:46-SELECT * FROM `t_order` WHERE addtime>1558790086 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:14:59-SELECT * FROM `t_order` WHERE addtime>1558790099 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:15:02-SELECT * FROM `t_order` WHERE addtime>1558790102 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:15:36-SELECT * FROM `t_order` WHERE addtime>1558790136 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:15:44-SELECT * FROM `t_order` WHERE addtime>1558790144 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:15:57-SELECT * FROM `t_order` WHERE addtime>1558790157 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:16:34-SELECT * FROM `t_order` WHERE addtime>1558790194 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:16:37-SELECT * FROM `t_order` WHERE addtime>1558790197 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:17:57-SELECT * FROM `t_order` WHERE addtime>1558790277 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:18:06-SELECT * FROM `t_order` WHERE addtime>1558790286 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:18:18-SELECT * FROM `t_order` WHERE addtime>1558790298 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:18:21-SELECT * FROM `t_order` WHERE addtime>1558790301 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:18:24-SELECT * FROM `t_order` WHERE addtime>1558790304 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:18:27-SELECT * FROM `t_order` WHERE addtime>1558790307 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:18:36-SELECT * FROM `t_order` WHERE addtime>1558790316 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:18:39-SELECT * FROM `t_order` WHERE addtime>1558790319 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:18:39-SELECT * FROM `t_order` WHERE addtime>1558790319 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:18:39-SELECT * FROM `t_order` WHERE addtime>1558790319 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:18:39-SELECT * FROM `t_order` WHERE addtime>1558790319 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:18:42-SELECT * FROM `t_order` WHERE addtime>1558790322 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:21:20-SELECT * FROM `t_order` WHERE addtime>1558790480 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:21:22-SELECT * FROM `t_order` WHERE addtime>1558790482 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:21:23-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790483 LIMIT 1
+2019-05-26 21:21:26-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790486 LIMIT 1
+2019-05-26 21:21:29-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790489 LIMIT 1
+2019-05-26 21:21:32-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790492 LIMIT 1
+2019-05-26 21:21:35-SELECT * FROM `t_config`
+2019-05-26 21:21:35-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790495 LIMIT 1
+2019-05-26 21:21:38-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790498 LIMIT 1
+2019-05-26 21:21:42-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790502 LIMIT 1
+2019-05-26 21:21:45-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790505 LIMIT 1
+2019-05-26 21:21:48-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790508 LIMIT 1
+2019-05-26 21:21:51-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790511 LIMIT 1
+2019-05-26 21:21:54-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790514 LIMIT 1
+2019-05-26 21:21:57-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790517 LIMIT 1
+2019-05-26 21:22:00-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790520 LIMIT 1
+2019-05-26 21:22:03-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790523 LIMIT 1
+2019-05-26 21:22:06-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790526 LIMIT 1
+2019-05-26 21:22:09-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790529 LIMIT 1
+2019-05-26 21:22:12-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790532 LIMIT 1
+2019-05-26 21:22:15-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790535 LIMIT 1
+2019-05-26 21:22:18-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790538 LIMIT 1
+2019-05-26 21:22:21-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790541 LIMIT 1
+2019-05-26 21:22:26-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790546 LIMIT 1
+2019-05-26 21:22:29-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790549 LIMIT 1
+2019-05-26 21:22:33-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790553 LIMIT 1
+2019-05-26 21:22:38-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790558 LIMIT 1
+2019-05-26 21:22:42-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790562 LIMIT 1
+2019-05-26 21:22:46-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790566 LIMIT 1
+2019-05-26 21:22:50-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790570 LIMIT 1
+2019-05-26 21:22:54-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790574 LIMIT 1
+2019-05-26 21:22:58-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790578 LIMIT 1
+2019-05-26 21:23:02-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790582 LIMIT 1
+2019-05-26 21:23:06-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790586 LIMIT 1
+2019-05-26 21:23:10-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790590 LIMIT 1
+2019-05-26 21:23:13-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:23:14-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790594 LIMIT 1
+2019-05-26 21:23:14-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:23:14-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 21:23:18-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790598 LIMIT 1
+2019-05-26 21:23:18-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:23:22-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790602 LIMIT 1
+2019-05-26 21:23:24-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:23:24-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "42.239.24.166" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 21:23:26-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790606 LIMIT 1
+2019-05-26 21:23:30-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790610 LIMIT 1
+2019-05-26 21:23:34-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790614 LIMIT 1
+2019-05-26 21:23:37-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:23:37-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "42.239.24.166" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 21:23:38-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790618 LIMIT 1
+2019-05-26 21:23:39-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:23:39-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:23:39-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 21:23:42-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790622 LIMIT 1
+2019-05-26 21:23:45-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:23:46-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790626 LIMIT 1
+2019-05-26 21:23:46-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:23:46-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 21:23:46-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:23:47-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:23:47-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 21:23:50-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790630 LIMIT 1
+2019-05-26 21:23:51-SELECT * FROM `t_products` WHERE `id` = "4" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:23:54-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790634 LIMIT 1
+2019-05-26 21:23:58-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790638 LIMIT 1
+2019-05-26 21:24:02-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790642 LIMIT 1
+2019-05-26 21:24:04-SELECT * FROM `t_products` WHERE `id` = "4" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:24:04-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "42.239.24.166" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 21:24:06-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790646 LIMIT 1
+2019-05-26 21:24:10-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790650 LIMIT 1
+2019-05-26 21:24:13-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790653 LIMIT 1
+2019-05-26 21:24:17-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:24:18-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:24:18-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 21:24:18-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790658 LIMIT 1
+2019-05-26 21:24:22-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790662 LIMIT 1
+2019-05-26 21:24:25-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790665 LIMIT 1
+2019-05-26 21:24:29-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790669 LIMIT 1
+2019-05-26 21:24:32-SELECT `id`, `email`, `secret`, `password` FROM `t_admin_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-05-26 21:24:32-INSERT INTO t_admin_login_log (`adminid`,`ip`,`addtime`) VALUES ('1','42.239.24.166','1558877072')
+2019-05-26 21:24:32-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-26 21:24:34-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790674 LIMIT 1
+2019-05-26 21:24:36-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-26 21:24:36-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 21:24:37-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:24:37-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790677 LIMIT 1
+2019-05-26 21:24:37-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 21:24:37-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 21:24:41-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790681 LIMIT 1
+2019-05-26 21:24:45-UPDATE `t_order` SET `isdelete` = '1'  WHERE `id` = "5" AND (status=0 or status=2)
+2019-05-26 21:24:46-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790686 LIMIT 1
+2019-05-26 21:24:50-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790690 LIMIT 1
+2019-05-26 21:24:52-UPDATE `t_order` SET `isdelete` = '1'  WHERE (status=0 or status=2) and id in (4,3,2,1)
+2019-05-26 21:24:52-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:24:52-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 21:24:54-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790694 LIMIT 1
+2019-05-26 21:24:54-SELECT COUNT(*) AS `total` FROM `t_email_queue` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 21:24:55-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:24:55-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 21:24:56-SELECT COUNT(*) AS `total` FROM `t_email_queue` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 21:24:56-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 21:24:56-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-26 21:24:57-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:24:57-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 21:24:58-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790698 LIMIT 1
+2019-05-26 21:24:58-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-26 21:24:58-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 21:24:59-SELECT COUNT(*) AS `total` FROM `t_email` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 21:25:00-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-26 21:25:00-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 21:25:02-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790702 LIMIT 1
+2019-05-26 21:25:06-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790706 LIMIT 1
+2019-05-26 21:25:06-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 21:25:10-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790710 LIMIT 1
+2019-05-26 21:25:14-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790714 LIMIT 1
+2019-05-26 21:25:14-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-26 21:25:14-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-26 21:25:14-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 21:25:16-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-26 21:25:18-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790718 LIMIT 1
+2019-05-26 21:25:21-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:25:21-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:25:21-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 21:25:21-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790721 LIMIT 1
+2019-05-26 21:25:23-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:25:26-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790726 LIMIT 1
+2019-05-26 21:25:30-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790730 LIMIT 1
+2019-05-26 21:25:31-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:25:31-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "42.239.24.166" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 21:25:31-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "6121661@qq.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 21:25:31-SELECT * FROM `t_user` WHERE `email` = "6121661@qq.com" LIMIT 1
+2019-05-26 21:25:31-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('zlkb2019052621253171685','0','6121661@qq.com','6121661','1','测试商品','0.10','1','0.1','789456852','42.239.24.166','0','','1558877131')
+2019-05-26 21:25:31-SELECT * FROM `t_order` WHERE addtime>1558790731 AND `orderid` = "zlkb2019052621253171685" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:25:31-SELECT * FROM `t_payment` WHERE `active` = "1"
+2019-05-26 21:25:33-SELECT * FROM `t_order` WHERE addtime>1558790733 AND `orderid` = "zlkb2019052621253171685" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:25:33-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621253171685" AND `isdelete` = "0" AND addtime>=1558790733 LIMIT 1
+2019-05-26 21:25:34-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790734 LIMIT 1
+2019-05-26 21:25:37-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621253171685" AND `isdelete` = "0" AND addtime>=1558790737 LIMIT 1
+2019-05-26 21:25:38-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790738 LIMIT 1
+2019-05-26 21:25:40-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621253171685" AND `isdelete` = "0" AND addtime>=1558790740 LIMIT 1
+2019-05-26 21:25:42-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790742 LIMIT 1
+2019-05-26 21:25:43-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621253171685" AND `isdelete` = "0" AND addtime>=1558790743 LIMIT 1
+2019-05-26 21:25:46-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790746 LIMIT 1
+2019-05-26 21:25:46-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621253171685" AND `isdelete` = "0" AND addtime>=1558790746 LIMIT 1
+2019-05-26 21:25:49-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621253171685" AND `isdelete` = "0" AND addtime>=1558790749 LIMIT 1
+2019-05-26 21:25:50-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790750 LIMIT 1
+2019-05-26 21:25:52-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621253171685" AND `isdelete` = "0" AND addtime>=1558790752 LIMIT 1
+2019-05-26 21:25:54-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790754 LIMIT 1
+2019-05-26 21:25:55-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621253171685" AND `isdelete` = "0" AND addtime>=1558790755 LIMIT 1
+2019-05-26 21:25:58-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790758 LIMIT 1
+2019-05-26 21:25:58-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621253171685" AND `isdelete` = "0" AND addtime>=1558790758 LIMIT 1
+2019-05-26 21:26:01-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621253171685" AND `isdelete` = "0" AND addtime>=1558790761 LIMIT 1
+2019-05-26 21:26:02-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790762 LIMIT 1
+2019-05-26 21:26:04-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621253171685" AND `isdelete` = "0" AND addtime>=1558790764 LIMIT 1
+2019-05-26 21:26:06-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790766 LIMIT 1
+2019-05-26 21:26:07-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621253171685" AND `isdelete` = "0" AND addtime>=1558790767 LIMIT 1
+2019-05-26 21:26:10-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790770 LIMIT 1
+2019-05-26 21:26:10-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621253171685" AND `isdelete` = "0" AND addtime>=1558790770 LIMIT 1
+2019-05-26 21:26:13-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621253171685" AND `isdelete` = "0" AND addtime>=1558790773 LIMIT 1
+2019-05-26 21:26:14-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790774 LIMIT 1
+2019-05-26 21:26:16-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621253171685" AND `isdelete` = "0" AND addtime>=1558790776 LIMIT 1
+2019-05-26 21:26:18-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790778 LIMIT 1
+2019-05-26 21:26:22-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790782 LIMIT 1
+2019-05-26 21:26:26-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790786 LIMIT 1
+2019-05-26 21:26:29-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790789 LIMIT 1
+2019-05-26 21:26:33-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790793 LIMIT 1
+2019-05-26 21:26:37-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790797 LIMIT 1
+2019-05-26 21:26:41-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790801 LIMIT 1
+2019-05-26 21:26:45-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790805 LIMIT 1
+2019-05-26 21:26:49-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790809 LIMIT 1
+2019-05-26 21:26:53-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790813 LIMIT 1
+2019-05-26 21:26:57-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790817 LIMIT 1
+2019-05-26 21:27:02-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790822 LIMIT 1
+2019-05-26 21:27:06-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790826 LIMIT 1
+2019-05-26 21:27:10-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790830 LIMIT 1
+2019-05-26 21:27:14-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790834 LIMIT 1
+2019-05-26 21:27:18-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790838 LIMIT 1
+2019-05-26 21:27:22-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790842 LIMIT 1
+2019-05-26 21:27:26-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790846 LIMIT 1
+2019-05-26 21:27:30-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790850 LIMIT 1
+2019-05-26 21:27:34-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790854 LIMIT 1
+2019-05-26 21:27:38-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790858 LIMIT 1
+2019-05-26 21:27:42-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790862 LIMIT 1
+2019-05-26 21:27:46-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790866 LIMIT 1
+2019-05-26 21:27:50-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790870 LIMIT 1
+2019-05-26 21:27:54-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790874 LIMIT 1
+2019-05-26 21:27:58-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790878 LIMIT 1
+2019-05-26 21:28:02-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790882 LIMIT 1
+2019-05-26 21:28:06-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790886 LIMIT 1
+2019-05-26 21:28:10-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790890 LIMIT 1
+2019-05-26 21:28:14-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790894 LIMIT 1
+2019-05-26 21:28:18-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" AND addtime>=1558790898 LIMIT 1
+2019-05-26 21:31:35-SELECT * FROM `t_config`
+2019-05-26 21:32:34-SELECT `id`, `email`, `secret`, `password` FROM `t_admin_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-05-26 21:32:34-INSERT INTO t_admin_login_log (`adminid`,`ip`,`addtime`) VALUES ('1','42.239.24.166','1558877554')
+2019-05-26 21:32:34-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-26 21:32:36-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-26 21:32:36-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 21:32:37-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-26 21:32:37-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 21:32:39-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 21:37:39-SELECT * FROM `t_payment` WHERE `active` = "1"
+2019-05-26 21:37:39-SELECT * FROM `t_order` WHERE addtime>1558791459 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:37:41-SELECT * FROM `t_order` WHERE addtime>1558791461 AND `orderid` = "zlkb2019052621083072620" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:37:43-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:37:43-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:37:43-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 21:37:45-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:37:48-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:37:48-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "42.239.24.166" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 21:37:48-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "231@qq.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 21:37:48-SELECT * FROM `t_user` WHERE `email` = "231@qq.com" LIMIT 1
+2019-05-26 21:37:48-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('zlkb2019052621374875556','0','231@qq.com','231','1','测试商品','0.10','1','0.1','1234','42.239.24.166','0','','1558877868')
+2019-05-26 21:37:48-SELECT * FROM `t_order` WHERE addtime>1558791468 AND `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:37:49-SELECT * FROM `t_order` WHERE addtime>1558791469 AND `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:37:50-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791470 LIMIT 1
+2019-05-26 21:37:53-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791473 LIMIT 1
+2019-05-26 21:37:56-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791476 LIMIT 1
+2019-05-26 21:37:59-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791479 LIMIT 1
+2019-05-26 21:38:02-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791482 LIMIT 1
+2019-05-26 21:38:05-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791485 LIMIT 1
+2019-05-26 21:38:08-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791488 LIMIT 1
+2019-05-26 21:38:11-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791491 LIMIT 1
+2019-05-26 21:38:14-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791494 LIMIT 1
+2019-05-26 21:38:17-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791497 LIMIT 1
+2019-05-26 21:38:20-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791500 LIMIT 1
+2019-05-26 21:38:23-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791503 LIMIT 1
+2019-05-26 21:38:26-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791506 LIMIT 1
+2019-05-26 21:38:30-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791510 LIMIT 1
+2019-05-26 21:38:33-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791513 LIMIT 1
+2019-05-26 21:38:36-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791516 LIMIT 1
+2019-05-26 21:38:39-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791519 LIMIT 1
+2019-05-26 21:38:42-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791522 LIMIT 1
+2019-05-26 21:38:45-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791525 LIMIT 1
+2019-05-26 21:38:48-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791528 LIMIT 1
+2019-05-26 21:38:51-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791531 LIMIT 1
+2019-05-26 21:38:54-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791534 LIMIT 1
+2019-05-26 21:38:57-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791537 LIMIT 1
+2019-05-26 21:39:00-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791540 LIMIT 1
+2019-05-26 21:39:03-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791543 LIMIT 1
+2019-05-26 21:39:06-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791546 LIMIT 1
+2019-05-26 21:39:09-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791549 LIMIT 1
+2019-05-26 21:39:12-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791552 LIMIT 1
+2019-05-26 21:39:15-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791555 LIMIT 1
+2019-05-26 21:39:18-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791558 LIMIT 1
+2019-05-26 21:39:21-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791561 LIMIT 1
+2019-05-26 21:39:25-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791565 LIMIT 1
+2019-05-26 21:39:28-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791568 LIMIT 1
+2019-05-26 21:39:31-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791571 LIMIT 1
+2019-05-26 21:39:34-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791574 LIMIT 1
+2019-05-26 21:39:37-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791577 LIMIT 1
+2019-05-26 21:39:40-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791580 LIMIT 1
+2019-05-26 21:39:43-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791583 LIMIT 1
+2019-05-26 21:39:46-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791586 LIMIT 1
+2019-05-26 21:39:49-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791589 LIMIT 1
+2019-05-26 21:39:52-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791592 LIMIT 1
+2019-05-26 21:39:55-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791595 LIMIT 1
+2019-05-26 21:39:58-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791598 LIMIT 1
+2019-05-26 21:40:01-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791601 LIMIT 1
+2019-05-26 21:40:04-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791604 LIMIT 1
+2019-05-26 21:40:07-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791607 LIMIT 1
+2019-05-26 21:40:10-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791610 LIMIT 1
+2019-05-26 21:40:13-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791613 LIMIT 1
+2019-05-26 21:40:16-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791616 LIMIT 1
+2019-05-26 21:40:20-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791620 LIMIT 1
+2019-05-26 21:40:23-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791623 LIMIT 1
+2019-05-26 21:40:26-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791626 LIMIT 1
+2019-05-26 21:40:29-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791629 LIMIT 1
+2019-05-26 21:40:32-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791632 LIMIT 1
+2019-05-26 21:40:35-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791635 LIMIT 1
+2019-05-26 21:40:38-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791638 LIMIT 1
+2019-05-26 21:40:41-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791641 LIMIT 1
+2019-05-26 21:40:44-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791644 LIMIT 1
+2019-05-26 21:40:47-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791647 LIMIT 1
+2019-05-26 21:40:50-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791650 LIMIT 1
+2019-05-26 21:40:53-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791653 LIMIT 1
+2019-05-26 21:40:56-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791656 LIMIT 1
+2019-05-26 21:40:59-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791659 LIMIT 1
+2019-05-26 21:41:02-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791662 LIMIT 1
+2019-05-26 21:41:05-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791665 LIMIT 1
+2019-05-26 21:41:08-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791668 LIMIT 1
+2019-05-26 21:41:11-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791671 LIMIT 1
+2019-05-26 21:41:15-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791675 LIMIT 1
+2019-05-26 21:41:18-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791678 LIMIT 1
+2019-05-26 21:41:21-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791681 LIMIT 1
+2019-05-26 21:41:24-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791684 LIMIT 1
+2019-05-26 21:41:27-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791687 LIMIT 1
+2019-05-26 21:41:30-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791690 LIMIT 1
+2019-05-26 21:41:33-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791693 LIMIT 1
+2019-05-26 21:41:36-SELECT * FROM `t_config`
+2019-05-26 21:41:36-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791696 LIMIT 1
+2019-05-26 21:41:39-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791699 LIMIT 1
+2019-05-26 21:41:42-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791702 LIMIT 1
+2019-05-26 21:41:45-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791705 LIMIT 1
+2019-05-26 21:41:48-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791708 LIMIT 1
+2019-05-26 21:41:51-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791711 LIMIT 1
+2019-05-26 21:41:54-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791714 LIMIT 1
+2019-05-26 21:41:57-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791717 LIMIT 1
+2019-05-26 21:42:00-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791720 LIMIT 1
+2019-05-26 21:42:03-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791723 LIMIT 1
+2019-05-26 21:42:06-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791726 LIMIT 1
+2019-05-26 21:42:10-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791730 LIMIT 1
+2019-05-26 21:42:13-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791733 LIMIT 1
+2019-05-26 21:42:16-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791736 LIMIT 1
+2019-05-26 21:42:19-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791739 LIMIT 1
+2019-05-26 21:42:22-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791742 LIMIT 1
+2019-05-26 21:42:25-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791745 LIMIT 1
+2019-05-26 21:42:28-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791748 LIMIT 1
+2019-05-26 21:42:31-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791751 LIMIT 1
+2019-05-26 21:42:34-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791754 LIMIT 1
+2019-05-26 21:42:37-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791757 LIMIT 1
+2019-05-26 21:42:40-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791760 LIMIT 1
+2019-05-26 21:42:43-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558791763 LIMIT 1
+2019-05-26 21:51:37-SELECT * FROM `t_config`
+2019-05-26 21:52:29-SELECT * FROM `t_order` WHERE addtime>1558792349 AND `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:52:29-SELECT * FROM `t_payment` WHERE `active` = "1"
+2019-05-26 21:52:34-SELECT * FROM `t_order` WHERE addtime>1558792354 AND `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:52:35-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558792355 LIMIT 1
+2019-05-26 21:52:38-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558792358 LIMIT 1
+2019-05-26 21:52:41-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558792361 LIMIT 1
+2019-05-26 21:52:44-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558792364 LIMIT 1
+2019-05-26 21:52:47-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558792367 LIMIT 1
+2019-05-26 21:52:48-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" LIMIT 1
+2019-05-26 21:52:48-UPDATE `t_order` SET `status` = '1',`paytime` = '1558878768',`tradeid` = '2019052621523400617230647',`paymethod` = 'payjs',`paymoney` = '0.1'  WHERE `orderid` = "zlkb2019052621374875556" AND `status` = "0"
+2019-05-26 21:52:48-SELECT auto,stockcontrol,qty FROM `t_products` WHERE `id` = "1" LIMIT 1
+2019-05-26 21:52:48-SELECT * FROM `t_products_card` WHERE `pid` = "1" AND `active` = "0" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:52:48-UPDATE `t_order` SET `status` = '2',`kami` = '资料空白是大帅锅'  WHERE `orderid` = "zlkb2019052621374875556" AND `status` = "1"
+2019-05-26 21:52:48-INSERT INTO t_email_queue(`email`,`subject`,`content`,`addtime`,`status`) VALUES ('231@qq.com','商品购买成功','用户:231@qq.com,购买的商品[测试商品],密码是:资料空白是大帅锅','1558878768','0'),('demo@demo.com','用户购买商品','用户:231@qq.com,购买的商品[测试商品],密码发送成功','1558878768','0')
+2019-05-26 21:52:48-SELECT * FROM `t_email` WHERE `isdelete` = "0"
+2019-05-26 21:52:48-UPDATE `t_email_queue` SET `status` = '2',`sendresult` = '失败lang:email_smtp_errorlang:email_send_failure_smtpUser-Agent:CodeIgniterDate:Sun,26May201921:52:48+0800From:&quot;&quot;&lt;&gt;Return-Path:&lt;&gt;To:231@qq.comSubject:=?utf-8?Q?=E5=95=86=E5=93=81=E8=B4=AD=E4=B9=B0=E6=88=90=E5=8A=9F?=Reply-To:&lt;&gt;X-Mailer:CodeIgniterX-Priority:3(Normal)Message-ID:&lt;5cea9a3065ddc&gt;Mime-Version:1.0Content-Type:multipart/alternative;boundary=&quot;B_ALT_5cea9a3065de6&quot;Thisisamulti-partmessageinMIMEformat.Youremailapplicationmaynotsupportthisformat.--B_ALT_5cea9a3065de6Content-Type:text/plain;charset=utf-8Content-Transfer-Encoding:8bit用户:231@qq.com,购买的商品[测试商品],密码是:资料空白是大帅锅--B_ALT_5cea9a3065de6Content-Type:text/html;charset=utf-8Content-Transfer-Encoding:quoted-printable=E7=94=A8=E6=88=B7:231@qq.com,=E8=B4=AD=E4=B9=B0=E7=9A=84=E5=95=86=E5=93==81[=E6=B5=8B=E8=AF=95=E5=95=86=E5=93=81],=E5=AF=86=E7=A0=81=E6=98=AF:==E8=B5=84=E6=96=99=E7=A9=BA=E7=99=BD=E6=98=AF=E5=A4=A7=E5=B8=85=E9=94=85--B_ALT_5cea9a3065de6--'  WHERE `email` = "231@qq.com" AND `subject` = "商品购买成功" AND `content` = "用户:231@qq.com,购买的商品[测试商品],密码是:资料空白是大帅锅" AND `addtime` = "1558878768" AND `status` = "0"
+2019-05-26 21:52:48-UPDATE `t_email_queue` SET `status` = '2',`sendresult` = '失败lang:email_smtp_errorlang:email_send_failure_smtpUser-Agent:CodeIgniterDate:Sun,26May201921:52:49+0800From:&quot;&quot;&lt;&gt;Return-Path:&lt;&gt;To:demo@demo.comSubject:=?utf-8?Q?=E7=94=A8=E6=88=B7=E8=B4=AD=E4=B9=B0=E5=95=86=E5=93=81?=Reply-To:&lt;&gt;X-Mailer:CodeIgniterX-Priority:3(Normal)Message-ID:&lt;5cea9a3166f72&gt;Mime-Version:1.0Content-Type:multipart/alternative;boundary=&quot;B_ALT_5cea9a3166f7e&quot;Thisisamulti-partmessageinMIMEformat.Youremailapplicationmaynotsupportthisformat.--B_ALT_5cea9a3166f7eContent-Type:text/plain;charset=utf-8Content-Transfer-Encoding:8bit用户:231@qq.com,购买的商品[测试商品],密码发送成功--B_ALT_5cea9a3166f7eContent-Type:text/html;charset=utf-8Content-Transfer-Encoding:quoted-printable=E7=94=A8=E6=88=B7:231@qq.com,=E8=B4=AD=E4=B9=B0=E7=9A=84=E5=95=86=E5=93==81[=E6=B5=8B=E8=AF=95=E5=95=86=E5=93=81],=E5=AF=86=E7=A0=81=E5=8F=91==E9=80=81=E6=88=90=E5=8A=9F--B_ALT_5cea9a3166f7e--'  WHERE `email` = "demo@demo.com" AND `subject` = "用户购买商品" AND `content` = "用户:231@qq.com,购买的商品[测试商品],密码发送成功" AND `addtime` = "1558878768" AND `status` = "0"
+2019-05-26 21:52:50-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `isdelete` = "0" AND addtime>=1558792370 LIMIT 1
+2019-05-26 21:52:50-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `email` = "231@qq.com" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:52:53-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621374875556" AND `status` = "2" AND addtime>=1556286773 LIMIT 1
+2019-05-26 21:52:57-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:52:57-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:52:57-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 21:52:59-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:52:59-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:52:59-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 21:53:09-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:53:10-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:53:10-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 21:53:12-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:53:19-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:53:19-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "42.239.24.166" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 21:53:19-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "6121661@qq.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 21:53:19-SELECT * FROM `t_user` WHERE `email` = "6121661@qq.com" LIMIT 1
+2019-05-26 21:53:19-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('zlkb2019052621531956321','0','6121661@qq.com','6121661','1','测试商品','0.10','1','0.1','789456852','42.239.24.166','0','','1558878799')
+2019-05-26 21:53:20-SELECT * FROM `t_order` WHERE addtime>1558792400 AND `orderid` = "zlkb2019052621531956321" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:53:22-SELECT * FROM `t_order` WHERE addtime>1558792402 AND `orderid` = "zlkb2019052621531956321" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:53:23-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621531956321" AND `isdelete` = "0" AND addtime>=1558792403 LIMIT 1
+2019-05-26 21:53:26-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621531956321" AND `isdelete` = "0" AND addtime>=1558792406 LIMIT 1
+2019-05-26 21:53:29-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621531956321" AND `isdelete` = "0" AND addtime>=1558792409 LIMIT 1
+2019-05-26 21:53:31-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621531956321" LIMIT 1
+2019-05-26 21:53:31-UPDATE `t_order` SET `status` = '1',`paytime` = '1558878811',`tradeid` = '2019052621532200124086877',`paymethod` = 'payjs',`paymoney` = '0.1'  WHERE `orderid` = "zlkb2019052621531956321" AND `status` = "0"
+2019-05-26 21:53:31-SELECT auto,stockcontrol,qty FROM `t_products` WHERE `id` = "1" LIMIT 1
+2019-05-26 21:53:31-SELECT * FROM `t_products_card` WHERE `pid` = "1" AND `active` = "0" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:53:31-UPDATE `t_order` SET `status` = '2',`kami` = '资料空白是大帅锅'  WHERE `orderid` = "zlkb2019052621531956321" AND `status` = "1"
+2019-05-26 21:53:31-INSERT INTO t_email_queue(`email`,`subject`,`content`,`addtime`,`status`) VALUES ('6121661@qq.com','商品购买成功','用户:6121661@qq.com,购买的商品[测试商品],密码是:资料空白是大帅锅','1558878811','0'),('demo@demo.com','用户购买商品','用户:6121661@qq.com,购买的商品[测试商品],密码发送成功','1558878811','0')
+2019-05-26 21:53:31-SELECT * FROM `t_email` WHERE `isdelete` = "0"
+2019-05-26 21:53:31-UPDATE `t_email_queue` SET `status` = '2',`sendresult` = '失败lang:email_smtp_errorlang:email_send_failure_smtpUser-Agent:CodeIgniterDate:Sun,26May201921:53:31+0800From:&quot;&quot;&lt;&gt;Return-Path:&lt;&gt;To:6121661@qq.comSubject:=?utf-8?Q?=E5=95=86=E5=93=81=E8=B4=AD=E4=B9=B0=E6=88=90=E5=8A=9F?=Reply-To:&lt;&gt;X-Mailer:CodeIgniterX-Priority:3(Normal)Message-ID:&lt;5cea9a5b9f830&gt;Mime-Version:1.0Content-Type:multipart/alternative;boundary=&quot;B_ALT_5cea9a5b9f83a&quot;Thisisamulti-partmessageinMIMEformat.Youremailapplicationmaynotsupportthisformat.--B_ALT_5cea9a5b9f83aContent-Type:text/plain;charset=utf-8Content-Transfer-Encoding:8bit用户:6121661@qq.com,购买的商品[测试商品],密码是:资料空白是大帅锅--B_ALT_5cea9a5b9f83aContent-Type:text/html;charset=utf-8Content-Transfer-Encoding:quoted-printable=E7=94=A8=E6=88=B7:6121661@qq.com,=E8=B4=AD=E4=B9=B0=E7=9A=84=E5=95=86==E5=93=81[=E6=B5=8B=E8=AF=95=E5=95=86=E5=93=81],=E5=AF=86=E7=A0=81=E6=98==AF:=E8=B5=84=E6=96=99=E7=A9=BA=E7=99=BD=E6=98=AF=E5=A4=A7=E5=B8=85==E9=94=85--B_ALT_5cea9a5b9f83a--'  WHERE `email` = "6121661@qq.com" AND `subject` = "商品购买成功" AND `content` = "用户:6121661@qq.com,购买的商品[测试商品],密码是:资料空白是大帅锅" AND `addtime` = "1558878811" AND `status` = "0"
+2019-05-26 21:53:32-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621531956321" AND `isdelete` = "0" AND addtime>=1558792412 LIMIT 1
+2019-05-26 21:53:32-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621531956321" AND `email` = "6121661@qq.com" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:53:31-UPDATE `t_email_queue` SET `status` = '2',`sendresult` = '失败lang:email_smtp_errorlang:email_send_failure_smtpUser-Agent:CodeIgniterDate:Sun,26May201921:53:32+0800From:&quot;&quot;&lt;&gt;Return-Path:&lt;&gt;To:demo@demo.comSubject:=?utf-8?Q?=E7=94=A8=E6=88=B7=E8=B4=AD=E4=B9=B0=E5=95=86=E5=93=81?=Reply-To:&lt;&gt;X-Mailer:CodeIgniterX-Priority:3(Normal)Message-ID:&lt;5cea9a5ca08b8&gt;Mime-Version:1.0Content-Type:multipart/alternative;boundary=&quot;B_ALT_5cea9a5ca08c1&quot;Thisisamulti-partmessageinMIMEformat.Youremailapplicationmaynotsupportthisformat.--B_ALT_5cea9a5ca08c1Content-Type:text/plain;charset=utf-8Content-Transfer-Encoding:8bit用户:6121661@qq.com,购买的商品[测试商品],密码发送成功--B_ALT_5cea9a5ca08c1Content-Type:text/html;charset=utf-8Content-Transfer-Encoding:quoted-printable=E7=94=A8=E6=88=B7:6121661@qq.com,=E8=B4=AD=E4=B9=B0=E7=9A=84=E5=95=86==E5=93=81[=E6=B5=8B=E8=AF=95=E5=95=86=E5=93=81],=E5=AF=86=E7=A0=81=E5=8F==91=E9=80=81=E6=88=90=E5=8A=9F--B_ALT_5cea9a5ca08c1--'  WHERE `email` = "demo@demo.com" AND `subject` = "用户购买商品" AND `content` = "用户:6121661@qq.com,购买的商品[测试商品],密码发送成功" AND `addtime` = "1558878811" AND `status` = "0"
+2019-05-26 21:53:37-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052621531956321" AND `status` = "2" AND addtime>=1556286817 LIMIT 1
+2019-05-26 21:53:57-SELECT `id`, `email`, `secret`, `password` FROM `t_admin_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-05-26 21:53:57-INSERT INTO t_admin_login_log (`adminid`,`ip`,`addtime`) VALUES ('1','42.239.24.166','1558878837')
+2019-05-26 21:53:57-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-26 21:54:00-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 21:54:00-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-26 21:54:04-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:54:05-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 21:54:05-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-26 21:54:48-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:54:50-SELECT `id`, `name` FROM `t_products` WHERE `typeid` = "1" AND `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:54:53-SELECT `id`, `name` FROM `t_products` WHERE `typeid` = "3" AND `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:55:09-INSERT INTO t_products_card (`pid`,`card`,`addtime`) VALUES ('4','AS123-789456852','1558878909')
+2019-05-26 21:55:09-UPDATE `t_products` SET `qty` = `qty` + '1'  WHERE `id` = "4" AND `stockcontrol` = "1"
+2019-05-26 21:55:11-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:55:16-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 21:55:16-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-26 21:55:28-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:55:29-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 21:55:29-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-26 21:55:33-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:55:34-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:55:34-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 21:55:34-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-26 21:55:35-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 21:55:35-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-26 21:55:43-SELECT COUNT(*) AS `total` FROM `t_products_type` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 21:55:43-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 21:55:52-INSERT INTO t_products_type (`name`,`sort_num`,`description`,`password`,`active`) VALUES ('支付','0','支付测试','','1')
+2019-05-26 21:55:55-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:55:56-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 21:55:56-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-26 21:55:56-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 21:55:56-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-26 21:55:57-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:55:57-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 21:55:57-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-26 21:55:58-SELECT COUNT(*) AS `total` FROM `t_products_type` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 21:55:58-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 21:56:02-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:56:02-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 21:56:02-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-26 21:56:19-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 21:56:19-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-26 21:56:25-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:57:16-INSERT INTO t_products (`typeid`,`name`,`password`,`description`,`stockcontrol`,`qty`,`qty_switch`,`qty_virtual`,`qty_sell`,`price`,`price_ori`,`auto`,`addons`,`active`,`sort_num`,`addtime`,`imgurl`) VALUES ('4','商品测试','','&lt;p&gt;这个商品属于测试。时间卡拉速度就拉卡萨丁将拉开时间as&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;仨都&lt;/p&gt;&lt;p&gt;asd a仨都&lt;/p&gt;&lt;p&gt;asd&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;asd as的&lt;/p&gt;&lt;p&gt;阿斯顿阿斯顿&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://fk.bouhr.com/res/layui/images/face/38.gif&quot; alt=&quot;[哼]&quot;&gt;&lt;br&gt;&lt;/p&gt;','1','0','0','1','100','0.01','0.02','1','','1','99','1558879036','')
+2019-05-26 21:57:17-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:57:20-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:57:20-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:57:20-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 21:57:51-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:57:53-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:57:54-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:57:54-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 21:58:02-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:58:03-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 21:58:03-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-26 21:58:03-SELECT COUNT(*) AS `total` FROM `t_products_type` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 21:58:03-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 21:58:04-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 21:58:04-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-26 21:58:10-SELECT * FROM `t_products` WHERE `id` = "5" LIMIT 1
+2019-05-26 21:58:10-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:58:15-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `pid` = "5" AND `active` = "0" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:58:15-UPDATE `t_products` SET `qty` = '0'  WHERE `id` = "5" AND `auto` = "1" AND `stockcontrol` = "1"
+2019-05-26 21:58:19-UPDATE `t_products` SET `typeid` = '4',`name` = '商品测试',`password` = '',`description` = '&lt;p&gt;这个商品属于测试。时间卡拉速度就拉卡萨丁将拉开时间as&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;仨都&lt;/p&gt;&lt;p&gt;asd a仨都&lt;/p&gt;&lt;p&gt;asd&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;asd as的&lt;/p&gt;&lt;p&gt;阿斯顿阿斯顿&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://fk.bouhr.com/res/layui/images/face/38.gif&quot; alt=&quot;[哼]&quot;&gt;&lt;br&gt;&lt;/p&gt;',`stockcontrol` = '1',`qty_switch` = '0',`qty_virtual` = '1',`qty_sell` = '100',`price` = '0.01',`price_ori` = '0.02',`auto` = '1',`addons` = '',`active` = '1',`sort_num` = '99'  WHERE `id` = "5" LIMIT 1
+2019-05-26 21:58:21-UPDATE `t_products` SET `typeid` = '4',`name` = '商品测试',`password` = '',`description` = '&lt;p&gt;这个商品属于测试。时间卡拉速度就拉卡萨丁将拉开时间as&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;仨都&lt;/p&gt;&lt;p&gt;asd a仨都&lt;/p&gt;&lt;p&gt;asd&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;asd as的&lt;/p&gt;&lt;p&gt;阿斯顿阿斯顿&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://fk.bouhr.com/res/layui/images/face/38.gif&quot; alt=&quot;[哼]&quot;&gt;&lt;br&gt;&lt;/p&gt;',`stockcontrol` = '1',`qty_switch` = '0',`qty_virtual` = '1',`qty_sell` = '100',`price` = '0.01',`price_ori` = '0.02',`auto` = '1',`addons` = '',`active` = '1',`sort_num` = '99'  WHERE `id` = "5" LIMIT 1
+2019-05-26 21:58:35-UPDATE `t_products` SET `typeid` = '4',`name` = '商品测试',`password` = '',`description` = '&lt;p&gt;这个商品属于测试。时间卡拉速度就拉卡萨丁将拉开时间as&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;仨都&lt;/p&gt;&lt;p&gt;asd a仨都&lt;/p&gt;&lt;p&gt;asd&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;asd as的&lt;/p&gt;&lt;p&gt;阿斯顿阿斯顿&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://fk.bouhr.com/res/layui/images/face/38.gif&quot; alt=&quot;[哼]&quot;&gt;&lt;br&gt;&lt;/p&gt;',`stockcontrol` = '1',`qty_switch` = '0',`qty_virtual` = '0',`qty_sell` = '100',`price` = '0.01',`price_ori` = '0.02',`auto` = '1',`addons` = '',`active` = '1',`sort_num` = '99'  WHERE `id` = "5" LIMIT 1
+2019-05-26 21:58:37-SELECT * FROM `t_products` WHERE `id` = "5" LIMIT 1
+2019-05-26 21:58:37-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:58:38-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:58:39-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:58:39-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 21:58:45-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:58:45-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:58:45-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 21:58:46-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:58:46-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:58:46-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 21:58:50-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:58:58-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `pid` = "5" AND `active` = "0" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:58:58-UPDATE `t_products` SET `qty` = '0'  WHERE `id` = "5" AND `auto` = "1" AND `stockcontrol` = "1"
+2019-05-26 21:59:01-SELECT * FROM `t_products` WHERE `id` = "5" LIMIT 1
+2019-05-26 21:59:04-UPDATE `t_products` SET `imgurl` = '/res/upload/2019-05-26/215904.jpg'  WHERE `id` = "5" LIMIT 1
+2019-05-26 21:59:05-SELECT * FROM `t_products` WHERE `id` = "5" LIMIT 1
+2019-05-26 21:59:07-SELECT * FROM `t_products` WHERE `id` = "5" LIMIT 1
+2019-05-26 21:59:07-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:59:14-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `pid` = "5" AND `active` = "0" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:59:14-UPDATE `t_products` SET `qty` = '0'  WHERE `id` = "5" AND `auto` = "1" AND `stockcontrol` = "1"
+2019-05-26 21:59:16-UPDATE `t_products` SET `typeid` = '4',`name` = '商品测试',`password` = '',`description` = '&lt;p&gt;这个商品属于测试。时间卡拉速度就拉卡萨丁将拉开时间as&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;仨都&lt;/p&gt;&lt;p&gt;asd a仨都&lt;/p&gt;&lt;p&gt;asd&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;asd as的&lt;/p&gt;&lt;p&gt;阿斯顿阿斯顿&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://fk.bouhr.com/res/layui/images/face/38.gif&quot; alt=&quot;[哼]&quot;&gt;&lt;br&gt;&lt;/p&gt;',`stockcontrol` = '1',`qty_switch` = '0',`qty_virtual` = '0',`qty_sell` = '100',`price` = '0.01',`price_ori` = '0.02',`auto` = '1',`addons` = '',`active` = '1',`sort_num` = '99'  WHERE `id` = "5" LIMIT 1
+2019-05-26 21:59:17-UPDATE `t_products` SET `typeid` = '4',`name` = '商品测试',`password` = '',`description` = '&lt;p&gt;这个商品属于测试。时间卡拉速度就拉卡萨丁将拉开时间as&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;仨都&lt;/p&gt;&lt;p&gt;asd a仨都&lt;/p&gt;&lt;p&gt;asd&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;asd as的&lt;/p&gt;&lt;p&gt;阿斯顿阿斯顿&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://fk.bouhr.com/res/layui/images/face/38.gif&quot; alt=&quot;[哼]&quot;&gt;&lt;br&gt;&lt;/p&gt;',`stockcontrol` = '1',`qty_switch` = '0',`qty_virtual` = '0',`qty_sell` = '100',`price` = '0.01',`price_ori` = '0.02',`auto` = '1',`addons` = '',`active` = '1',`sort_num` = '99'  WHERE `id` = "5" LIMIT 1
+2019-05-26 21:59:28-UPDATE `t_products` SET `typeid` = '4',`name` = '商品测试',`password` = '',`description` = '&lt;p&gt;这个商品属于测试。时间卡拉速度就拉卡萨丁将拉开时间as&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;仨都&lt;/p&gt;&lt;p&gt;asd a仨都&lt;/p&gt;&lt;p&gt;asd&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;asd as的&lt;/p&gt;&lt;p&gt;阿斯顿阿斯顿&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://fk.bouhr.com/res/layui/images/face/38.gif&quot; alt=&quot;[哼]&quot;&gt;&lt;br&gt;&lt;/p&gt;',`stockcontrol` = '1',`qty_switch` = '0',`qty_virtual` = '0',`qty_sell` = '100',`price` = '0.01',`price_ori` = '0.02',`auto` = '1',`addons` = '',`active` = '1',`sort_num` = '99'  WHERE `id` = "5" LIMIT 1
+2019-05-26 21:59:38-UPDATE `t_products` SET `typeid` = '4',`name` = '商品测试',`password` = '',`description` = '&lt;p&gt;这个商品属于测试。时间卡拉速度就拉卡萨丁将拉开时间as&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;仨都&lt;/p&gt;&lt;p&gt;asd a仨都&lt;/p&gt;&lt;p&gt;asd&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;asd as的&lt;/p&gt;&lt;p&gt;阿斯顿阿斯顿&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://fk.bouhr.com/res/layui/images/face/38.gif&quot; alt=&quot;[哼]&quot;&gt;&lt;br&gt;&lt;/p&gt;',`stockcontrol` = '1',`qty_switch` = '0',`qty_virtual` = '0',`qty_sell` = '100',`price` = '0.01',`price_ori` = '0.02',`auto` = '1',`addons` = '',`active` = '1',`sort_num` = '199'  WHERE `id` = "5" LIMIT 1
+2019-05-26 21:59:39-SELECT * FROM `t_products` WHERE `id` = "5" LIMIT 1
+2019-05-26 21:59:39-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:59:42-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:59:45-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 21:59:46-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:59:46-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 21:59:54-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 21:59:59-UPDATE `t_products` SET `typeid` = '4',`name` = '商品测试',`password` = '',`description` = '&lt;p&gt;这个商品属于测试。时间卡拉速度就拉卡萨丁将拉开时间as&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;仨都&lt;/p&gt;&lt;p&gt;asd a仨都&lt;/p&gt;&lt;p&gt;asd&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;asd as的&lt;/p&gt;&lt;p&gt;阿斯顿阿斯顿&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://fk.bouhr.com/res/layui/images/face/38.gif&quot; alt=&quot;[哼]&quot;&gt;&lt;br&gt;&lt;/p&gt;',`stockcontrol` = '0',`qty` = '0',`qty_switch` = '0',`qty_virtual` = '0',`qty_sell` = '100',`price` = '0.01',`price_ori` = '0.02',`auto` = '1',`addons` = '',`active` = '1',`sort_num` = '199'  WHERE `id` = "5" LIMIT 1
+2019-05-26 22:00:00-SELECT * FROM `t_products` WHERE `id` = "5" LIMIT 1
+2019-05-26 22:00:00-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:00:03-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:00:04-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:00:04-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 22:00:11-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:00:21-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:00:21-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "42.239.24.166" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 22:00:21-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "1@qq.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 22:00:21-SELECT * FROM `t_user` WHERE `email` = "1@qq.com" LIMIT 1
+2019-05-26 22:00:21-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('zlkb2019052622002125161','0','1@qq.com','1','5','商品测试','0.01','1','0.01','0000','42.239.24.166','0','','1558879221')
+2019-05-26 22:00:21-SELECT * FROM `t_order` WHERE addtime>1558792821 AND `orderid` = "zlkb2019052622002125161" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:00:23-SELECT * FROM `t_order` WHERE addtime>1558792823 AND `orderid` = "zlkb2019052622002125161" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:00:23-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622002125161" AND `isdelete` = "0" AND addtime>=1558792823 LIMIT 1
+2019-05-26 22:00:26-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622002125161" AND `isdelete` = "0" AND addtime>=1558792826 LIMIT 1
+2019-05-26 22:00:30-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622002125161" AND `isdelete` = "0" AND addtime>=1558792830 LIMIT 1
+2019-05-26 22:00:33-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622002125161" AND `isdelete` = "0" AND addtime>=1558792833 LIMIT 1
+2019-05-26 22:00:36-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622002125161" AND `isdelete` = "0" AND addtime>=1558792836 LIMIT 1
+2019-05-26 22:00:39-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622002125161" AND `isdelete` = "0" AND addtime>=1558792839 LIMIT 1
+2019-05-26 22:00:39-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622002125161" LIMIT 1
+2019-05-26 22:00:39-UPDATE `t_order` SET `status` = '1',`paytime` = '1558879239',`tradeid` = '2019052622002300399290446',`paymethod` = 'payjs',`paymoney` = '0.01'  WHERE `orderid` = "zlkb2019052622002125161" AND `status` = "0"
+2019-05-26 22:00:39-SELECT auto,stockcontrol,qty FROM `t_products` WHERE `id` = "5" LIMIT 1
+2019-05-26 22:00:39-SELECT * FROM `t_products_card` WHERE `pid` = "5" AND `active` = "0" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:00:39-UPDATE `t_order` SET `status` = '3'  WHERE `orderid` = "zlkb2019052622002125161" AND `status` = "1"
+2019-05-26 22:00:39-INSERT INTO t_email_queue(`email`,`subject`,`content`,`addtime`,`status`) VALUES ('1@qq.com','商品购买成功','用户:1@qq.com,购买的商品[商品测试],由于库存不足暂时无法处理,管理员正在拼命处理中....请耐心等待!','1558879239','0'),('demo@demo.com','用户购买商品','用户:1@qq.com,购买的商品[商品测试],由于库存不足暂时无法处理,请尽快处理!','1558879239','0')
+2019-05-26 22:00:39-SELECT * FROM `t_email` WHERE `isdelete` = "0"
+2019-05-26 22:00:39-UPDATE `t_email_queue` SET `status` = '2',`sendresult` = '失败lang:email_smtp_errorlang:email_send_failure_smtpUser-Agent:CodeIgniterDate:Sun,26May201922:00:39+0800From:&quot;&quot;&lt;&gt;Return-Path:&lt;&gt;To:1@qq.comSubject:=?utf-8?Q?=E5=95=86=E5=93=81=E8=B4=AD=E4=B9=B0=E6=88=90=E5=8A=9F?=Reply-To:&lt;&gt;X-Mailer:CodeIgniterX-Priority:3(Normal)Message-ID:&lt;5cea9c07b492e&gt;Mime-Version:1.0Content-Type:multipart/alternative;boundary=&quot;B_ALT_5cea9c07b4939&quot;Thisisamulti-partmessageinMIMEformat.Youremailapplicationmaynotsupportthisformat.--B_ALT_5cea9c07b4939Content-Type:text/plain;charset=utf-8Content-Transfer-Encoding:8bit用户:1@qq.com,购买的商品[商品测试],由于库存不足暂时无法处理,管理员正在拼命处理中....请耐心等待!--B_ALT_5cea9c07b4939Content-Type:text/html;charset=utf-8Content-Transfer-Encoding:quoted-printable=E7=94=A8=E6=88=B7:1@qq.com,=E8=B4=AD=E4=B9=B0=E7=9A=84=E5=95=86=E5=93==81[=E5=95=86=E5=93=81=E6=B5=8B=E8=AF=95],=E7=94=B1=E4=BA=8E=E5=BA=93==E5=AD=98=E4=B8=8D=E8=B6=B3=E6=9A=82=E6=97=B6=E6=97=A0=E6=B3=95=E5=A4=84==E7=90=86,=E7=AE=A1=E7=90=86=E5=91=98=E6=AD=A3=E5=9C=A8=E6=8B=BC=E5=91==BD=E5=A4=84=E7=90=86=E4=B8=AD....=E8=AF=B7=E8=80=90=E5=BF=83=E7=AD=89==E5=BE=85!--B_ALT_5cea9c07b4939--'  WHERE `email` = "1@qq.com" AND `subject` = "商品购买成功" AND `content` = "用户:1@qq.com,购买的商品[商品测试],由于库存不足暂时无法处理,管理员正在拼命处理中....请耐心等待!" AND `addtime` = "1558879239" AND `status` = "0"
+2019-05-26 22:00:39-UPDATE `t_email_queue` SET `status` = '2',`sendresult` = '失败lang:email_smtp_errorlang:email_send_failure_smtpUser-Agent:CodeIgniterDate:Sun,26May201922:00:40+0800From:&quot;&quot;&lt;&gt;Return-Path:&lt;&gt;To:demo@demo.comSubject:=?utf-8?Q?=E7=94=A8=E6=88=B7=E8=B4=AD=E4=B9=B0=E5=95=86=E5=93=81?=Reply-To:&lt;&gt;X-Mailer:CodeIgniterX-Priority:3(Normal)Message-ID:&lt;5cea9c08b7391&gt;Mime-Version:1.0Content-Type:multipart/alternative;boundary=&quot;B_ALT_5cea9c08b739c&quot;Thisisamulti-partmessageinMIMEformat.Youremailapplicationmaynotsupportthisformat.--B_ALT_5cea9c08b739cContent-Type:text/plain;charset=utf-8Content-Transfer-Encoding:8bit用户:1@qq.com,购买的商品[商品测试],由于库存不足暂时无法处理,请尽快处理!--B_ALT_5cea9c08b739cContent-Type:text/html;charset=utf-8Content-Transfer-Encoding:quoted-printable=E7=94=A8=E6=88=B7:1@qq.com,=E8=B4=AD=E4=B9=B0=E7=9A=84=E5=95=86=E5=93==81[=E5=95=86=E5=93=81=E6=B5=8B=E8=AF=95],=E7=94=B1=E4=BA=8E=E5=BA=93==E5=AD=98=E4=B8=8D=E8=B6=B3=E6=9A=82=E6=97=B6=E6=97=A0=E6=B3=95=E5=A4=84==E7=90=86,=E8=AF=B7=E5=B0=BD=E5=BF=AB=E5=A4=84=E7=90=86!--B_ALT_5cea9c08b739c--'  WHERE `email` = "demo@demo.com" AND `subject` = "用户购买商品" AND `content` = "用户:1@qq.com,购买的商品[商品测试],由于库存不足暂时无法处理,请尽快处理!" AND `addtime` = "1558879239" AND `status` = "0"
+2019-05-26 22:00:42-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622002125161" AND `isdelete` = "0" AND addtime>=1558792842 LIMIT 1
+2019-05-26 22:00:42-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622002125161" AND `email` = "1@qq.com" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:00:55-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:00:56-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:00:56-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 22:01:12-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:01:14-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:01:14-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:01:14-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 22:01:14-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:01:15-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:01:15-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 22:01:16-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:01:17-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 22:01:17-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-26 22:01:18-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 22:01:18-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-26 22:01:18-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:01:43-SELECT * FROM `t_config`
+2019-05-26 22:01:43-INSERT INTO t_products (`typeid`,`name`,`password`,`description`,`stockcontrol`,`qty`,`qty_switch`,`qty_virtual`,`qty_sell`,`price`,`price_ori`,`auto`,`addons`,`active`,`sort_num`,`addtime`,`imgurl`) VALUES ('3','点击','','仨都阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿','1','0','0','1','1','0.1','0.2','1','','1','99','1558879303','')
+2019-05-26 22:01:44-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:01:49-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 22:01:49-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-26 22:01:56-SELECT * FROM `t_products` WHERE `id` = "6" LIMIT 1
+2019-05-26 22:01:56-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:02:05-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `pid` = "6" AND `active` = "0" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:02:05-UPDATE `t_products` SET `qty` = '0'  WHERE `id` = "6" AND `auto` = "1" AND `stockcontrol` = "1"
+2019-05-26 22:02:13-UPDATE `t_products` SET `typeid` = '3',`name` = '点击',`password` = '',`description` = '仨都阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿',`stockcontrol` = '1',`qty_switch` = '0',`qty_virtual` = '1',`qty_sell` = '1',`price` = '0.10',`price_ori` = '0.20',`auto` = '1',`addons` = '',`active` = '1',`sort_num` = '99'  WHERE `id` = "6" LIMIT 1
+2019-05-26 22:02:14-UPDATE `t_products` SET `typeid` = '3',`name` = '点击',`password` = '',`description` = '仨都阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿',`stockcontrol` = '1',`qty_switch` = '0',`qty_virtual` = '1',`qty_sell` = '1',`price` = '0.10',`price_ori` = '0.20',`auto` = '1',`addons` = '',`active` = '1',`sort_num` = '99'  WHERE `id` = "6" LIMIT 1
+2019-05-26 22:02:16-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 22:02:16-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-26 22:02:19-SELECT * FROM `t_products` WHERE `id` = "6" LIMIT 1
+2019-05-26 22:02:19-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:02:24-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `pid` = "6" AND `active` = "0" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:02:24-UPDATE `t_products` SET `qty` = '0'  WHERE `id` = "6" AND `auto` = "1" AND `stockcontrol` = "1"
+2019-05-26 22:02:26-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:02:26-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 22:02:26-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 22:02:29-SELECT * FROM `t_order` WHERE `id` = "9" LIMIT 1
+2019-05-26 22:02:49-SELECT * FROM `t_order` WHERE `id` = "9" LIMIT 1
+2019-05-26 22:02:53-SELECT * FROM `t_order` WHERE `id` = "9" LIMIT 1
+2019-05-26 22:02:53-UPDATE `t_order` SET `status` = '2',`kami` = '仨都阿斯顿'  WHERE `id` = "9" AND status=1 or status=3
+2019-05-26 22:02:53-INSERT INTO t_email_queue(`email`,`subject`,`content`,`addtime`,`status`) VALUES ('1@qq.com','商品购买成功','用户:1@qq.com,购买的商品[商品测试],卡密是:仨都阿斯顿','1558879373','0')
+2019-05-26 22:02:54-SELECT * FROM `t_order` WHERE `id` = "9" LIMIT 1
+2019-05-26 22:02:56-SELECT COUNT(*) AS `total` FROM `t_email_queue` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 22:02:56-SELECT * FROM `t_email_queue` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 22:03:39-UPDATE `t_email_queue` SET `isdelete` = '1'  WHERE id in (7,6,5,4,3,2,1)
+2019-05-26 22:03:40-SELECT COUNT(*) AS `total` FROM `t_email_queue` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 22:03:41-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:03:41-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 22:03:41-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 22:03:55-SELECT * FROM `t_order` WHERE `id` = "6" LIMIT 1
+2019-05-26 22:04:01-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:04:01-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 22:04:01-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 22:04:04-UPDATE `t_order` SET `isdelete` = '1'  WHERE (status=0 or status=2) and id in (6)
+2019-05-26 22:04:04-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:04:05-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 22:04:05-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 22:04:11-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:04:11-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:04:11-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 22:04:12-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:04:13-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:04:13-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 22:04:13-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:04:14-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:04:14-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 22:04:14-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:04:14-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:04:14-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 22:04:18-SELECT COUNT(*) AS `total` FROM `t_email_queue` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 22:04:19-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-26 22:04:19-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 22:04:19-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-26 22:04:19-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 22:04:19-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-26 22:04:20-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-26 22:04:20-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 22:04:21-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-26 22:04:21-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 22:04:22-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 22:04:22-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-26 22:04:24-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 22:04:24-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-26 22:04:26-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:04:48-INSERT INTO t_products (`typeid`,`name`,`password`,`description`,`stockcontrol`,`qty`,`qty_switch`,`qty_virtual`,`qty_sell`,`price`,`price_ori`,`auto`,`addons`,`active`,`sort_num`,`addtime`,`imgurl`) VALUES ('3','123','','阿斯顿阿斯顿阿斯顿阿斯顿阿斯顿','1','0','0','1','1','0.1','0.2','1','','1','99','1558879488','')
+2019-05-26 22:04:51-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:04:56-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:04:56-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:04:56-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 22:05:02-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:05:02-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 22:05:02-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-26 22:05:09-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:05:11-SELECT `id`, `name` FROM `t_products` WHERE `typeid` = "3" AND `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:05:19-INSERT INTO t_products_card (`pid`,`card`,`addtime`) VALUES ('7','12-12345678','1558879519')
+2019-05-26 22:05:19-UPDATE `t_products` SET `qty` = `qty` + '1'  WHERE `id` = "7" AND `stockcontrol` = "1"
+2019-05-26 22:05:20-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:05:22-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:05:23-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:05:23-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 22:05:34-SELECT * FROM `t_products` WHERE `id` = "7" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:05:48-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:05:49-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:05:49-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 22:05:51-SELECT * FROM `t_products` WHERE `id` = "7" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:05:58-SELECT * FROM `t_products` WHERE `id` = "7" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:05:58-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "42.239.24.166" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 22:05:58-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "123456@qq.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 22:05:58-SELECT * FROM `t_user` WHERE `email` = "123456@qq.com" LIMIT 1
+2019-05-26 22:05:58-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('zlkb2019052622055897854','0','123456@qq.com','123456','7','123','0.10','1','0.1','0000','42.239.24.166','0','','1558879558')
+2019-05-26 22:05:58-SELECT * FROM `t_order` WHERE addtime>1558793158 AND `orderid` = "zlkb2019052622055897854" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:05:58-SELECT * FROM `t_payment` WHERE `active` = "1"
+2019-05-26 22:06:00-SELECT * FROM `t_order` WHERE addtime>1558793160 AND `orderid` = "zlkb2019052622055897854" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:06:01-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622055897854" AND `isdelete` = "0" AND addtime>=1558793161 LIMIT 1
+2019-05-26 22:06:04-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622055897854" AND `isdelete` = "0" AND addtime>=1558793164 LIMIT 1
+2019-05-26 22:06:07-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622055897854" AND `isdelete` = "0" AND addtime>=1558793167 LIMIT 1
+2019-05-26 22:06:10-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622055897854" AND `isdelete` = "0" AND addtime>=1558793170 LIMIT 1
+2019-05-26 22:06:13-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622055897854" AND `isdelete` = "0" AND addtime>=1558793173 LIMIT 1
+2019-05-26 22:06:15-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622055897854" LIMIT 1
+2019-05-26 22:06:15-UPDATE `t_order` SET `status` = '1',`paytime` = '1558879575',`tradeid` = '2019052622060000705700637',`paymethod` = 'payjs',`paymoney` = '0.1'  WHERE `orderid` = "zlkb2019052622055897854" AND `status` = "0"
+2019-05-26 22:06:15-SELECT auto,stockcontrol,qty FROM `t_products` WHERE `id` = "7" LIMIT 1
+2019-05-26 22:06:15-SELECT * FROM `t_products_card` WHERE `pid` = "7" AND `active` = "0" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:06:15-UPDATE `t_products_card` SET `active` = '1'  WHERE id in (7) AND `active` = "0"
+2019-05-26 22:06:15-UPDATE `t_products` SET `qty` = `qty` - '1',`qty_virtual` = `qty_virtual` - '1',`qty_sell` = `qty_sell` + '1'  WHERE `id` = "7" AND `stockcontrol` = "1"
+2019-05-26 22:06:15-UPDATE `t_order` SET `status` = '2',`kami` = '12-12345678'  WHERE `orderid` = "zlkb2019052622055897854" AND `status` = "1"
+2019-05-26 22:06:15-INSERT INTO t_email_queue(`email`,`subject`,`content`,`addtime`,`status`) VALUES ('123456@qq.com','商品购买成功','用户:123456@qq.com,购买的商品[123],密码是:12-12345678','1558879575','0'),('demo@demo.com','用户购买商品','用户:123456@qq.com,购买的商品[123],密码发送成功;当前商品库存剩余:0','1558879575','0')
+2019-05-26 22:06:15-SELECT * FROM `t_email` WHERE `isdelete` = "0"
+2019-05-26 22:06:15-UPDATE `t_email_queue` SET `status` = '2',`sendresult` = '失败lang:email_smtp_errorlang:email_send_failure_smtpUser-Agent:CodeIgniterDate:Sun,26May201922:06:15+0800From:&quot;&quot;&lt;&gt;Return-Path:&lt;&gt;To:123456@qq.comSubject:=?utf-8?Q?=E5=95=86=E5=93=81=E8=B4=AD=E4=B9=B0=E6=88=90=E5=8A=9F?=Reply-To:&lt;&gt;X-Mailer:CodeIgniterX-Priority:3(Normal)Message-ID:&lt;5cea9d57d8370&gt;Mime-Version:1.0Content-Type:multipart/alternative;boundary=&quot;B_ALT_5cea9d57d837b&quot;Thisisamulti-partmessageinMIMEformat.Youremailapplicationmaynotsupportthisformat.--B_ALT_5cea9d57d837bContent-Type:text/plain;charset=utf-8Content-Transfer-Encoding:8bit用户:123456@qq.com,购买的商品[123],密码是:12-12345678--B_ALT_5cea9d57d837bContent-Type:text/html;charset=utf-8Content-Transfer-Encoding:quoted-printable=E7=94=A8=E6=88=B7:123456@qq.com,=E8=B4=AD=E4=B9=B0=E7=9A=84=E5=95=86==E5=93=81[123],=E5=AF=86=E7=A0=81=E6=98=AF:12-12345678--B_ALT_5cea9d57d837b--'  WHERE `email` = "123456@qq.com" AND `subject` = "商品购买成功" AND `content` = "用户:123456@qq.com,购买的商品[123],密码是:12-12345678" AND `addtime` = "1558879575" AND `status` = "0"
+2019-05-26 22:06:16-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622055897854" AND `isdelete` = "0" AND addtime>=1558793176 LIMIT 1
+2019-05-26 22:06:16-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622055897854" AND `email` = "123456@qq.com" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:06:15-UPDATE `t_email_queue` SET `status` = '2',`sendresult` = '失败lang:email_smtp_errorlang:email_send_failure_smtpUser-Agent:CodeIgniterDate:Sun,26May201922:06:16+0800From:&quot;&quot;&lt;&gt;Return-Path:&lt;&gt;To:demo@demo.comSubject:=?utf-8?Q?=E7=94=A8=E6=88=B7=E8=B4=AD=E4=B9=B0=E5=95=86=E5=93=81?=Reply-To:&lt;&gt;X-Mailer:CodeIgniterX-Priority:3(Normal)Message-ID:&lt;5cea9d58d96f6&gt;Mime-Version:1.0Content-Type:multipart/alternative;boundary=&quot;B_ALT_5cea9d58d96ff&quot;Thisisamulti-partmessageinMIMEformat.Youremailapplicationmaynotsupportthisformat.--B_ALT_5cea9d58d96ffContent-Type:text/plain;charset=utf-8Content-Transfer-Encoding:8bit用户:123456@qq.com,购买的商品[123],密码发送成功;当前商品库存剩余:0--B_ALT_5cea9d58d96ffContent-Type:text/html;charset=utf-8Content-Transfer-Encoding:quoted-printable=E7=94=A8=E6=88=B7:123456@qq.com,=E8=B4=AD=E4=B9=B0=E7=9A=84=E5=95=86==E5=93=81[123],=E5=AF=86=E7=A0=81=E5=8F=91=E9=80=81=E6=88=90=E5=8A=9F;==E5=BD=93=E5=89=8D=E5=95=86=E5=93=81=E5=BA=93=E5=AD=98=E5=89=A9=E4=BD=99:0--B_ALT_5cea9d58d96ff--'  WHERE `email` = "demo@demo.com" AND `subject` = "用户购买商品" AND `content` = "用户:123456@qq.com,购买的商品[123],密码发送成功;当前商品库存剩余:0" AND `addtime` = "1558879575" AND `status` = "0"
+2019-05-26 22:06:19-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622055897854" AND `status` = "2" AND addtime>=1556287579 LIMIT 1
+2019-05-26 22:06:29-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:06:29-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:06:29-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 22:06:45-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622055897854" AND `isdelete` = "0" AND addtime>=1556287605 ORDER BY `id` desc
+2019-05-26 22:07:04-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622055897854" AND `isdelete` = "0" AND `ip` = "42.239.24.166" AND addtime>=1556287624 ORDER BY `id` desc
+2019-05-26 22:07:11-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622055897854" AND `isdelete` = "0" AND addtime>=1556287631 ORDER BY `id` desc
+2019-05-26 22:07:39-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:07:39-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:07:39-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 22:07:44-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:07:44-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 22:07:44-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-26 22:07:45-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 22:07:45-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-26 22:07:46-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:07:46-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 22:07:46-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-26 22:07:47-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 22:07:47-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-26 22:07:50-SELECT COUNT(*) AS `total` FROM `t_products_type` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 22:07:50-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 22:07:59-INSERT INTO t_products_type (`name`,`sort_num`,`description`,`password`,`active`) VALUES ('QQQQQ','0','QQ','','1')
+2019-05-26 22:08:01-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:08:01-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 22:08:01-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-26 22:08:03-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 22:08:03-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-26 22:08:05-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:08:16-INSERT INTO t_products (`typeid`,`name`,`password`,`description`,`stockcontrol`,`qty`,`qty_switch`,`qty_virtual`,`qty_sell`,`price`,`price_ori`,`auto`,`addons`,`active`,`sort_num`,`addtime`,`imgurl`) VALUES ('5','WWWWW','','WWWW','1','0','0','1','1','1','1','1','','1','99','1558879696','')
+2019-05-26 22:08:17-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:08:19-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:08:20-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 22:08:20-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-26 22:08:22-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:08:24-SELECT `id`, `name` FROM `t_products` WHERE `typeid` = "5" AND `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:08:29-INSERT INTO t_products_card (`pid`,`card`,`addtime`) VALUES ('8','1212121212','1558879709')
+2019-05-26 22:08:29-UPDATE `t_products` SET `qty` = `qty` + '1'  WHERE `id` = "8" AND `stockcontrol` = "1"
+2019-05-26 22:08:31-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:08:32-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-26 22:08:34-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-26 22:08:36-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:08:36-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:08:36-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 22:20:55-SELECT * FROM `t_config`
+2019-05-26 22:20:55-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 22:20:55-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:20:55-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 22:33:05-SELECT * FROM `t_config`
+2019-05-26 22:33:10-SELECT `id`, `email`, `secret`, `password` FROM `t_admin_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-05-26 22:33:10-INSERT INTO t_admin_login_log (`adminid`,`ip`,`addtime`) VALUES ('1','42.239.24.166','1558881190')
+2019-05-26 22:33:10-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-26 22:33:12-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-26 22:33:12-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 22:33:12-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-26 22:33:12-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 22:33:14-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 22:33:24-UPDATE `t_payment` SET `payname` = '微信',`app_id` = '1508289451',`active` = '1',`payimage` = '/res/images/pay/weixin.jpg',`app_secret` = 'yOCCIeuEdxfeEsgD'  WHERE `id` = "12" LIMIT 1
+2019-05-26 22:33:24-SELECT * FROM `t_payment` WHERE `active` = "1"
+2019-05-26 22:33:26-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1
+2019-05-26 22:33:29-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:33:33-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:33:33-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "42.239.24.166" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 22:33:33-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "2314@qq.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558800000 and addtime<=1558886399 LIMIT 1
+2019-05-26 22:33:33-SELECT * FROM `t_user` WHERE `email` = "2314@qq.com" LIMIT 1
+2019-05-26 22:33:33-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('zlkb2019052622333347203','0','2314@qq.com','2314','1','测试商品','0.10','1','0.1','1234','42.239.24.166','0','','1558881213')
+2019-05-26 22:33:33-SELECT * FROM `t_order` WHERE addtime>1558794813 AND `orderid` = "zlkb2019052622333347203" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:33:34-SELECT * FROM `t_order` WHERE addtime>1558794814 AND `orderid` = "zlkb2019052622333347203" AND `isdelete` = "0" LIMIT 1
+2019-05-26 22:33:35-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622333347203" AND `isdelete` = "0" AND addtime>=1558794815 LIMIT 1
+2019-05-26 22:33:38-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622333347203" AND `isdelete` = "0" AND addtime>=1558794818 LIMIT 1
+2019-05-26 22:33:41-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019052622333347203" AND `isdelete` = "0" AND addtime>=1558794821 LIMIT 1
+2019-05-26 23:50:24-SELECT * FROM `t_config`
+2019-05-26 23:50:24-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 23:50:25-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 23:50:25-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 23:50:29-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 23:50:29-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-26 23:50:29-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-26 23:50:38-SELECT `id`, `email`, `secret`, `password` FROM `t_admin_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-05-26 23:50:38-INSERT INTO t_admin_login_log (`adminid`,`ip`,`addtime`) VALUES ('1','42.239.24.166','1558885838')
+2019-05-26 23:50:38-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-26 23:50:51-SELECT COUNT(*) AS `total` FROM `t_admin_login_log` WHERE `adminid` = "1" LIMIT 1
+2019-05-26 23:50:51-SELECT * FROM `t_admin_login_log` WHERE `adminid` = "1" ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 23:51:03-SELECT COUNT(*) AS `total` FROM `t_admin_login_log` WHERE `adminid` = "1" LIMIT 1
+2019-05-26 23:51:03-SELECT * FROM `t_admin_login_log` WHERE `adminid` = "1" ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 23:51:04-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-26 23:51:06-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-26 23:51:06-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 23:51:10-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-05-26 23:51:10-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 23:51:11-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-26 23:51:11-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-26 23:51:13-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 23:51:13-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 23:51:13-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 23:51:15-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558800000 AND addtime<=1558886399
+2019-05-26 23:51:15-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558713600 AND addtime<=1558799999
+2019-05-26 23:51:15-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558886400 AND addtime<=1558886399
+2019-05-26 23:51:15-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1556640000 AND addtime<=1559318399
+2019-05-26 23:51:15-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0
+2019-05-26 23:51:16-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-26 23:51:16-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-26 23:51:16-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 23:51:19-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-26 23:51:19-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 23:51:20-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-26 23:51:20-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-26 23:51:36-SELECT * FROM `t_payment` WHERE `id` = "12" LIMIT 1

@@ -1,0 +1,1 @@
+[25-May-2019 11:25:08 Asia/Chongqing] PHP Warning:  Use of undefined constant gd_info - assumed 'gd_info' (this will throw an Error in a future version of PHP) in /www/wwwroot/fk.bouhr.com/application/modules/Install/controllers/Setpone.php on line 29

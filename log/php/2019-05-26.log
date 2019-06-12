@@ -1,0 +1,121 @@
+[26-May-2019 19:11:35 Asia/Chongqing] PHP Warning:  Yaf\Loader::autoload(): Failed opening script /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php: No such file or directory in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[26-May-2019 19:11:35 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Class '\Pay\payjs\payjs' not found in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php:274
+Stack trace:
+#0 [internal function]: OrderController->payajaxAction()
+#1 /www/wwwroot/fk.bouhr.com/public/index.php(11): Yaf\Application->run()
+#2 {main}
+  thrown in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[26-May-2019 19:11:43 Asia/Chongqing] PHP Warning:  Yaf\Loader::autoload(): Failed opening script /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php: No such file or directory in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[26-May-2019 19:11:43 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Class '\Pay\payjs\payjs' not found in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php:274
+Stack trace:
+#0 [internal function]: OrderController->payajaxAction()
+#1 /www/wwwroot/fk.bouhr.com/public/index.php(11): Yaf\Application->run()
+#2 {main}
+  thrown in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[26-May-2019 19:15:01 Asia/Chongqing] PHP Warning:  Yaf\Loader::autoload(): Failed opening script /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php: No such file or directory in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[26-May-2019 19:15:01 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Class '\Pay\payjs\payjs' not found in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php:274
+Stack trace:
+#0 [internal function]: OrderController->payajaxAction()
+#1 /www/wwwroot/fk.bouhr.com/public/index.php(11): Yaf\Application->run()
+#2 {main}
+  thrown in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[26-May-2019 19:15:07 Asia/Chongqing] PHP Warning:  Yaf\Loader::autoload(): Failed opening script /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php: No such file or directory in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[26-May-2019 19:15:07 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Class '\Pay\payjs\payjs' not found in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php:274
+Stack trace:
+#0 [internal function]: OrderController->payajaxAction()
+#1 /www/wwwroot/fk.bouhr.com/public/index.php(11): Yaf\Application->run()
+#2 {main}
+  thrown in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[26-May-2019 19:15:15 Asia/Chongqing] PHP Warning:  Yaf\Loader::autoload(): Failed opening script /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php: No such file or directory in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[26-May-2019 19:15:15 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Class '\Pay\payjs\payjs' not found in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php:274
+Stack trace:
+#0 [internal function]: OrderController->payajaxAction()
+#1 /www/wwwroot/fk.bouhr.com/public/index.php(11): Yaf\Application->run()
+#2 {main}
+  thrown in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[26-May-2019 19:16:16 Asia/Chongqing] PHP Warning:  Yaf\Loader::autoload(): Failed opening script /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php: No such file or directory in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[26-May-2019 19:16:16 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Class '\Pay\payjs\payjs' not found in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php:274
+Stack trace:
+#0 [internal function]: OrderController->payajaxAction()
+#1 /www/wwwroot/fk.bouhr.com/public/index.php(11): Yaf\Application->run()
+#2 {main}
+  thrown in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[26-May-2019 19:16:20 Asia/Chongqing] PHP Warning:  Yaf\Loader::autoload(): Failed opening script /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php: No such file or directory in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[26-May-2019 19:16:20 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Class '\Pay\payjs\payjs' not found in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php:274
+Stack trace:
+#0 [internal function]: OrderController->payajaxAction()
+#1 /www/wwwroot/fk.bouhr.com/public/index.php(11): Yaf\Application->run()
+#2 {main}
+  thrown in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[26-May-2019 19:17:03 Asia/Chongqing] PHP Warning:  Yaf\Loader::autoload(): Failed opening script /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php: No such file or directory in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[26-May-2019 19:17:03 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Class '\Pay\payjs\payjs' not found in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php:274
+Stack trace:
+#0 [internal function]: OrderController->payajaxAction()
+#1 /www/wwwroot/fk.bouhr.com/public/index.php(11): Yaf\Application->run()
+#2 {main}
+  thrown in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[26-May-2019 19:17:41 Asia/Chongqing] PHP Warning:  Illegal string offset 'response' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 39
+[26-May-2019 19:17:41 Asia/Chongqing] PHP Warning:  Illegal string offset 'qr_url' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 39
+[26-May-2019 19:18:27 Asia/Chongqing] PHP Warning:  Illegal string offset 'response' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 39
+[26-May-2019 19:18:27 Asia/Chongqing] PHP Warning:  Illegal string offset 'qr_url' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 39
+[26-May-2019 19:18:42 Asia/Chongqing] PHP Warning:  Illegal string offset 'response' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 39
+[26-May-2019 19:18:42 Asia/Chongqing] PHP Warning:  Illegal string offset 'qr_url' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 39
+[26-May-2019 19:19:22 Asia/Chongqing] PHP Warning:  Illegal string offset 'response' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 39
+[26-May-2019 19:19:22 Asia/Chongqing] PHP Warning:  Illegal string offset 'qr_url' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 39
+[26-May-2019 19:19:39 Asia/Chongqing] PHP Warning:  Illegal string offset 'response' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 39
+[26-May-2019 19:19:39 Asia/Chongqing] PHP Warning:  Illegal string offset 'qr_url' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 39
+[26-May-2019 19:19:45 Asia/Chongqing] PHP Warning:  Illegal string offset 'response' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 39
+[26-May-2019 19:19:45 Asia/Chongqing] PHP Warning:  Illegal string offset 'qr_url' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 39
+[26-May-2019 19:22:23 Asia/Chongqing] PHP Warning:  Illegal string offset 'response' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 39
+[26-May-2019 19:22:23 Asia/Chongqing] PHP Warning:  Illegal string offset 'qr_url' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 39
+[26-May-2019 20:45:59 Asia/Chongqing] PHP Warning:  Illegal string offset 'response' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 39
+[26-May-2019 20:45:59 Asia/Chongqing] PHP Warning:  Illegal string offset 'qr_url' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 39
+[26-May-2019 20:57:10 Asia/Chongqing] PHP Warning:  Illegal string offset 'code_url' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 39
+[26-May-2019 20:57:59 Asia/Chongqing] PHP Warning:  Illegal string offset 'code_url' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 39
+[26-May-2019 20:58:25 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 20:58:30 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 20:59:08 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:00:05 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:00:14 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:00:17 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:00:22 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:01:03 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:01:13 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:01:25 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:01:33 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:01:45 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:01:51 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:02:02 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:02:07 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:02:50 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:03:12 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:07:41 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:08:04 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:08:18 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:08:33 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:10:35 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:11:37 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:11:56 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:12:05 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:13:03 Asia/Chongqing] PHP Warning:  Illegal string offset 'code_url' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 40
+[26-May-2019 21:13:21 Asia/Chongqing] PHP Warning:  Illegal string offset 'code_url' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 40
+[26-May-2019 21:14:01 Asia/Chongqing] PHP Warning:  Illegal string offset 'code_url' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 40
+[26-May-2019 21:15:37 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:15:45 Asia/Chongqing] PHP Warning:  Illegal string offset 'code_url' in /www/wwwroot/fk.bouhr.com/application/library/Pay/payjs/payjs.php on line 36
+[26-May-2019 21:15:45 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:16:37 Asia/Chongqing] PHP Warning:  Invalid argument supplied for foreach() in /www/wwwroot/fk.bouhr.com/application/function/F_String.php on line 66
+[26-May-2019 21:52:48 Asia/Chongqing] PHP Warning:  array_rand(): Array is empty in /www/wwwroot/fk.bouhr.com/application/model/M_Email.php on line 40
+[26-May-2019 21:52:48 Asia/Chongqing] PHP Warning:  fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) in /www/wwwroot/fk.bouhr.com/application/library/Email.php on line 1956
+[26-May-2019 21:52:49 Asia/Chongqing] PHP Warning:  fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) in /www/wwwroot/fk.bouhr.com/application/library/Email.php on line 1956
+[26-May-2019 21:53:31 Asia/Chongqing] PHP Warning:  array_rand(): Array is empty in /www/wwwroot/fk.bouhr.com/application/model/M_Email.php on line 30
+[26-May-2019 21:53:31 Asia/Chongqing] PHP Warning:  array_rand(): Array is empty in /www/wwwroot/fk.bouhr.com/application/model/M_Email.php on line 40
+[26-May-2019 21:53:31 Asia/Chongqing] PHP Warning:  fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) in /www/wwwroot/fk.bouhr.com/application/library/Email.php on line 1956
+[26-May-2019 21:53:32 Asia/Chongqing] PHP Warning:  fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) in /www/wwwroot/fk.bouhr.com/application/library/Email.php on line 1956
+[26-May-2019 22:00:39 Asia/Chongqing] PHP Warning:  array_rand(): Array is empty in /www/wwwroot/fk.bouhr.com/application/model/M_Email.php on line 30
+[26-May-2019 22:00:39 Asia/Chongqing] PHP Warning:  array_rand(): Array is empty in /www/wwwroot/fk.bouhr.com/application/model/M_Email.php on line 40
+[26-May-2019 22:00:39 Asia/Chongqing] PHP Warning:  fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) in /www/wwwroot/fk.bouhr.com/application/library/Email.php on line 1956
+[26-May-2019 22:00:40 Asia/Chongqing] PHP Warning:  fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) in /www/wwwroot/fk.bouhr.com/application/library/Email.php on line 1956
+[26-May-2019 22:06:15 Asia/Chongqing] PHP Warning:  array_rand(): Array is empty in /www/wwwroot/fk.bouhr.com/application/model/M_Email.php on line 30
+[26-May-2019 22:06:15 Asia/Chongqing] PHP Warning:  array_rand(): Array is empty in /www/wwwroot/fk.bouhr.com/application/model/M_Email.php on line 40
+[26-May-2019 22:06:15 Asia/Chongqing] PHP Warning:  fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) in /www/wwwroot/fk.bouhr.com/application/library/Email.php on line 1956
+[26-May-2019 22:06:16 Asia/Chongqing] PHP Warning:  fsockopen(): unable to connect to :0 (Failed to parse address &quot;&quot;) in /www/wwwroot/fk.bouhr.com/application/library/Email.php on line 1956

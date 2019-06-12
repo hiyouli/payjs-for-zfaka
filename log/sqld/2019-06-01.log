@@ -1,0 +1,414 @@
+2019-06-01 00:27:32-SELECT * FROM `t_config`
+2019-06-01 00:27:32-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 00:27:33-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:27:33-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-06-01 00:31:43-SELECT `id`, `email`, `secret`, `password` FROM `t_admin_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-06-01 00:31:43-INSERT INTO t_admin_login_log (`adminid`,`ip`,`addtime`) VALUES ('1','42.230.171.167','1559320303')
+2019-06-01 00:31:43-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-06-01 00:31:54-SELECT COUNT(*) AS `total` FROM `t_admin_login_log` WHERE `adminid` = "1" LIMIT 1
+2019-06-01 00:31:54-SELECT * FROM `t_admin_login_log` WHERE `adminid` = "1" ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:31:57-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:31:57-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:32:00-SELECT COUNT(*) AS `total` FROM `t_email` WHERE `isdelete` = "0" LIMIT 1
+2019-06-01 00:32:00-SELECT * FROM `t_email` WHERE `isdelete` = "0" ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:33:57-SELECT COUNT(*) AS `total` FROM `t_email` WHERE `isdelete` = "0" LIMIT 1
+2019-06-01 00:33:57-SELECT * FROM `t_email` WHERE `isdelete` = "0" ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:33:58-SELECT * FROM `t_email` WHERE `id` = "2" LIMIT 1
+2019-06-01 00:34:41-UPDATE `t_email` SET `mailaddress` = 'i@boupay.com',`mailpassword` = 'a0218541217',`sendmail` = 'i@boupay.com',`sendname` = '发卡',`host` = 'smtp.exmail.qq.com',`port` = '465',`isssl` = '1',`isactive` = '1'  WHERE `id` = "2" LIMIT 1
+2019-06-01 00:34:41-SELECT * FROM `t_email` WHERE `isdelete` = "0"
+2019-06-01 00:34:42-SELECT * FROM `t_email` WHERE `id` = "2" LIMIT 1
+2019-06-01 00:34:44-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-06-01 00:34:47-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 00:34:47-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:34:47-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-06-01 00:34:50-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:34:58-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:34:58-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "42.230.171.167" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1559318400 and addtime<=1559404799 LIMIT 1
+2019-06-01 00:34:58-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "6121661@qq.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1559318400 and addtime<=1559404799 LIMIT 1
+2019-06-01 00:34:58-SELECT * FROM `t_user` WHERE `email` = "6121661@qq.com" LIMIT 1
+2019-06-01 00:34:58-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('zlkb2019060100345882291','0','6121661@qq.com','6121661','5','商品测试','0.01','1','0.01','123456789','42.230.171.167','0','','1559320498')
+2019-06-01 00:34:58-SELECT * FROM `t_order` WHERE addtime>1559234098 AND `orderid` = "zlkb2019060100345882291" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:34:58-SELECT * FROM `t_payment` WHERE `active` = "1"
+2019-06-01 00:34:59-SELECT * FROM `t_order` WHERE addtime>1559234099 AND `orderid` = "zlkb2019060100345882291" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:35:00-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019060100345882291" AND `isdelete` = "0" AND addtime>=1559234100 LIMIT 1
+2019-06-01 00:35:03-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019060100345882291" AND `isdelete` = "0" AND addtime>=1559234103 LIMIT 1
+2019-06-01 00:35:06-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019060100345882291" AND `isdelete` = "0" AND addtime>=1559234106 LIMIT 1
+2019-06-01 00:35:09-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019060100345882291" AND `isdelete` = "0" AND addtime>=1559234109 LIMIT 1
+2019-06-01 00:35:12-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019060100345882291" LIMIT 1
+2019-06-01 00:35:12-UPDATE `t_order` SET `status` = '1',`paytime` = '1559320512',`tradeid` = '2019060100350000711002608',`paymethod` = 'payjswx',`paymoney` = '0.01'  WHERE `orderid` = "zlkb2019060100345882291" AND `status` = "0"
+2019-06-01 00:35:12-SELECT auto,stockcontrol,qty FROM `t_products` WHERE `id` = "5" LIMIT 1
+2019-06-01 00:35:12-SELECT * FROM `t_products_card` WHERE `pid` = "5" AND `active` = "0" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:35:12-UPDATE `t_products_card` SET `active` = '1'  WHERE id in (18) AND `active` = "0"
+2019-06-01 00:35:12-UPDATE `t_products` SET `qty` = `qty` - '1',`qty_virtual` = `qty_virtual` - '1',`qty_sell` = `qty_sell` + '1'  WHERE `id` = "5" AND `stockcontrol` = "1"
+2019-06-01 00:35:12-UPDATE `t_order` SET `status` = '2',`kami` = '商品测试10'  WHERE `orderid` = "zlkb2019060100345882291" AND `status` = "1"
+2019-06-01 00:35:12-INSERT INTO t_email_queue(`email`,`subject`,`content`,`addtime`,`status`) VALUES ('6121661@qq.com','商品购买成功','用户:6121661@qq.com,购买的商品[商品测试],密码是:商品测试10','1559320512','0'),('demo@demo.com','用户购买商品','用户:6121661@qq.com,购买的商品[商品测试],密码发送成功;当前商品库存剩余:210','1559320512','0')
+2019-06-01 00:35:12-UPDATE `t_email_queue` SET `status` = '2',`sendresult` = '失败220smtp.qq.comEsmtpQQMailServerhello:250-smtp.qq.com250-PIPELINING250-SIZE73400320250-AUTHLOGINPLAIN250-AUTH=LOGIN250-MAILCOMPRESS2508BITMIMElang:email_smtp_auth_pwlang:email_send_failure_smtpUser-Agent:CodeIgniterDate:Sat,1Jun201900:35:12+0800From:=?utf-8?Q?=E5=8F=91=E5=8D=A1?=&lt;i@boupay.com&gt;Return-Path:&lt;i@boupay.com&gt;To:6121661@qq.comSubject:=?utf-8?Q?=E5=95=86=E5=93=81=E8=B4=AD=E4=B9=B0=E6=88=90=E5=8A=9F?=Reply-To:&lt;i@boupay.com&gt;X-Sender:i@boupay.comX-Mailer:CodeIgniterX-Priority:3(Normal)Message-ID:&lt;5cf157c049e2d@boupay.com&gt;Mime-Version:1.0Content-Type:multipart/alternative;boundary=&quot;B_ALT_5cf157c049e38&quot;Thisisamulti-partmessageinMIMEformat.Youremailapplicationmaynotsupportthisformat.--B_ALT_5cf157c049e38Content-Type:text/plain;charset=utf-8Content-Transfer-Encoding:8bit用户:6121661@qq.com,购买的商品[商品测试],密码是:商品测试10--B_ALT_5cf157c049e38Content-Type:text/html;charset=utf-8Content-Transfer-Encoding:quoted-printable=E7=94=A8=E6=88=B7:6121661@qq.com,=E8=B4=AD=E4=B9=B0=E7=9A=84=E5=95=86==E5=93=81[=E5=95=86=E5=93=81=E6=B5=8B=E8=AF=95],=E5=AF=86=E7=A0=81=E6=98==AF:=E5=95=86=E5=93=81=E6=B5=8B=E8=AF=9510--B_ALT_5cf157c049e38--'  WHERE `email` = "6121661@qq.com" AND `subject` = "商品购买成功" AND `content` = "用户:6121661@qq.com,购买的商品[商品测试],密码是:商品测试10" AND `addtime` = "1559320512" AND `status` = "0"
+2019-06-01 00:35:12-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019060100345882291" AND `isdelete` = "0" AND addtime>=1559234112 LIMIT 1
+2019-06-01 00:35:13-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019060100345882291" AND `email` = "6121661@qq.com" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:35:12-UPDATE `t_email_queue` SET `status` = '2',`sendresult` = '失败220smtp.qq.comEsmtpQQMailServerhello:250-smtp.qq.com250-PIPELINING250-SIZE73400320250-AUTHLOGINPLAIN250-AUTH=LOGIN250-MAILCOMPRESS2508BITMIMElang:email_smtp_auth_pwlang:email_send_failure_smtpUser-Agent:CodeIgniterDate:Sat,1Jun201900:35:13+0800From:=?utf-8?Q?=E5=8F=91=E5=8D=A1?=&lt;i@boupay.com&gt;Return-Path:&lt;i@boupay.com&gt;To:demo@demo.comSubject:=?utf-8?Q?=E7=94=A8=E6=88=B7=E8=B4=AD=E4=B9=B0=E5=95=86=E5=93=81?=Reply-To:&lt;i@boupay.com&gt;X-Sender:i@boupay.comX-Mailer:CodeIgniterX-Priority:3(Normal)Message-ID:&lt;5cf157c1c2e31@boupay.com&gt;Mime-Version:1.0Content-Type:multipart/alternative;boundary=&quot;B_ALT_5cf157c1c2e3c&quot;Thisisamulti-partmessageinMIMEformat.Youremailapplicationmaynotsupportthisformat.--B_ALT_5cf157c1c2e3cContent-Type:text/plain;charset=utf-8Content-Transfer-Encoding:8bit用户:6121661@qq.com,购买的商品[商品测试],密码发送成功;当前商品库存剩余:210--B_ALT_5cf157c1c2e3cContent-Type:text/html;charset=utf-8Content-Transfer-Encoding:quoted-printable=E7=94=A8=E6=88=B7:6121661@qq.com,=E8=B4=AD=E4=B9=B0=E7=9A=84=E5=95=86==E5=93=81[=E5=95=86=E5=93=81=E6=B5=8B=E8=AF=95],=E5=AF=86=E7=A0=81=E5=8F==91=E9=80=81=E6=88=90=E5=8A=9F;=E5=BD=93=E5=89=8D=E5=95=86=E5=93=81==E5=BA=93=E5=AD=98=E5=89=A9=E4=BD=99:210--B_ALT_5cf157c1c2e3c--'  WHERE `email` = "demo@demo.com" AND `subject` = "用户购买商品" AND `content` = "用户:6121661@qq.com,购买的商品[商品测试],密码发送成功;当前商品库存剩余:210" AND `addtime` = "1559320512" AND `status` = "0"
+2019-06-01 00:35:15-SELECT * FROM `t_order` WHERE `orderid` = "zlkb2019060100345882291" AND `status` = "2" AND addtime>=1556642115 LIMIT 1
+2019-06-01 00:38:29-SELECT * FROM `t_config`
+2019-06-01 00:38:29-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 00:38:29-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:38:29-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-06-01 00:38:45-SELECT * FROM `t_order` WHERE `email` = "6121661@qq.com" AND `chapwd` = "123456789" AND `isdelete` = "0" AND addtime>=1556642325 ORDER BY `id` desc
+2019-06-01 00:38:50-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 00:38:51-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:38:51-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-06-01 00:38:51-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 00:38:51-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:38:51-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-06-01 00:44:59-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-06-01 00:45:04-SELECT COUNT(*) AS `total` FROM `t_admin_login_log` WHERE `adminid` = "1" LIMIT 1
+2019-06-01 00:45:04-SELECT * FROM `t_admin_login_log` WHERE `adminid` = "1" ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:45:05-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:45:05-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:45:11-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:45:11-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,90
+2019-06-01 00:45:20-SELECT * FROM `t_config` WHERE `id` = "1" LIMIT 1
+2019-06-01 00:45:24-UPDATE `t_config` SET `name` = 'registerswitch',`value` = '1',`tag` = '是否开放注册功能,1是开放,0是关闭'  WHERE `id` = "1" LIMIT 1
+2019-06-01 00:45:24-SELECT * FROM `t_config`
+2019-06-01 00:45:25-SELECT * FROM `t_config` WHERE `id` = "1" LIMIT 1
+2019-06-01 00:45:27-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:45:27-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:45:31-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:45:31-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,90
+2019-06-01 00:45:34-SELECT * FROM `t_config` WHERE `id` = "4" LIMIT 1
+2019-06-01 00:45:36-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:45:36-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:45:41-SELECT * FROM `t_config` WHERE `id` = "23" LIMIT 1
+2019-06-01 00:45:44-UPDATE `t_config` SET `name` = 'adminyzmswitch',`value` = '0',`tag` = '后台登录验证码开关'  WHERE `id` = "23" LIMIT 1
+2019-06-01 00:45:44-SELECT * FROM `t_config`
+2019-06-01 00:45:45-SELECT * FROM `t_config` WHERE `id` = "23" LIMIT 1
+2019-06-01 00:45:47-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:45:47-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:45:50-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:45:50-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,90
+2019-06-01 00:46:08-SELECT * FROM `t_config` WHERE `id` = "6" LIMIT 1
+2019-06-01 00:46:20-UPDATE `t_config` SET `name` = 'webname',`value` = '测试发卡',`tag` = '当前站点名称'  WHERE `id` = "6" LIMIT 1
+2019-06-01 00:46:20-SELECT * FROM `t_config`
+2019-06-01 00:46:22-SELECT * FROM `t_config` WHERE `id` = "6" LIMIT 1
+2019-06-01 00:46:26-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:46:26-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:46:31-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:46:31-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,90
+2019-06-01 00:46:35-SELECT * FROM `t_config` WHERE `id` = "7" LIMIT 1
+2019-06-01 00:46:53-UPDATE `t_config` SET `name` = 'webdescription',`value` = '站点描述',`tag` = '当前站点描述'  WHERE `id` = "7" LIMIT 1
+2019-06-01 00:46:53-SELECT * FROM `t_config`
+2019-06-01 00:46:55-SELECT * FROM `t_config` WHERE `id` = "7" LIMIT 1
+2019-06-01 00:46:56-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:46:56-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:46:58-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:46:58-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,90
+2019-06-01 00:47:04-SELECT * FROM `t_config` WHERE `id` = "8" LIMIT 1
+2019-06-01 00:47:46-UPDATE `t_config` SET `name` = 'notice',`value` = '这里是首页公告，本系统基于ZFAKA二次开发，删除一些不好用的支付方式，对接PAYJS个人支付接口。',`tag` = '首页公告'  WHERE `id` = "8" LIMIT 1
+2019-06-01 00:47:46-SELECT * FROM `t_config`
+2019-06-01 00:47:48-SELECT * FROM `t_config` WHERE `id` = "8" LIMIT 1
+2019-06-01 00:47:50-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:47:50-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:47:52-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:47:52-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,90
+2019-06-01 00:47:59-SELECT * FROM `t_config` WHERE `id` = "9" LIMIT 1
+2019-06-01 00:48:02-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:48:02-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:48:03-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:48:03-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,90
+2019-06-01 00:48:17-SELECT * FROM `t_config` WHERE `id` = "11" LIMIT 1
+2019-06-01 00:48:20-UPDATE `t_config` SET `name` = 'orderinputtype',`value` = '1',`tag` = '订单必填输入框选择: 1邮箱 2QQ'  WHERE `id` = "11" LIMIT 1
+2019-06-01 00:48:20-SELECT * FROM `t_config`
+2019-06-01 00:48:21-SELECT * FROM `t_config` WHERE `id` = "11" LIMIT 1
+2019-06-01 00:51:32-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:51:32-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:51:35-SELECT * FROM `t_config` WHERE `id` = "30" LIMIT 1
+2019-06-01 00:51:38-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:51:38-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:51:40-SELECT * FROM `t_config` WHERE `id` = "31" LIMIT 1
+2019-06-01 00:55:06-SELECT COUNT(*) AS `total` FROM `t_email` WHERE `isdelete` = "0" LIMIT 1
+2019-06-01 00:55:06-SELECT * FROM `t_email` WHERE `isdelete` = "0" ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:55:07-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-06-01 00:55:07-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:55:09-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:55:09-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:55:14-SELECT * FROM `t_config` WHERE `id` = "32" LIMIT 1
+2019-06-01 00:55:17-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:55:17-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:55:26-SELECT * FROM `t_config` WHERE `id` = "33" LIMIT 1
+2019-06-01 00:55:31-UPDATE `t_config` SET `name` = 'tpl',`value` = 'hibiscus',`tag` = '全新的整站模版'  WHERE `id` = "33" LIMIT 1
+2019-06-01 00:55:31-SELECT * FROM `t_config`
+2019-06-01 00:55:33-SELECT * FROM `t_config` WHERE `id` = "33" LIMIT 1
+2019-06-01 00:55:36-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 00:55:36-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:55:36-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,8
+2019-06-01 00:55:38-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:55:50-SELECT * FROM `t_config` WHERE `id` = "33" LIMIT 1
+2019-06-01 00:55:52-UPDATE `t_config` SET `name` = 'tpl',`value` = 'hyacinth',`tag` = '全新的整站模版'  WHERE `id` = "33" LIMIT 1
+2019-06-01 00:55:52-SELECT * FROM `t_config`
+2019-06-01 00:55:53-SELECT * FROM `t_config` WHERE `id` = "33" LIMIT 1
+2019-06-01 00:55:55-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 00:55:55-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:55:55-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-06-01 00:55:59-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:55:59-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:56:01-SELECT * FROM `t_config` WHERE `id` = "32" LIMIT 1
+2019-06-01 00:56:02-SELECT * FROM `t_config` WHERE `id` = "32" LIMIT 1
+2019-06-01 00:56:03-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:56:03-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:56:06-SELECT * FROM `t_config` WHERE `id` = "28" LIMIT 1
+2019-06-01 00:56:13-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:56:13-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:56:15-SELECT * FROM `t_config` WHERE `id` = "27" LIMIT 1
+2019-06-01 00:56:44-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:56:44-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:56:47-SELECT * FROM `t_config` WHERE `id` = "26" LIMIT 1
+2019-06-01 00:56:49-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:56:49-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:56:51-SELECT * FROM `t_config` WHERE `id` = "25" LIMIT 1
+2019-06-01 00:56:53-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:56:53-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:56:55-SELECT * FROM `t_config` WHERE `id` = "24" LIMIT 1
+2019-06-01 00:56:59-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:56:59-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:57:05-SELECT * FROM `t_config` WHERE `id` = "23" LIMIT 1
+2019-06-01 00:57:06-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:57:06-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:57:08-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:57:08-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 10,10
+2019-06-01 00:57:13-SELECT * FROM `t_config` WHERE `id` = "21" LIMIT 1
+2019-06-01 00:57:15-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:57:15-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:57:17-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 00:57:17-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,80
+2019-06-01 00:57:29-SELECT * FROM `t_config` WHERE `id` = "16" LIMIT 1
+2019-06-01 00:57:37-UPDATE `t_config` SET `name` = 'orderprefix',`value` = 'faka',`tag` = '订单前缀，只能是英文和数字,且长度不要超过5个字符串建议不要超过5个字符串'  WHERE `id` = "16" LIMIT 1
+2019-06-01 00:57:37-SELECT * FROM `t_config`
+2019-06-01 00:57:38-SELECT * FROM `t_config` WHERE `id` = "16" LIMIT 1
+2019-06-01 00:57:50-SELECT * FROM `t_config` WHERE `id` = "13" LIMIT 1
+2019-06-01 00:58:11-SELECT * FROM `t_config` WHERE `id` = "1" LIMIT 1
+2019-06-01 00:58:13-UPDATE `t_config` SET `name` = 'registerswitch',`value` = '1',`tag` = '是否开放注册功能,1是开放,0是关闭'  WHERE `id` = "1" LIMIT 1
+2019-06-01 00:58:15-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 00:58:16-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:58:16-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-06-01 00:58:43-SELECT `id` FROM `t_user` WHERE `email` = "youli@outlook.com" LIMIT 1
+2019-06-01 00:58:43-INSERT INTO t_user (`email`,`nickname`,`createtime`,`password`,`qq`,`tag`,`groupid`,`integral`,`money`) VALUES ('youli@outlook.com','荀彧','1559321923','e10adc3949ba59abbe56e057f20f883e','','','1','0','0')
+2019-06-01 00:58:43-SELECT * FROM `t_user_group`
+2019-06-01 00:58:47-SELECT nickname,email,qq,tag,createtime FROM `t_user` WHERE `id` = "2" LIMIT 1
+2019-06-01 00:58:50-UPDATE `t_order` SET `userid` = '2'  WHERE `userid` = "0" AND `email` = "youli@outlook.com"
+2019-06-01 00:58:50-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `userid` = "2" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:58:51-SELECT COUNT(*) AS `total` FROM `t_user_login_logs` WHERE `userid` = "2" LIMIT 1
+2019-06-01 00:58:53-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 00:58:54-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:58:54-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-06-01 00:58:56-SELECT COUNT(*) AS `total` FROM `t_help` WHERE `isactive` = "1" LIMIT 1
+2019-06-01 00:58:56-SELECT * FROM `t_help` WHERE `isactive` = "1" ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:59:06-SELECT COUNT(*) AS `total` FROM `t_help` WHERE `isactive` = "1" LIMIT 1
+2019-06-01 00:59:06-SELECT * FROM `t_help` WHERE `isactive` = "1" ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:59:11-SELECT COUNT(*) AS `total` FROM `t_help` WHERE `isactive` = "1" LIMIT 1
+2019-06-01 00:59:11-SELECT * FROM `t_help` WHERE `isactive` = "1" ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:59:13-SELECT COUNT(*) AS `total` FROM `t_help` WHERE `isactive` = "1" LIMIT 1
+2019-06-01 00:59:13-SELECT * FROM `t_help` WHERE `isactive` = "1" ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:59:14-SELECT COUNT(*) AS `total` FROM `t_ticket` WHERE `userid` = "2" LIMIT 1
+2019-06-01 00:59:21-SELECT COUNT(*) AS `total` FROM `t_help` WHERE `isactive` = "1" LIMIT 1
+2019-06-01 00:59:21-SELECT * FROM `t_help` WHERE `isactive` = "1" ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:59:21-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 00:59:22-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:59:22-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-06-01 00:59:23-SELECT COUNT(*) AS `total` FROM `t_help` WHERE `isactive` = "1" LIMIT 1
+2019-06-01 00:59:23-SELECT * FROM `t_help` WHERE `isactive` = "1" ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 00:59:24-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 00:59:24-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:59:24-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-06-01 00:59:32-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:59:38-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:59:38-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "42.230.171.167" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1559318400 and addtime<=1559404799 LIMIT 1
+2019-06-01 00:59:38-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "youli@outlook.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1559318400 and addtime<=1559404799 LIMIT 1
+2019-06-01 00:59:38-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('faka2019060100593849058','2','youli@outlook.com','','5','商品测试','0.01','1','0.01','123456','42.230.171.167','0','','1559321978')
+2019-06-01 00:59:39-SELECT * FROM `t_order` WHERE addtime>1559235579 AND `orderid` = "faka2019060100593849058" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:59:39-SELECT * FROM `t_payment` WHERE `active` = "1"
+2019-06-01 00:59:41-SELECT * FROM `t_order` WHERE addtime>1559235582 AND `orderid` = "faka2019060100593849058" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:59:42-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060100593849058" AND `isdelete` = "0" AND addtime>=1559235582 LIMIT 1
+2019-06-01 00:59:45-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060100593849058" AND `isdelete` = "0" AND addtime>=1559235585 LIMIT 1
+2019-06-01 00:59:48-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060100593849058" AND `isdelete` = "0" AND addtime>=1559235588 LIMIT 1
+2019-06-01 00:59:51-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060100593849058" LIMIT 1
+2019-06-01 00:59:51-UPDATE `t_order` SET `status` = '1',`paytime` = '1559321991',`tradeid` = '2019060100594200139088134',`paymethod` = 'payjswx',`paymoney` = '0.01'  WHERE `orderid` = "faka2019060100593849058" AND `status` = "0"
+2019-06-01 00:59:51-SELECT auto,stockcontrol,qty FROM `t_products` WHERE `id` = "5" LIMIT 1
+2019-06-01 00:59:51-SELECT * FROM `t_products_card` WHERE `pid` = "5" AND `active` = "0" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:59:51-UPDATE `t_products_card` SET `active` = '1'  WHERE id in (19) AND `active` = "0"
+2019-06-01 00:59:51-UPDATE `t_products` SET `qty` = `qty` - '1',`qty_virtual` = `qty_virtual` - '1',`qty_sell` = `qty_sell` + '1'  WHERE `id` = "5" AND `stockcontrol` = "1"
+2019-06-01 00:59:51-UPDATE `t_order` SET `status` = '2',`kami` = '商品测试11'  WHERE `orderid` = "faka2019060100593849058" AND `status` = "1"
+2019-06-01 00:59:51-INSERT INTO t_email_queue(`email`,`subject`,`content`,`addtime`,`status`) VALUES ('youli@outlook.com','商品购买成功','用户:youli@outlook.com,购买的商品[商品测试],密码是:商品测试11','1559321991','0'),('demo@demo.com','用户购买商品','用户:youli@outlook.com,购买的商品[商品测试],密码发送成功;当前商品库存剩余:209','1559321991','0')
+2019-06-01 00:59:51-SELECT * FROM `t_email` WHERE `isdelete` = "0"
+2019-06-01 00:59:51-UPDATE `t_email_queue` SET `status` = '2',`sendresult` = '失败220smtp.qq.comEsmtpQQMailServerhello:250-smtp.qq.com250-PIPELINING250-SIZE73400320250-AUTHLOGINPLAIN250-AUTH=LOGIN250-MAILCOMPRESS2508BITMIMElang:email_smtp_auth_pwlang:email_send_failure_smtpUser-Agent:CodeIgniterDate:Sat,1Jun201900:59:51+0800From:=?utf-8?Q?=E5=8F=91=E5=8D=A1?=&lt;i@boupay.com&gt;Return-Path:&lt;i@boupay.com&gt;To:youli@outlook.comSubject:=?utf-8?Q?=E5=95=86=E5=93=81=E8=B4=AD=E4=B9=B0=E6=88=90=E5=8A=9F?=Reply-To:&lt;i@boupay.com&gt;X-Sender:i@boupay.comX-Mailer:CodeIgniterX-Priority:3(Normal)Message-ID:&lt;5cf15d870d2e6@boupay.com&gt;Mime-Version:1.0Content-Type:multipart/alternative;boundary=&quot;B_ALT_5cf15d870d2f1&quot;Thisisamulti-partmessageinMIMEformat.Youremailapplicationmaynotsupportthisformat.--B_ALT_5cf15d870d2f1Content-Type:text/plain;charset=utf-8Content-Transfer-Encoding:8bit用户:youli@outlook.com,购买的商品[商品测试],密码是:商品测试11--B_ALT_5cf15d870d2f1Content-Type:text/html;charset=utf-8Content-Transfer-Encoding:quoted-printable=E7=94=A8=E6=88=B7:youli@outlook.com,=E8=B4=AD=E4=B9=B0=E7=9A=84=E5=95==86=E5=93=81[=E5=95=86=E5=93=81=E6=B5=8B=E8=AF=95],=E5=AF=86=E7=A0=81==E6=98=AF:=E5=95=86=E5=93=81=E6=B5=8B=E8=AF=9511--B_ALT_5cf15d870d2f1--'  WHERE `email` = "youli@outlook.com" AND `subject` = "商品购买成功" AND `content` = "用户:youli@outlook.com,购买的商品[商品测试],密码是:商品测试11" AND `addtime` = "1559321991" AND `status` = "0"
+2019-06-01 00:59:51-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060100593849058" AND `isdelete` = "0" AND addtime>=1559235591 LIMIT 1
+2019-06-01 00:59:52-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060100593849058" AND `email` = "youli@outlook.com" AND `isdelete` = "0" LIMIT 1
+2019-06-01 00:59:51-UPDATE `t_email_queue` SET `status` = '2',`sendresult` = '失败220smtp.qq.comEsmtpQQMailServerhello:250-smtp.qq.com250-PIPELINING250-SIZE73400320250-AUTHLOGINPLAIN250-AUTH=LOGIN250-MAILCOMPRESS2508BITMIMElang:email_smtp_auth_pwlang:email_send_failure_smtpUser-Agent:CodeIgniterDate:Sat,1Jun201900:59:52+0800From:=?utf-8?Q?=E5=8F=91=E5=8D=A1?=&lt;i@boupay.com&gt;Return-Path:&lt;i@boupay.com&gt;To:demo@demo.comSubject:=?utf-8?Q?=E7=94=A8=E6=88=B7=E8=B4=AD=E4=B9=B0=E5=95=86=E5=93=81?=Reply-To:&lt;i@boupay.com&gt;X-Sender:i@boupay.comX-Mailer:CodeIgniterX-Priority:3(Normal)Message-ID:&lt;5cf15d886d968@boupay.com&gt;Mime-Version:1.0Content-Type:multipart/alternative;boundary=&quot;B_ALT_5cf15d886d973&quot;Thisisamulti-partmessageinMIMEformat.Youremailapplicationmaynotsupportthisformat.--B_ALT_5cf15d886d973Content-Type:text/plain;charset=utf-8Content-Transfer-Encoding:8bit用户:youli@outlook.com,购买的商品[商品测试],密码发送成功;当前商品库存剩余:209--B_ALT_5cf15d886d973Content-Type:text/html;charset=utf-8Content-Transfer-Encoding:quoted-printable=E7=94=A8=E6=88=B7:youli@outlook.com,=E8=B4=AD=E4=B9=B0=E7=9A=84=E5=95==86=E5=93=81[=E5=95=86=E5=93=81=E6=B5=8B=E8=AF=95],=E5=AF=86=E7=A0=81==E5=8F=91=E9=80=81=E6=88=90=E5=8A=9F;=E5=BD=93=E5=89=8D=E5=95=86=E5=93==81=E5=BA=93=E5=AD=98=E5=89=A9=E4=BD=99:209--B_ALT_5cf15d886d973--'  WHERE `email` = "demo@demo.com" AND `subject` = "用户购买商品" AND `content` = "用户:youli@outlook.com,购买的商品[商品测试],密码发送成功;当前商品库存剩余:209" AND `addtime` = "1559321991" AND `status` = "0"
+2019-06-01 01:00:53-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 01:00:54-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:00:54-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-06-01 01:00:57-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 01:00:57-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:00:57-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-06-01 01:01:02-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:01:13-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:01:13-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "42.230.171.167" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1559318400 and addtime<=1559404799 LIMIT 1
+2019-06-01 01:01:13-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "youli@outlook.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1559318400 and addtime<=1559404799 LIMIT 1
+2019-06-01 01:01:13-SELECT * FROM `t_user` WHERE `email` = "youli@outlook.com" LIMIT 1
+2019-06-01 01:01:13-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('faka2019060101011331043','2','youli@outlook.com','','5','商品测试','0.01','1','0.01','147258','42.230.171.167','0','','1559322073')
+2019-06-01 01:01:13-SELECT * FROM `t_order` WHERE addtime>1559235673 AND `orderid` = "faka2019060101011331043" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:01:16-SELECT * FROM `t_order` WHERE addtime>1559235676 AND `orderid` = "faka2019060101011331043" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:01:17-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101011331043" AND `isdelete` = "0" AND addtime>=1559235677 LIMIT 1
+2019-06-01 01:01:20-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101011331043" AND `isdelete` = "0" AND addtime>=1559235680 LIMIT 1
+2019-06-01 01:01:23-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101011331043" AND `isdelete` = "0" AND addtime>=1559235683 LIMIT 1
+2019-06-01 01:01:26-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101011331043" AND `isdelete` = "0" AND addtime>=1559235686 LIMIT 1
+2019-06-01 01:01:28-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101011331043" LIMIT 1
+2019-06-01 01:01:28-UPDATE `t_order` SET `status` = '1',`paytime` = '1559322088',`tradeid` = '2019060101011600248414413',`paymethod` = 'payjswx',`paymoney` = '0.01'  WHERE `orderid` = "faka2019060101011331043" AND `status` = "0"
+2019-06-01 01:01:28-SELECT auto,stockcontrol,qty FROM `t_products` WHERE `id` = "5" LIMIT 1
+2019-06-01 01:01:28-SELECT * FROM `t_products_card` WHERE `pid` = "5" AND `active` = "0" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:01:28-UPDATE `t_products_card` SET `active` = '1'  WHERE id in (20) AND `active` = "0"
+2019-06-01 01:01:28-UPDATE `t_products` SET `qty` = `qty` - '1',`qty_virtual` = `qty_virtual` - '1',`qty_sell` = `qty_sell` + '1'  WHERE `id` = "5" AND `stockcontrol` = "1"
+2019-06-01 01:01:28-UPDATE `t_order` SET `status` = '2',`kami` = '商品测试12'  WHERE `orderid` = "faka2019060101011331043" AND `status` = "1"
+2019-06-01 01:01:28-INSERT INTO t_email_queue(`email`,`subject`,`content`,`addtime`,`status`) VALUES ('youli@outlook.com','商品购买成功','用户:youli@outlook.com,购买的商品[商品测试],密码是:商品测试12','1559322088','0'),('demo@demo.com','用户购买商品','用户:youli@outlook.com,购买的商品[商品测试],密码发送成功;当前商品库存剩余:208','1559322088','0')
+2019-06-01 01:01:28-UPDATE `t_email_queue` SET `status` = '2',`sendresult` = '失败220smtp.qq.comEsmtpQQMailServerhello:250-smtp.qq.com250-PIPELINING250-SIZE73400320250-AUTHLOGINPLAIN250-AUTH=LOGIN250-MAILCOMPRESS2508BITMIMElang:email_smtp_auth_pwlang:email_send_failure_smtpUser-Agent:CodeIgniterDate:Sat,1Jun201901:01:28+0800From:=?utf-8?Q?=E5=8F=91=E5=8D=A1?=&lt;i@boupay.com&gt;Return-Path:&lt;i@boupay.com&gt;To:youli@outlook.comSubject:=?utf-8?Q?=E5=95=86=E5=93=81=E8=B4=AD=E4=B9=B0=E6=88=90=E5=8A=9F?=Reply-To:&lt;i@boupay.com&gt;X-Sender:i@boupay.comX-Mailer:CodeIgniterX-Priority:3(Normal)Message-ID:&lt;5cf15de8c20e0@boupay.com&gt;Mime-Version:1.0Content-Type:multipart/alternative;boundary=&quot;B_ALT_5cf15de8c20eb&quot;Thisisamulti-partmessageinMIMEformat.Youremailapplicationmaynotsupportthisformat.--B_ALT_5cf15de8c20ebContent-Type:text/plain;charset=utf-8Content-Transfer-Encoding:8bit用户:youli@outlook.com,购买的商品[商品测试],密码是:商品测试12--B_ALT_5cf15de8c20ebContent-Type:text/html;charset=utf-8Content-Transfer-Encoding:quoted-printable=E7=94=A8=E6=88=B7:youli@outlook.com,=E8=B4=AD=E4=B9=B0=E7=9A=84=E5=95==86=E5=93=81[=E5=95=86=E5=93=81=E6=B5=8B=E8=AF=95],=E5=AF=86=E7=A0=81==E6=98=AF:=E5=95=86=E5=93=81=E6=B5=8B=E8=AF=9512--B_ALT_5cf15de8c20eb--'  WHERE `email` = "youli@outlook.com" AND `subject` = "商品购买成功" AND `content` = "用户:youli@outlook.com,购买的商品[商品测试],密码是:商品测试12" AND `addtime` = "1559322088" AND `status` = "0"
+2019-06-01 01:01:29-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101011331043" AND `isdelete` = "0" AND addtime>=1559235689 LIMIT 1
+2019-06-01 01:01:29-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101011331043" AND `email` = "youli@outlook.com" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:01:28-UPDATE `t_email_queue` SET `status` = '2',`sendresult` = '失败220smtp.qq.comEsmtpQQMailServerhello:250-smtp.qq.com250-PIPELINING250-SIZE73400320250-AUTHLOGINPLAIN250-AUTH=LOGIN250-MAILCOMPRESS2508BITMIMElang:email_smtp_auth_pwlang:email_send_failure_smtpUser-Agent:CodeIgniterDate:Sat,1Jun201901:01:30+0800From:=?utf-8?Q?=E5=8F=91=E5=8D=A1?=&lt;i@boupay.com&gt;Return-Path:&lt;i@boupay.com&gt;To:demo@demo.comSubject:=?utf-8?Q?=E7=94=A8=E6=88=B7=E8=B4=AD=E4=B9=B0=E5=95=86=E5=93=81?=Reply-To:&lt;i@boupay.com&gt;X-Sender:i@boupay.comX-Mailer:CodeIgniterX-Priority:3(Normal)Message-ID:&lt;5cf15dea1d926@boupay.com&gt;Mime-Version:1.0Content-Type:multipart/alternative;boundary=&quot;B_ALT_5cf15dea1d930&quot;Thisisamulti-partmessageinMIMEformat.Youremailapplicationmaynotsupportthisformat.--B_ALT_5cf15dea1d930Content-Type:text/plain;charset=utf-8Content-Transfer-Encoding:8bit用户:youli@outlook.com,购买的商品[商品测试],密码发送成功;当前商品库存剩余:208--B_ALT_5cf15dea1d930Content-Type:text/html;charset=utf-8Content-Transfer-Encoding:quoted-printable=E7=94=A8=E6=88=B7:youli@outlook.com,=E8=B4=AD=E4=B9=B0=E7=9A=84=E5=95==86=E5=93=81[=E5=95=86=E5=93=81=E6=B5=8B=E8=AF=95],=E5=AF=86=E7=A0=81==E5=8F=91=E9=80=81=E6=88=90=E5=8A=9F;=E5=BD=93=E5=89=8D=E5=95=86=E5=93==81=E5=BA=93=E5=AD=98=E5=89=A9=E4=BD=99:208--B_ALT_5cf15dea1d930--'  WHERE `email` = "demo@demo.com" AND `subject` = "用户购买商品" AND `content` = "用户:youli@outlook.com,购买的商品[商品测试],密码发送成功;当前商品库存剩余:208" AND `addtime` = "1559322088" AND `status` = "0"
+2019-06-01 01:01:55-SELECT COUNT(*) AS `total` FROM `t_email` WHERE `isdelete` = "0" LIMIT 1
+2019-06-01 01:01:55-SELECT * FROM `t_email` WHERE `isdelete` = "0" ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 01:01:58-SELECT * FROM `t_email` WHERE `id` = "2" LIMIT 1
+2019-06-01 01:02:53-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-06-01 01:02:53-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 01:02:59-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-06-01 01:02:59-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-06-01 01:03:00-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 01:03:01-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-06-01 01:03:01-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 01:03:02-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1559318400 AND addtime<=1559404799
+2019-06-01 01:03:02-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1559232000 AND addtime<=1559318399
+2019-06-01 01:03:02-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558886400 AND addtime<=1559404799
+2019-06-01 01:03:02-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1559318400 AND addtime<=1561910399
+2019-06-01 01:03:02-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0
+2019-06-01 01:03:03-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 01:03:03-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-06-01 01:03:03-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 01:03:10-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-06-01 01:03:35-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 01:03:35-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 01:03:42-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-06-01 01:03:42-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 01:03:43-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-06-01 01:03:43-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-06-01 01:03:54-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 01:03:54-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-06-01 01:03:54-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 01:03:55-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1559318400 AND addtime<=1559404799
+2019-06-01 01:03:55-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1559232000 AND addtime<=1559318399
+2019-06-01 01:03:55-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558886400 AND addtime<=1559404799
+2019-06-01 01:03:55-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1559318400 AND addtime<=1561910399
+2019-06-01 01:03:55-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0
+2019-06-01 01:03:56-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 01:03:56-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-06-01 01:03:56-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 01:03:57-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1559318400 AND addtime<=1559404799
+2019-06-01 01:03:57-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1559232000 AND addtime<=1559318399
+2019-06-01 01:03:57-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558886400 AND addtime<=1559404799
+2019-06-01 01:03:57-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1559318400 AND addtime<=1561910399
+2019-06-01 01:03:57-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0
+2019-06-01 01:03:57-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 01:03:58-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-06-01 01:03:58-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 01:03:58-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-06-01 01:03:58-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 01:03:58-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-06-01 01:03:58-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 01:03:59-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-06-01 01:03:59-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-06-01 01:04:00-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-06-01 01:04:00-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 01:04:00-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-06-01 01:04:06-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 01:04:07-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:04:07-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-06-01 01:04:09-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:04:15-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:04:15-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "42.230.171.167" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1559318400 and addtime<=1559404799 LIMIT 1
+2019-06-01 01:04:15-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "zzyage@gmail.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1559318400 and addtime<=1559404799 LIMIT 1
+2019-06-01 01:04:15-SELECT * FROM `t_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-06-01 01:04:15-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('faka2019060101041546780','0','zzyage@gmail.com','','5','商品测试','0.01','1','0.01','123456','42.230.171.167','0','','1559322255')
+2019-06-01 01:04:15-SELECT * FROM `t_order` WHERE addtime>1559235855 AND `orderid` = "faka2019060101041546780" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:04:17-SELECT * FROM `t_order` WHERE addtime>1559235857 AND `orderid` = "faka2019060101041546780" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:04:17-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101041546780" AND `isdelete` = "0" AND addtime>=1559235857 LIMIT 1
+2019-06-01 01:04:20-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101041546780" AND `isdelete` = "0" AND addtime>=1559235860 LIMIT 1
+2019-06-01 01:04:24-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101041546780" AND `isdelete` = "0" AND addtime>=1559235864 LIMIT 1
+2019-06-01 01:04:27-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101041546780" AND `isdelete` = "0" AND addtime>=1559235867 LIMIT 1
+2019-06-01 01:04:30-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101041546780" AND `isdelete` = "0" AND addtime>=1559235870 LIMIT 1
+2019-06-01 01:04:30-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101041546780" LIMIT 1
+2019-06-01 01:04:30-UPDATE `t_order` SET `status` = '1',`paytime` = '1559322270',`tradeid` = '2019060101041700778801770',`paymethod` = 'payjswx',`paymoney` = '0.01'  WHERE `orderid` = "faka2019060101041546780" AND `status` = "0"
+2019-06-01 01:04:30-SELECT auto,stockcontrol,qty FROM `t_products` WHERE `id` = "5" LIMIT 1
+2019-06-01 01:04:30-SELECT * FROM `t_products_card` WHERE `pid` = "5" AND `active` = "0" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:04:30-UPDATE `t_products_card` SET `active` = '1'  WHERE id in (21) AND `active` = "0"
+2019-06-01 01:04:30-UPDATE `t_products` SET `qty` = `qty` - '1',`qty_virtual` = `qty_virtual` - '1',`qty_sell` = `qty_sell` + '1'  WHERE `id` = "5" AND `stockcontrol` = "1"
+2019-06-01 01:04:30-UPDATE `t_order` SET `status` = '2',`kami` = '商品测试13'  WHERE `orderid` = "faka2019060101041546780" AND `status` = "1"
+2019-06-01 01:04:30-INSERT INTO t_email_queue(`email`,`subject`,`content`,`addtime`,`status`) VALUES ('zzyage@gmail.com','商品购买成功','用户:zzyage@gmail.com,购买的商品[商品测试],密码是:商品测试13','1559322270','0'),('demo@demo.com','用户购买商品','用户:zzyage@gmail.com,购买的商品[商品测试],密码发送成功;当前商品库存剩余:207','1559322270','0')
+2019-06-01 01:04:30-UPDATE `t_email_queue` SET `status` = '2',`sendresult` = '失败220smtp.qq.comEsmtpQQMailServerhello:250-smtp.qq.com250-PIPELINING250-SIZE73400320250-AUTHLOGINPLAIN250-AUTH=LOGIN250-MAILCOMPRESS2508BITMIMElang:email_smtp_auth_pwlang:email_send_failure_smtpUser-Agent:CodeIgniterDate:Sat,1Jun201901:04:30+0800From:=?utf-8?Q?=E5=8F=91=E5=8D=A1?=&lt;i@boupay.com&gt;Return-Path:&lt;i@boupay.com&gt;To:zzyage@gmail.comSubject:=?utf-8?Q?=E5=95=86=E5=93=81=E8=B4=AD=E4=B9=B0=E6=88=90=E5=8A=9F?=Reply-To:&lt;i@boupay.com&gt;X-Sender:i@boupay.comX-Mailer:CodeIgniterX-Priority:3(Normal)Message-ID:&lt;5cf15e9eaf94e@boupay.com&gt;Mime-Version:1.0Content-Type:multipart/alternative;boundary=&quot;B_ALT_5cf15e9eaf959&quot;Thisisamulti-partmessageinMIMEformat.Youremailapplicationmaynotsupportthisformat.--B_ALT_5cf15e9eaf959Content-Type:text/plain;charset=utf-8Content-Transfer-Encoding:8bit用户:zzyage@gmail.com,购买的商品[商品测试],密码是:商品测试13--B_ALT_5cf15e9eaf959Content-Type:text/html;charset=utf-8Content-Transfer-Encoding:quoted-printable=E7=94=A8=E6=88=B7:zzyage@gmail.com,=E8=B4=AD=E4=B9=B0=E7=9A=84=E5=95=86==E5=93=81[=E5=95=86=E5=93=81=E6=B5=8B=E8=AF=95],=E5=AF=86=E7=A0=81=E6=98==AF:=E5=95=86=E5=93=81=E6=B5=8B=E8=AF=9513--B_ALT_5cf15e9eaf959--'  WHERE `email` = "zzyage@gmail.com" AND `subject` = "商品购买成功" AND `content` = "用户:zzyage@gmail.com,购买的商品[商品测试],密码是:商品测试13" AND `addtime` = "1559322270" AND `status` = "0"
+2019-06-01 01:04:30-UPDATE `t_email_queue` SET `status` = '2',`sendresult` = '失败220smtp.qq.comEsmtpQQMailServerhello:250-smtp.qq.com250-PIPELINING250-SIZE73400320250-AUTHLOGINPLAIN250-AUTH=LOGIN250-MAILCOMPRESS2508BITMIMElang:email_smtp_auth_pwlang:email_send_failure_smtpUser-Agent:CodeIgniterDate:Sat,1Jun201901:04:32+0800From:=?utf-8?Q?=E5=8F=91=E5=8D=A1?=&lt;i@boupay.com&gt;Return-Path:&lt;i@boupay.com&gt;To:demo@demo.comSubject:=?utf-8?Q?=E7=94=A8=E6=88=B7=E8=B4=AD=E4=B9=B0=E5=95=86=E5=93=81?=Reply-To:&lt;i@boupay.com&gt;X-Sender:i@boupay.comX-Mailer:CodeIgniterX-Priority:3(Normal)Message-ID:&lt;5cf15ea011898@boupay.com&gt;Mime-Version:1.0Content-Type:multipart/alternative;boundary=&quot;B_ALT_5cf15ea0118a3&quot;Thisisamulti-partmessageinMIMEformat.Youremailapplicationmaynotsupportthisformat.--B_ALT_5cf15ea0118a3Content-Type:text/plain;charset=utf-8Content-Transfer-Encoding:8bit用户:zzyage@gmail.com,购买的商品[商品测试],密码发送成功;当前商品库存剩余:207--B_ALT_5cf15ea0118a3Content-Type:text/html;charset=utf-8Content-Transfer-Encoding:quoted-printable=E7=94=A8=E6=88=B7:zzyage@gmail.com,=E8=B4=AD=E4=B9=B0=E7=9A=84=E5=95=86==E5=93=81[=E5=95=86=E5=93=81=E6=B5=8B=E8=AF=95],=E5=AF=86=E7=A0=81=E5=8F==91=E9=80=81=E6=88=90=E5=8A=9F;=E5=BD=93=E5=89=8D=E5=95=86=E5=93=81==E5=BA=93=E5=AD=98=E5=89=A9=E4=BD=99:207--B_ALT_5cf15ea0118a3--'  WHERE `email` = "demo@demo.com" AND `subject` = "用户购买商品" AND `content` = "用户:zzyage@gmail.com,购买的商品[商品测试],密码发送成功;当前商品库存剩余:207" AND `addtime` = "1559322270" AND `status` = "0"
+2019-06-01 01:04:33-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101041546780" AND `isdelete` = "0" AND addtime>=1559235873 LIMIT 1
+2019-06-01 01:04:33-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101041546780" AND `email` = "zzyage@gmail.com" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:05:45-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 01:05:46-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-06-01 01:05:46-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-06-01 01:05:50-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 01:05:51-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:05:51-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-06-01 01:05:53-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:06:01-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:06:01-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "42.230.171.167" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1559318400 and addtime<=1559404799 LIMIT 1
+2019-06-01 01:06:01-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "6121661@qq.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1559318400 and addtime<=1559404799 LIMIT 1
+2019-06-01 01:06:01-SELECT * FROM `t_user` WHERE `email` = "6121661@qq.com" LIMIT 1
+2019-06-01 01:06:01-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('faka2019060101060178143','0','6121661@qq.com','','5','商品测试','0.01','1','0.01','123456','42.230.171.167','0','','1559322361')
+2019-06-01 01:06:01-SELECT * FROM `t_order` WHERE addtime>1559235961 AND `orderid` = "faka2019060101060178143" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:06:02-SELECT * FROM `t_order` WHERE addtime>1559235962 AND `orderid` = "faka2019060101060178143" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:06:03-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101060178143" AND `isdelete` = "0" AND addtime>=1559235963 LIMIT 1
+2019-06-01 01:06:06-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101060178143" AND `isdelete` = "0" AND addtime>=1559235966 LIMIT 1
+2019-06-01 01:06:09-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101060178143" AND `isdelete` = "0" AND addtime>=1559235969 LIMIT 1
+2019-06-01 01:06:12-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101060178143" AND `isdelete` = "0" AND addtime>=1559235972 LIMIT 1
+2019-06-01 01:06:15-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101060178143" AND `isdelete` = "0" AND addtime>=1559235975 LIMIT 1
+2019-06-01 01:06:15-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101060178143" LIMIT 1
+2019-06-01 01:06:15-UPDATE `t_order` SET `status` = '1',`paytime` = '1559322375',`tradeid` = '2019060101060300594360591',`paymethod` = 'payjswx',`paymoney` = '0.01'  WHERE `orderid` = "faka2019060101060178143" AND `status` = "0"
+2019-06-01 01:06:15-SELECT auto,stockcontrol,qty FROM `t_products` WHERE `id` = "5" LIMIT 1
+2019-06-01 01:06:15-SELECT * FROM `t_products_card` WHERE `pid` = "5" AND `active` = "0" AND `isdelete` = "0" LIMIT 1
+2019-06-01 01:06:15-UPDATE `t_products_card` SET `active` = '1'  WHERE id in (22) AND `active` = "0"
+2019-06-01 01:06:15-UPDATE `t_products` SET `qty` = `qty` - '1',`qty_virtual` = `qty_virtual` - '1',`qty_sell` = `qty_sell` + '1'  WHERE `id` = "5" AND `stockcontrol` = "1"
+2019-06-01 01:06:15-UPDATE `t_order` SET `status` = '2',`kami` = '商品测试14'  WHERE `orderid` = "faka2019060101060178143" AND `status` = "1"
+2019-06-01 01:06:15-INSERT INTO t_email_queue(`email`,`subject`,`content`,`addtime`,`status`) VALUES ('6121661@qq.com','商品购买成功','用户:6121661@qq.com,购买的商品[商品测试],密码是:商品测试14','1559322375','0'),('demo@demo.com','用户购买商品','用户:6121661@qq.com,购买的商品[商品测试],密码发送成功;当前商品库存剩余:206','1559322375','0')
+2019-06-01 01:06:15-UPDATE `t_email_queue` SET `status` = '2',`sendresult` = '失败220smtp.qq.comEsmtpQQMailServerhello:250-smtp.qq.com250-PIPELINING250-SIZE73400320250-AUTHLOGINPLAIN250-AUTH=LOGIN250-MAILCOMPRESS2508BITMIMElang:email_smtp_auth_pwlang:email_send_failure_smtpUser-Agent:CodeIgniterDate:Sat,1Jun201901:06:15+0800From:=?utf-8?Q?=E5=8F=91=E5=8D=A1?=&lt;i@boupay.com&gt;Return-Path:&lt;i@boupay.com&gt;To:6121661@qq.comSubject:=?utf-8?Q?=E5=95=86=E5=93=81=E8=B4=AD=E4=B9=B0=E6=88=90=E5=8A=9F?=Reply-To:&lt;i@boupay.com&gt;X-Sender:i@boupay.comX-Mailer:CodeIgniterX-Priority:3(Normal)Message-ID:&lt;5cf15f07cb5b5@boupay.com&gt;Mime-Version:1.0Content-Type:multipart/alternative;boundary=&quot;B_ALT_5cf15f07cb5c0&quot;Thisisamulti-partmessageinMIMEformat.Youremailapplicationmaynotsupportthisformat.--B_ALT_5cf15f07cb5c0Content-Type:text/plain;charset=utf-8Content-Transfer-Encoding:8bit用户:6121661@qq.com,购买的商品[商品测试],密码是:商品测试14--B_ALT_5cf15f07cb5c0Content-Type:text/html;charset=utf-8Content-Transfer-Encoding:quoted-printable=E7=94=A8=E6=88=B7:6121661@qq.com,=E8=B4=AD=E4=B9=B0=E7=9A=84=E5=95=86==E5=93=81[=E5=95=86=E5=93=81=E6=B5=8B=E8=AF=95],=E5=AF=86=E7=A0=81=E6=98==AF:=E5=95=86=E5=93=81=E6=B5=8B=E8=AF=9514--B_ALT_5cf15f07cb5c0--'  WHERE `email` = "6121661@qq.com" AND `subject` = "商品购买成功" AND `content` = "用户:6121661@qq.com,购买的商品[商品测试],密码是:商品测试14" AND `addtime` = "1559322375" AND `status` = "0"
+2019-06-01 01:06:15-UPDATE `t_email_queue` SET `status` = '2',`sendresult` = '失败220smtp.qq.comEsmtpQQMailServerhello:250-smtp.qq.com250-PIPELINING250-SIZE73400320250-AUTHLOGINPLAIN250-AUTH=LOGIN250-MAILCOMPRESS2508BITMIMElang:email_smtp_auth_pwlang:email_send_failure_smtpUser-Agent:CodeIgniterDate:Sat,1Jun201901:06:17+0800From:=?utf-8?Q?=E5=8F=91=E5=8D=A1?=&lt;i@boupay.com&gt;Return-Path:&lt;i@boupay.com&gt;To:demo@demo.comSubject:=?utf-8?Q?=E7=94=A8=E6=88=B7=E8=B4=AD=E4=B9=B0=E5=95=86=E5=93=81?=Reply-To:&lt;i@boupay.com&gt;X-Sender:i@boupay.comX-Mailer:CodeIgniterX-Priority:3(Normal)Message-ID:&lt;5cf15f0948f10@boupay.com&gt;Mime-Version:1.0Content-Type:multipart/alternative;boundary=&quot;B_ALT_5cf15f0948f1c&quot;Thisisamulti-partmessageinMIMEformat.Youremailapplicationmaynotsupportthisformat.--B_ALT_5cf15f0948f1cContent-Type:text/plain;charset=utf-8Content-Transfer-Encoding:8bit用户:6121661@qq.com,购买的商品[商品测试],密码发送成功;当前商品库存剩余:206--B_ALT_5cf15f0948f1cContent-Type:text/html;charset=utf-8Content-Transfer-Encoding:quoted-printable=E7=94=A8=E6=88=B7:6121661@qq.com,=E8=B4=AD=E4=B9=B0=E7=9A=84=E5=95=86==E5=93=81[=E5=95=86=E5=93=81=E6=B5=8B=E8=AF=95],=E5=AF=86=E7=A0=81=E5=8F==91=E9=80=81=E6=88=90=E5=8A=9F;=E5=BD=93=E5=89=8D=E5=95=86=E5=93=81==E5=BA=93=E5=AD=98=E5=89=A9=E4=BD=99:206--B_ALT_5cf15f0948f1c--'  WHERE `email` = "demo@demo.com" AND `subject` = "用户购买商品" AND `content` = "用户:6121661@qq.com,购买的商品[商品测试],密码发送成功;当前商品库存剩余:206" AND `addtime` = "1559322375" AND `status` = "0"
+2019-06-01 01:06:18-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101060178143" AND `isdelete` = "0" AND addtime>=1559235978 LIMIT 1
+2019-06-01 01:06:18-SELECT * FROM `t_order` WHERE `orderid` = "faka2019060101060178143" AND `email` = "6121661@qq.com" AND `isdelete` = "0" LIMIT 1
+2019-06-01 16:01:49-SELECT * FROM `t_config`
+2019-06-01 16:01:49-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 16:01:51-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 16:01:51-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-06-01 16:01:58-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 16:01:58-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 16:01:58-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 16:01:58-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-06-01 16:01:59-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 16:01:59-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-06-01 16:02:14-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 16:02:20-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 16:02:20-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 16:02:20-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-06-01 16:02:21-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 16:02:55-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 16:03:14-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 16:03:22-SELECT * FROM `t_products` WHERE `id` = "1" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 16:03:32-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 16:03:32-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 16:03:32-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-06-01 16:03:35-SELECT * FROM `t_products` WHERE `id` = "5" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 16:11:42-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 16:11:42-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 16:11:42-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-06-01 16:54:00-SELECT * FROM `t_config`
+2019-06-01 16:54:00-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-06-01 16:54:03-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-06-01 16:54:03-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10

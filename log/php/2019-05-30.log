@@ -1,0 +1,49 @@
+[30-May-2019 13:05:35 Asia/Chongqing] PHP Warning:  Yaf\Loader::autoload(): Failed opening script /www/wwwroot/fk.bouhr.com/application/library/Pay/payjswx/payjswx.php: No such file or directory in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[30-May-2019 13:05:35 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Class '\Pay\payjswx\payjswx' not found in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php:274
+Stack trace:
+#0 [internal function]: OrderController->payajaxAction()
+#1 /www/wwwroot/fk.bouhr.com/public/index.php(11): Yaf\Application->run()
+#2 {main}
+  thrown in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[30-May-2019 13:05:38 Asia/Chongqing] PHP Warning:  Yaf\Loader::autoload(): Failed opening script /www/wwwroot/fk.bouhr.com/application/library/Pay/payjswx/payjswx.php: No such file or directory in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[30-May-2019 13:05:38 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Class '\Pay\payjswx\payjswx' not found in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php:274
+Stack trace:
+#0 [internal function]: OrderController->payajaxAction()
+#1 /www/wwwroot/fk.bouhr.com/public/index.php(11): Yaf\Application->run()
+#2 {main}
+  thrown in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[30-May-2019 13:05:39 Asia/Chongqing] PHP Warning:  Yaf\Loader::autoload(): Failed opening script /www/wwwroot/fk.bouhr.com/application/library/Pay/payjsalipay/payjsalipay.php: No such file or directory in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[30-May-2019 13:05:39 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Class '\Pay\payjsalipay\payjsalipay' not found in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php:274
+Stack trace:
+#0 [internal function]: OrderController->payajaxAction()
+#1 /www/wwwroot/fk.bouhr.com/public/index.php(11): Yaf\Application->run()
+#2 {main}
+  thrown in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[30-May-2019 13:07:13 Asia/Chongqing] PHP Warning:  Yaf\Loader::autoload(): Failed opening script /www/wwwroot/fk.bouhr.com/application/library/Pay/payjswx/payjswx.php: No such file or directory in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[30-May-2019 13:07:13 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Class '\Pay\payjswx\payjswx' not found in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php:274
+Stack trace:
+#0 [internal function]: OrderController->payajaxAction()
+#1 /www/wwwroot/fk.bouhr.com/public/index.php(11): Yaf\Application->run()
+#2 {main}
+  thrown in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[30-May-2019 13:07:36 Asia/Chongqing] PHP Warning:  Yaf\Loader::autoload(): Failed opening script /www/wwwroot/fk.bouhr.com/application/library/Pay/payjswx/payjswx.php: No such file or directory in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[30-May-2019 13:07:36 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Class '\Pay\payjswx\payjswx' not found in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php:274
+Stack trace:
+#0 [internal function]: OrderController->payajaxAction()
+#1 /www/wwwroot/fk.bouhr.com/public/index.php(11): Yaf\Application->run()
+#2 {main}
+  thrown in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[30-May-2019 13:07:38 Asia/Chongqing] PHP Warning:  Yaf\Loader::autoload(): Failed opening script /www/wwwroot/fk.bouhr.com/application/library/Pay/payjsalipay/payjsalipay.php: No such file or directory in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[30-May-2019 13:07:38 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Class '\Pay\payjsalipay\payjsalipay' not found in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php:274
+Stack trace:
+#0 [internal function]: OrderController->payajaxAction()
+#1 /www/wwwroot/fk.bouhr.com/public/index.php(11): Yaf\Application->run()
+#2 {main}
+  thrown in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[30-May-2019 13:07:48 Asia/Chongqing] PHP Warning:  Yaf\Loader::autoload(): Failed opening script /www/wwwroot/fk.bouhr.com/application/library/Pay/payjswx/payjswx.php: No such file or directory in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274
+[30-May-2019 13:07:48 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Class '\Pay\payjswx\payjswx' not found in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php:274
+Stack trace:
+#0 [internal function]: OrderController->payajaxAction()
+#1 /www/wwwroot/fk.bouhr.com/public/index.php(11): Yaf\Application->run()
+#2 {main}
+  thrown in /www/wwwroot/fk.bouhr.com/application/modules/Product/controllers/Order.php on line 274

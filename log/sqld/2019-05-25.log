@@ -1,0 +1,554 @@
+2019-05-25 12:36:57-SELECT * FROM `t_config`
+2019-05-25 12:36:57-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 12:36:58-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 12:36:58-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-25 12:37:18-SELECT `id`, `email`, `password`, `nickname`, `groupid` FROM `t_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-05-25 12:37:38-SELECT `id`, `email`, `password`, `nickname`, `groupid` FROM `t_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-05-25 12:38:27-SELECT `id`, `email`, `password`, `nickname`, `groupid` FROM `t_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-05-25 12:38:40-SELECT `id`, `email`, `password`, `nickname`, `groupid` FROM `t_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-05-25 15:48:04-SELECT * FROM `t_config`
+2019-05-25 15:48:04-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 15:48:05-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 15:48:05-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-25 15:48:59-SELECT `id`, `email`, `secret`, `password` FROM `t_admin_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-05-25 15:48:59-INSERT INTO t_admin_login_log (`adminid`,`ip`,`addtime`) VALUES ('1','115.58.6.246','1558770539')
+2019-05-25 15:48:59-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-25 15:49:13-SELECT * FROM `t_config` WHERE `id` = "4" LIMIT 1
+2019-05-25 15:49:23-UPDATE `t_config` SET `name` = 'weburl',`value` = 'http://fk.bouhr.com',`tag` = '当前网站地址,用于支付站点异步返回，务必修改正确'  WHERE `id` = "4" LIMIT 1
+2019-05-25 15:49:23-SELECT * FROM `t_config`
+2019-05-25 15:49:25-SELECT * FROM `t_config` WHERE `id` = "4" LIMIT 1
+2019-05-25 15:49:27-SELECT COUNT(*) AS `total` FROM `t_email` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 16:06:35-SELECT * FROM `t_config`
+2019-05-25 16:06:39-SELECT `id`, `email`, `secret`, `password` FROM `t_admin_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-05-25 16:06:39-INSERT INTO t_admin_login_log (`adminid`,`ip`,`addtime`) VALUES ('1','115.58.6.246','1558771599')
+2019-05-25 16:06:39-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-25 16:06:58-SELECT COUNT(*) AS `total` FROM `t_admin_login_log` WHERE `adminid` = "1" LIMIT 1
+2019-05-25 16:06:58-SELECT * FROM `t_admin_login_log` WHERE `adminid` = "1" ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 16:07:05-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 16:07:05-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 16:07:14-SELECT COUNT(*) AS `total` FROM `t_email` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 16:07:15-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 16:07:15-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 16:07:26-SELECT * FROM `t_payment` WHERE `id` = "11" LIMIT 1
+2019-05-25 16:07:54-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-05-25 16:07:54-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 16:07:57-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 16:07:57-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-25 16:07:59-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 16:07:59-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 16:07:59-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-25 16:08:00-SELECT COUNT(*) AS `total` FROM `t_products_type` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 16:08:00-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 16:08:01-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 16:08:01-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 16:08:02-SELECT COUNT(*) AS `total` FROM `t_email_queue` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 16:08:04-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558713600 AND addtime<=1558799999
+2019-05-25 16:08:04-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558627200 AND addtime<=1558713599
+2019-05-25 16:08:04-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558281600 AND addtime<=1558799999
+2019-05-25 16:08:04-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1556640000 AND addtime<=1559318399
+2019-05-25 16:08:04-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0
+2019-05-25 16:08:06-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 16:08:06-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 16:09:51-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 16:09:51-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 10,10
+2019-05-25 16:09:53-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 16:09:53-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 16:09:53-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 16:09:53-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 10,10
+2019-05-25 16:09:59-SELECT * FROM `t_config` WHERE `id` = "20" LIMIT 1
+2019-05-25 16:10:04-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 16:10:04-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 16:10:07-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 16:10:07-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 10,10
+2019-05-25 16:10:09-SELECT * FROM `t_config` WHERE `id` = "18" LIMIT 1
+2019-05-25 16:10:14-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 16:10:14-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 16:10:16-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 16:10:16-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 10,10
+2019-05-25 16:10:17-SELECT * FROM `t_config` WHERE `id` = "17" LIMIT 1
+2019-05-25 16:10:22-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-25 16:10:24-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-25 16:10:33-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-25 16:10:39-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 16:10:39-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 16:10:39-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-25 16:10:50-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 16:10:51-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 16:10:51-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-25 16:11:17-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 16:11:17-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 16:11:18-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 16:11:18-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 16:11:19-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 16:11:19-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 10,10
+2019-05-25 16:11:21-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 16:11:21-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 16:11:24-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 16:11:24-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 10,10
+2019-05-25 16:11:25-SELECT * FROM `t_payment` WHERE `id` = "1" LIMIT 1
+2019-05-25 16:11:32-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 16:11:32-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 16:11:37-SELECT * FROM `t_payment` WHERE `id` = "6" LIMIT 1
+2019-05-25 16:11:44-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 16:11:44-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 18:56:36-SELECT * FROM `t_config`
+2019-05-25 18:56:43-SELECT `id`, `email`, `secret`, `password` FROM `t_admin_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-05-25 18:56:43-INSERT INTO t_admin_login_log (`adminid`,`ip`,`addtime`) VALUES ('1','115.58.6.246','1558781803')
+2019-05-25 18:56:43-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-25 18:56:46-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 18:56:46-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 18:56:47-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 18:56:47-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 18:56:48-SELECT * FROM `t_payment` WHERE `id` = "11" LIMIT 1
+2019-05-25 19:02:36-SELECT * FROM `t_payment` WHERE `id` = "11" LIMIT 1
+2019-05-25 19:02:37-SELECT * FROM `t_payment` WHERE `id` = "11" LIMIT 1
+2019-05-25 19:02:45-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-25 19:02:47-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 19:02:47-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 19:02:51-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 19:02:51-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 19:02:53-SELECT * FROM `t_payment` WHERE `id` = "11" LIMIT 1
+2019-05-25 19:03:42-SELECT * FROM `t_payment` WHERE `id` = "11" LIMIT 1
+2019-05-25 19:03:43-SELECT * FROM `t_payment` WHERE `id` = "11" LIMIT 1
+2019-05-25 19:03:44-SELECT * FROM `t_payment` WHERE `id` = "11" LIMIT 1
+2019-05-25 19:04:07-SELECT COUNT(*) AS `total` FROM `t_email` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 19:04:07-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 19:04:07-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 19:05:03-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 19:05:03-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 19:05:06-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 19:05:06-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 19:06:07-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 19:06:07-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 19:06:50-SELECT * FROM `t_config`
+2019-05-25 19:06:50-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 19:06:50-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 20,10
+2019-05-25 19:06:53-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 19:06:53-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 10,10
+2019-05-25 19:06:55-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 19:06:55-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 19:06:57-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 19:06:57-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 10,10
+2019-05-25 19:06:59-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 19:06:59-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 19:07:14-SELECT COUNT(*) AS `total` FROM `t_email` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 19:07:15-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 19:07:15-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 19:08:55-SELECT * FROM `t_payment` WHERE `id` = "11" LIMIT 1
+2019-05-25 19:08:57-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 19:08:57-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 19:15:08-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-25 19:15:09-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:15:09-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 19:15:10-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558713600 AND addtime<=1558799999
+2019-05-25 19:15:10-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558627200 AND addtime<=1558713599
+2019-05-25 19:15:10-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558281600 AND addtime<=1558799999
+2019-05-25 19:15:10-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1556640000 AND addtime<=1559318399
+2019-05-25 19:15:10-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0
+2019-05-25 19:15:11-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:15:12-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 19:15:12-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558713600 AND addtime<=1558799999
+2019-05-25 19:15:12-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558627200 AND addtime<=1558713599
+2019-05-25 19:15:12-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558281600 AND addtime<=1558799999
+2019-05-25 19:15:12-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1556640000 AND addtime<=1559318399
+2019-05-25 19:15:12-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0
+2019-05-25 19:15:13-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558713600 AND addtime<=1558799999
+2019-05-25 19:15:13-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558627200 AND addtime<=1558713599
+2019-05-25 19:15:13-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558281600 AND addtime<=1558799999
+2019-05-25 19:15:13-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1556640000 AND addtime<=1559318399
+2019-05-25 19:15:13-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0
+2019-05-25 19:15:13-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558713600 AND addtime<=1558799999
+2019-05-25 19:15:13-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558627200 AND addtime<=1558713599
+2019-05-25 19:15:13-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558281600 AND addtime<=1558799999
+2019-05-25 19:15:13-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1556640000 AND addtime<=1559318399
+2019-05-25 19:15:13-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0
+2019-05-25 19:15:14-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:15:15-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 19:15:16-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558713600 AND addtime<=1558799999
+2019-05-25 19:15:16-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558627200 AND addtime<=1558713599
+2019-05-25 19:15:16-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558281600 AND addtime<=1558799999
+2019-05-25 19:15:16-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1556640000 AND addtime<=1559318399
+2019-05-25 19:15:16-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0
+2019-05-25 19:15:16-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:15:17-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 19:15:17-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 19:15:17-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-25 19:15:18-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:15:18-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 19:15:19-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558713600 AND addtime<=1558799999
+2019-05-25 19:15:19-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558627200 AND addtime<=1558713599
+2019-05-25 19:15:19-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558281600 AND addtime<=1558799999
+2019-05-25 19:15:19-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1556640000 AND addtime<=1559318399
+2019-05-25 19:15:19-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0
+2019-05-25 19:15:20-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 19:15:20-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-25 19:15:21-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-05-25 19:15:21-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 19:15:22-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 19:15:22-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-25 19:15:24-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:15:24-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 19:15:24-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-25 19:15:26-SELECT COUNT(*) AS `total` FROM `t_products_type` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 19:15:26-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 19:15:49-INSERT INTO t_products_type (`name`,`sort_num`,`description`,`password`,`active`) VALUES ('新增分类2','0','这里是新增分类2看一下','卡密分类','1')
+2019-05-25 19:15:51-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:15:51-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 19:15:51-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-25 19:15:56-SELECT `id`, `card` FROM `t_products_card` ORDER BY `id` DESC
+2019-05-25 19:15:56-UPDATE `t_products_card` SET `card` = '资料空白是大帅锅'  WHERE `id` = "1" LIMIT 1
+2019-05-25 19:15:57-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:15:57-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 19:15:57-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-25 19:16:00-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:16:03-SELECT `id`, `name` FROM `t_products` WHERE `typeid` = "2" AND `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:16:13-SELECT `id`, `name` FROM `t_products` WHERE `typeid` = "1" AND `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:16:16-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:16:16-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 19:16:16-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-25 19:16:17-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 19:16:17-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-25 19:16:20-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:16:58-SELECT * FROM `t_config`
+2019-05-25 19:16:58-INSERT INTO t_products (`typeid`,`name`,`password`,`description`,`stockcontrol`,`qty`,`qty_switch`,`qty_virtual`,`qty_sell`,`price`,`price_ori`,`auto`,`addons`,`active`,`sort_num`,`addtime`,`imgurl`) VALUES ('2','分类2','','&lt;p&gt;撒旦法阿斯顿阿斯顿阿斯顿&lt;/p&gt;&lt;p&gt;阿斯顿&lt;/p&gt;&lt;p&gt;as的&lt;/p&gt;&lt;p&gt;as&amp;nbsp;&lt;/p&gt;&lt;p&gt;阿斯顿阿斯顿阿斯顿asd&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;按时das das 但是按时的&lt;/p&gt;','0','0','0','1','1','10','20','1','','1','99','1558783018','')
+2019-05-25 19:16:59-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:17:02-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:17:02-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 19:17:02-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-25 19:17:05-SELECT * FROM `t_products` WHERE `id` = "2" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 19:17:17-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:17:18-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 19:17:18-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-25 19:17:23-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:17:23-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 19:17:23-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-25 19:17:27-SELECT COUNT(*) AS `total` FROM `t_products_type` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 19:17:27-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 19:17:28-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:17:28-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 19:17:28-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-25 19:17:29-SELECT COUNT(*) AS `total` FROM `t_products_type` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 19:17:29-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 19:17:30-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:17:31-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 19:17:31-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-25 19:17:33-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:17:37-SELECT `id`, `name` FROM `t_products` WHERE `typeid` = "1" AND `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:17:46-INSERT INTO t_products_card (`pid`,`card`,`addtime`) VALUES ('1','123456789','1558783066')
+2019-05-25 19:17:46-UPDATE `t_products` SET `qty` = `qty` + '1'  WHERE `id` = "1" AND `stockcontrol` = "1"
+2019-05-25 19:17:48-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:17:50-SELECT COUNT(*) AS `total` FROM `t_products_type` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 19:17:50-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 19:17:51-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 19:17:51-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-25 19:17:53-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:17:58-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:17:59-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 19:17:59-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-25 19:18:07-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:18:11-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:18:12-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:18:22-SELECT `id`, `name` FROM `t_products` WHERE `typeid` = "1" AND `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:18:27-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 19:18:27-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-25 19:18:38-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:18:44-SELECT COUNT(*) AS `total` FROM `t_products_type` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 19:18:44-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 19:19:03-INSERT INTO t_products_type (`name`,`sort_num`,`description`,`password`,`active`) VALUES ('微博-刷赞','0','微博刷赞','','1')
+2019-05-25 19:19:06-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:19:06-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 19:19:06-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-25 19:19:07-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 19:19:07-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-25 19:19:08-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:19:19-SELECT COUNT(*) AS `total` FROM `t_products_type` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 19:19:19-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 19:19:21-SELECT * FROM `t_products_type` WHERE `id` = "3" LIMIT 1
+2019-05-25 19:19:24-UPDATE `t_products_type` SET `name` = '微博',`sort_num` = '0',`description` = '微博刷赞',`password` = '',`active` = '1'  WHERE `id` = "3" LIMIT 1
+2019-05-25 19:19:26-SELECT * FROM `t_products_type` WHERE `id` = "3" LIMIT 1
+2019-05-25 19:19:27-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 19:19:27-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-25 19:19:28-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:20:13-INSERT INTO t_products (`typeid`,`name`,`password`,`description`,`stockcontrol`,`qty`,`qty_switch`,`qty_virtual`,`qty_sell`,`price`,`price_ori`,`auto`,`addons`,`active`,`sort_num`,`addtime`,`imgurl`) VALUES ('3','微博-刷赞','','&lt;p&gt;微博-刷赞微博-刷赞微博-刷赞&lt;/p&gt;&lt;p&gt;微博-刷赞微博-刷赞&lt;img src=&quot;http://fk.bouhr.com/res/layui/images/face/2.gif&quot; alt=&quot;[哈哈]&quot;&gt;&lt;/p&gt;&lt;p&gt;微博-刷赞&lt;/p&gt;&lt;p&gt;微博-刷赞微博-刷赞微博-刷赞微博-刷赞&lt;/p&gt;&lt;p&gt;微博-刷赞微博-刷赞微博-刷赞&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;微博-刷赞微博-刷赞&lt;/p&gt;','1','0','0','1','1','5','8','1','','1','99','1558783213','')
+2019-05-25 19:20:15-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:20:45-INSERT INTO t_products (`typeid`,`name`,`password`,`description`,`stockcontrol`,`qty`,`qty_switch`,`qty_virtual`,`qty_sell`,`price`,`price_ori`,`auto`,`addons`,`active`,`sort_num`,`addtime`,`imgurl`) VALUES ('3','微博-小号','','&lt;p&gt;微博-小号&lt;/p&gt;&lt;p&gt;微博-小号微博-小号&lt;/p&gt;&lt;p&gt;微博-小号微博-小号微博-小号微博-小号微博-小号&lt;/p&gt;&lt;p&gt;微博-小号微博-小号微博-小号&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;微博-小号微博-小号微博-小号&lt;/p&gt;&lt;p&gt;微博-小号微博-小号微博-小号&lt;/p&gt;&lt;p&gt;微博-小号v微博-小号&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;微博-小号&lt;/p&gt;&lt;p&gt;微博-小号微博-小号&lt;/p&gt;','0','0','0','1','1','0.5','0.8','1','','1','99','1558783245','')
+2019-05-25 19:20:47-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:20:49-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:20:49-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 19:20:49-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-25 19:20:55-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:20:57-SELECT `id`, `name` FROM `t_products` WHERE `typeid` = "3" AND `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:21:08-INSERT INTO t_products_card (`pid`,`card`,`addtime`) VALUES ('4','vc123-123456','1558783268')
+2019-05-25 19:21:08-UPDATE `t_products` SET `qty` = `qty` + '1'  WHERE `id` = "4" AND `stockcontrol` = "1"
+2019-05-25 19:21:09-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:21:11-SELECT `id`, `name` FROM `t_products` WHERE `typeid` = "3" AND `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:21:18-INSERT INTO t_products_card (`pid`,`card`,`addtime`) VALUES ('4','cv124-123456','1558783278')
+2019-05-25 19:21:18-UPDATE `t_products` SET `qty` = `qty` + '1'  WHERE `id` = "4" AND `stockcontrol` = "1"
+2019-05-25 19:21:19-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:21:21-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 19:21:22-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 19:21:22-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-25 19:21:27-SELECT * FROM `t_products` WHERE `id` = "4" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 19:21:36-SELECT * FROM `t_products` WHERE `id` = "4" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 19:21:36-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `ip` = "115.58.6.246" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558713600 and addtime<=1558799999 LIMIT 1
+2019-05-25 19:21:36-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `email` = "456789132465@qq.com" AND `status` = "0" AND `isdelete` = "0" AND addtime>=1558713600 and addtime<=1558799999 LIMIT 1
+2019-05-25 19:21:36-SELECT * FROM `t_user` WHERE `email` = "456789132465@qq.com" LIMIT 1
+2019-05-25 19:21:36-INSERT INTO t_order (`orderid`,`userid`,`email`,`qq`,`pid`,`productname`,`price`,`number`,`money`,`chapwd`,`ip`,`status`,`addons`,`addtime`) VALUES ('zlkb2019052519213686185','0','456789132465@qq.com','456789132465','4','微博-小号','0.50','1','0.5','156456','115.58.6.246','0','','1558783296')
+2019-05-25 19:21:36-SELECT * FROM `t_order` WHERE addtime>1558696896 AND `orderid` = "zlkb2019052519213686185" AND `isdelete` = "0" LIMIT 1
+2019-05-25 19:21:36-SELECT * FROM `t_payment` WHERE `active` = "1"
+2019-05-25 20:05:43-SELECT * FROM `t_config`
+2019-05-25 20:05:50-SELECT `id`, `email`, `secret`, `password` FROM `t_admin_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-05-25 20:05:50-INSERT INTO t_admin_login_log (`adminid`,`ip`,`addtime`) VALUES ('1','115.58.6.246','1558785950')
+2019-05-25 20:05:50-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-25 21:38:44-SELECT * FROM `t_config`
+2019-05-25 21:38:59-SELECT `id`, `email`, `secret`, `password` FROM `t_admin_user` WHERE `email` = "zzyage@gmail.com" LIMIT 1
+2019-05-25 21:38:59-INSERT INTO t_admin_login_log (`adminid`,`ip`,`addtime`) VALUES ('1','42.239.24.166','1558791539')
+2019-05-25 21:38:59-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-25 21:39:01-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:39:01-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 21:39:01-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-25 21:39:05-SELECT COUNT(*) AS `total` FROM `t_admin_login_log` WHERE `adminid` = "1" LIMIT 1
+2019-05-25 21:39:05-SELECT * FROM `t_admin_login_log` WHERE `adminid` = "1" ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:39:05-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:39:05-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 21:39:05-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-25 21:39:08-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 21:39:08-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:39:09-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:39:09-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 21:39:09-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-25 21:39:10-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:39:10-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 21:39:10-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-25 21:39:12-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-05-25 21:39:12-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:39:14-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 21:39:14-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-25 21:39:17-SELECT * FROM `t_products` WHERE `id` = "4" LIMIT 1
+2019-05-25 21:39:17-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:39:21-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:39:21-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 21:39:21-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-25 21:39:24-SELECT COUNT(*) AS `total` FROM `t_products_type` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 21:39:24-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:39:26-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 21:39:26-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-25 21:39:31-SELECT * FROM `t_products` WHERE `id` = "4" LIMIT 1
+2019-05-25 21:39:31-SELECT * FROM `t_products_type` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:39:35-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:39:35-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 21:39:35-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-25 21:39:41-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:39:41-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 21:39:41-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-25 21:39:42-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:39:42-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 21:39:42-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-25 21:39:42-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:39:43-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 21:39:43-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-25 21:39:44-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:39:45-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 21:39:45-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-25 21:39:46-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:39:46-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 21:39:46-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-25 21:39:46-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:39:47-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 21:39:47-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-25 21:39:48-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:39:48-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 21:39:48-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-25 21:39:49-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:39:49-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 21:39:49-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-25 21:39:51-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:39:51-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 21:39:51-SELECT p1.* FROM `t_products` as p1 left join t_products_type as p2 on p1.typeid =p2.id where p1.active=1 and p1.isdelete=0 order by p2.sort_num DESC, p1.sort_num DESC LIMIT 0,10
+2019-05-25 21:39:53-SELECT * FROM `t_products` WHERE `id` = "3" AND `active` = "1" AND `isdelete` = "0" LIMIT 1
+2019-05-25 21:39:56-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 21:39:56-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-25 21:39:57-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:39:57-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 21:39:57-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-25 21:40:03-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:40:05-SELECT `id`, `name` FROM `t_products` WHERE `typeid` = "1" AND `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:40:10-INSERT INTO t_products_card (`pid`,`card`,`addtime`) VALUES ('1','6785678658','1558791610')
+2019-05-25 21:40:10-UPDATE `t_products` SET `qty` = `qty` + '1'  WHERE `id` = "1" AND `stockcontrol` = "1"
+2019-05-25 21:40:11-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:40:13-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:40:15-SELECT `id`, `name` FROM `t_products` WHERE `typeid` = "2" AND `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:40:18-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:40:19-SELECT * FROM `t_products` WHERE `auto` = "1" AND `isdelete` = "0" ORDER BY `id` DESC
+2019-05-25 21:40:20-SELECT * FROM `t_products_type` WHERE `active` = "1" AND `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:40:23-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:40:23-SELECT COUNT(*) AS `total` FROM `t_products_card` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 21:40:23-SELECT p1.*,p2.name FROM `t_products_card` as p1 left join `t_products` as p2 on p1.pid=p2.id Where p1.isdelete=0 and 1 Order by p1.id desc LIMIT 0,10
+2019-05-25 21:40:28-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:40:28-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 21:40:28-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:40:29-SELECT COUNT(*) AS `total` FROM `t_email_queue` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 21:40:31-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:40:31-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 21:40:31-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:40:32-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558713600 AND addtime<=1558799999
+2019-05-25 21:40:32-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558627200 AND addtime<=1558713599
+2019-05-25 21:40:32-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558281600 AND addtime<=1558799999
+2019-05-25 21:40:32-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1556640000 AND addtime<=1559318399
+2019-05-25 21:40:32-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0
+2019-05-25 21:40:36-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:40:36-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 21:40:36-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:40:37-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 21:40:37-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-25 21:40:38-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-05-25 21:40:38-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:40:41-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 21:40:41-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-25 21:40:46-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-05-25 21:40:46-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:40:46-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 21:40:46-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:40:47-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-25 21:40:52-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 21:40:52-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:40:53-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-05-25 21:40:53-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:40:53-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 21:40:53-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:40:56-SELECT COUNT(*) AS `total` FROM `t_email` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 21:40:57-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 21:40:57-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:41:03-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 21:41:03-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 10,10
+2019-05-25 21:41:04-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 21:41:04-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:41:06-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 21:41:06-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 10,10
+2019-05-25 21:41:09-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 21:41:09-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:41:45-SELECT COUNT(*) AS `total` FROM `t_email` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 21:41:46-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 21:41:46-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:41:56-SELECT * FROM `t_payment` WHERE `id` = "6" LIMIT 1
+2019-05-25 21:41:59-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 21:41:59-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:42:00-SELECT * FROM `t_payment` WHERE `id` = "11" LIMIT 1
+2019-05-25 21:42:01-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 21:42:01-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:42:02-SELECT * FROM `t_payment` WHERE `id` = "10" LIMIT 1
+2019-05-25 21:42:04-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 21:42:04-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:42:06-SELECT * FROM `t_payment` WHERE `id` = "8" LIMIT 1
+2019-05-25 21:42:07-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 21:42:07-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:42:07-SELECT * FROM `t_payment` WHERE `id` = "6" LIMIT 1
+2019-05-25 21:42:08-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 21:42:08-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:42:09-SELECT * FROM `t_payment` WHERE `id` = "4" LIMIT 1
+2019-05-25 21:42:10-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 21:42:10-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:42:11-SELECT * FROM `t_payment` WHERE `id` = "2" LIMIT 1
+2019-05-25 21:42:12-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 21:42:12-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:42:14-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 21:42:14-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 10,10
+2019-05-25 21:42:15-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 21:42:15-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:42:19-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:42:20-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 21:42:20-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:42:20-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 21:42:20-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-25 21:42:21-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-05-25 21:42:21-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:42:21-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 21:42:21-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:42:24-SELECT COUNT(*) AS `total` FROM `t_email` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 21:42:25-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 21:42:25-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:42:27-SELECT COUNT(*) AS `total` FROM `t_email` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 21:42:27-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 21:42:27-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:42:28-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558713600 AND addtime<=1558799999
+2019-05-25 21:42:28-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558627200 AND addtime<=1558713599
+2019-05-25 21:42:28-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558281600 AND addtime<=1558799999
+2019-05-25 21:42:28-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1556640000 AND addtime<=1559318399
+2019-05-25 21:42:28-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0
+2019-05-25 21:42:29-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:42:29-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 21:42:29-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:42:29-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 21:42:29-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-25 21:42:30-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-05-25 21:42:30-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:42:31-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 21:42:31-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:42:31-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-25 21:42:32-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-05-25 21:42:32-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:42:33-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 21:42:33-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:42:33-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 21:42:33-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-25 21:42:33-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:42:34-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 21:42:34-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:42:34-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558713600 AND addtime<=1558799999
+2019-05-25 21:42:34-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558627200 AND addtime<=1558713599
+2019-05-25 21:42:34-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558281600 AND addtime<=1558799999
+2019-05-25 21:42:34-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1556640000 AND addtime<=1559318399
+2019-05-25 21:42:34-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0
+2019-05-25 21:42:36-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558713600 AND addtime<=1558799999
+2019-05-25 21:42:36-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558627200 AND addtime<=1558713599
+2019-05-25 21:42:36-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558281600 AND addtime<=1558799999
+2019-05-25 21:42:36-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1556640000 AND addtime<=1559318399
+2019-05-25 21:42:36-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0
+2019-05-25 21:42:38-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-25 21:45:36-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:45:36-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 21:45:36-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:45:37-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 21:45:37-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-25 21:45:38-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-05-25 21:45:38-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:45:39-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 21:45:39-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:45:41-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-25 21:45:42-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 21:45:42-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:45:43-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 21:45:43-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:45:44-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-05-25 21:45:44-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:45:46-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 21:45:46-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-25 21:45:47-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:45:47-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 21:45:47-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:45:48-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558713600 AND addtime<=1558799999
+2019-05-25 21:45:48-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558627200 AND addtime<=1558713599
+2019-05-25 21:45:48-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1558281600 AND addtime<=1558799999
+2019-05-25 21:45:48-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0 AND addtime>=1556640000 AND addtime<=1559318399
+2019-05-25 21:45:48-SELECT count(*) AS total,sum(money) AS shouru FROM `t_order` Where isdelete=0 AND status>0
+2019-05-25 21:45:49-SELECT * FROM `t_products` WHERE `isdelete` = "0" ORDER BY `sort_num` DESC
+2019-05-25 21:45:49-SELECT COUNT(*) AS `total` FROM `t_order` WHERE `isdelete` = "0" AND 1 LIMIT 1
+2019-05-25 21:45:49-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND 1 ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:45:50-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-05-25 21:45:50-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:45:50-SELECT COUNT(*) AS `total` FROM `t_products` WHERE `isdelete` = "0" LIMIT 1
+2019-05-25 21:45:50-SELECT p1.id,p1.name,p1.price,p1.qty,p1.auto,p1.active,p1.stockcontrol,p1.sort_num,p2.name as typename FROM `t_products` as p1 left join `t_products_type` as p2 on p1.typeid = p2.id WHERE p1.isdelete=0 Order by p1.id desc LIMIT 0,10
+2019-05-25 21:45:51-SELECT COUNT(*) AS `total` FROM `t_user` LIMIT 1
+2019-05-25 21:45:51-SELECT * FROM `t_user` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:45:51-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 21:45:51-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:45:51-SELECT `id`, `orderid`, `email`, `productname`, `addtime`, `status`, `paymoney`, `number` FROM `t_order` WHERE `isdelete` = "0" AND status = 1 or status = 3 ORDER BY `id` DESC
+2019-05-25 21:48:59-SELECT * FROM `t_config`
+2019-05-25 21:48:59-SELECT COUNT(*) AS `total` FROM `t_config` LIMIT 1
+2019-05-25 21:48:59-SELECT `id`, `name`, `updatetime`, `tag` FROM `t_config` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:49:00-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 21:49:00-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
+2019-05-25 21:49:08-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 21:49:08-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 10,10
+2019-05-25 21:49:12-SELECT COUNT(*) AS `total` FROM `t_payment` LIMIT 1
+2019-05-25 21:49:12-SELECT `id`, `payment`, `alias`, `app_id`, `active` FROM `t_payment` ORDER BY `id` DESC LIMIT 0,10
